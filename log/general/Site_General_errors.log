@@ -436,3 +436,119 @@
 27/11/16 10:34:10 PM | error loadView general | view | response 400
 28/11/16 06:51:20 PM | error loadView general | view | response 400
 28/11/16 06:52:30 PM | error loadView general | view | response 400
+29/11/16 11:33:38 AM | error loadView general | view | response 400
+29/11/16 11:33:41 AM | error loadView general | view | response 400
+29/11/16 11:33:41 AM | error loadView general | view | response 400
+29/11/16 11:33:45 AM | error loadView general | view | response 400
+29/11/16 11:33:45 AM | error loadView general | view | response 400
+29/11/16 11:34:05 AM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ | contact | response 200
+29/11/16 11:34:05 AM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ | contact | response 200
+29/11/16 11:34:05 AM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ | contact | response 200
+29/11/16 11:34:27 AM | error loadView general | view | response 400
+29/11/16 11:34:27 AM | error loadView general | view | response 400
+29/11/16 11:34:27 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:34:27 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:34:27 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:34:27 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:34:27 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:34:27 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:35:47 AM | error loadView general | view | response 400
+29/11/16 11:35:47 AM | error loadView general | view | response 400
+29/11/16 11:35:47 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:35:47 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:35:47 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:35:47 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:35:47 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:35:47 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:36:17 AM | error loadView general | view | response 400
+29/11/16 11:36:17 AM | error loadView general | view | response 400
+29/11/16 11:37:20 AM | error loadView general | view | response 400
+29/11/16 11:37:20 AM | error loadView general | view | response 400
+29/11/16 11:37:20 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:20 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:20 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:20 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:20 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:20 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:23 AM | error loadView general | view | response 400
+29/11/16 11:37:24 AM | error loadView general | view | response 400
+29/11/16 11:37:24 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:24 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:24 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:24 AM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'chalscc'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:24 AM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:37:24 AM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+29/11/16 11:38:02 AM | error loadView general | view | response 400
+29/11/16 11:38:02 AM | error loadView general | view | response 400
+29/11/16 11:38:44 AM | error loadView general | view | response 400
+29/11/16 11:38:44 AM | error loadView general | view | response 400
+29/11/16 11:40:26 AM | error loadView general | view | response 400
+29/11/16 11:40:26 AM | error loadView general | view | response 400
+29/11/16 11:40:40 AM | error loadView general | view | response 400
+29/11/16 11:40:40 AM | error loadView general | view | response 400
+29/11/16 11:40:44 AM | error loadView general | view | response 400
+29/11/16 11:40:45 AM | error loadView general | view | response 400
+29/11/16 11:40:48 AM | error loadView general | view | response 400
+29/11/16 11:40:48 AM | error loadView general | view | response 400
+29/11/16 11:40:53 AM | error loadView general | view | response 400
+29/11/16 11:40:53 AM | error loadView general | view | response 400
+29/11/16 11:40:56 AM | error loadView general | view | response 400
+29/11/16 11:40:56 AM | error loadView general | view | response 400
+29/11/16 11:40:59 AM | error loadView general | view | response 400
+29/11/16 11:40:59 AM | error loadView general | view | response 400
+29/11/16 11:41:04 AM | error loadView general | view | response 400
+29/11/16 11:41:04 AM | error loadView general | view | response 400
