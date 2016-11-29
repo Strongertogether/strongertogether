@@ -36,6 +36,8 @@ define('MODULES_PATH',SITE_ROOT.'modules/');
 define('RESOURCES',SITE_ROOT.'resources/');
 //media
 define('MEDIA_PATH',SITE_ROOT.'media/');
+//model
+define('MODEL_PATH', SITE_ROOT . 'model/');
 //utils
 define('UTILS',SITE_ROOT.'utils/');
 //libs
@@ -69,3 +71,8 @@ define('DAO_USERS',SITE_ROOT.'modules/users/model/DAO/');
 define('BLL_USERS',SITE_ROOT.'modules/users/model/BLL/');
 define('MODEL_USERS',SITE_ROOT.'modules/users/model/model/');
 define('USERS_JS_PATH', SITE_PATH . 'modules/users/view/js/');
+
+//model hospital
+define('HOSPITALS_CSS_PATH', SITE_PATH . '/modules/hospital/view/css/');
+define('HOSPITALS_JS_PATH', SITE_PATH . '/modules/hospital/view/js/');
+define('MODEL_HOSPITALS', SITE_ROOT . '/modules/hospital/model/model/');

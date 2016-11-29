@@ -11,6 +11,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="<?php echo CSS_PATH ?>style.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo CSS_PATH ?>owl.carousel.css" rel="stylesheet">
 <script src="<?php echo JS_PATH ?>jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo JS_PATH ?>main.js"></script>
 <!--JS for animate-->
 	<link href="<?php echo CSS_PATH ?>animate.css" rel="stylesheet" type="text/css" media="all">
 	<script src="<?php echo JS_PATH ?>wow.min.js"></script>

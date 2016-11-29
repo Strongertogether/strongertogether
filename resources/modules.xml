@@ -16,4 +16,8 @@
         <name>contact</name>
         <uri>contact</uri>
     </module>
+    <module>
+        <name>hospital</name>
+        <uri>hospital</uri>
+    </module>
 </modules>
