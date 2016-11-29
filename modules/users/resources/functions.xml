@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functions>
+  <function>
+      <name>results_users</name>
+      <uri>results_users</uri>
+  </function>
+  <function>
+      <name>users</name>
+      <uri>users</uri>
+  </function>
+  <function>
+      <name>alta_users_json</name>
+      <uri>alta_users_json</uri>
+  </function>
+  <function>
+      <name>alta_users</name>
+      <uri>alta_users</uri>
+  </function>
+  <function>
+      <name>upload</name>
+      <uri>upload</uri>
+  </function>
+  <function>
+      <name>delete</name>
+      <uri>delete</uri>
+  </function>
+  <function>
+      <name>load_users</name>
+      <uri>load_users</uri>
+  </function>
+  <!-- <function>
+      <name>close_session</name>
+      <uri>close_session</uri>
+  </function> -->
+  <function>
+      <name>load_pais</name>
+      <uri>load_pais</uri>
+  </function>
+  <function>
+      <name>load_provincias</name>
+      <uri>load_provincias</uri>
+  </function>
+  <function>
+      <name>idPoblac</name>
+      <uri>idPoblac</uri>
+  </function>
+</functions>
