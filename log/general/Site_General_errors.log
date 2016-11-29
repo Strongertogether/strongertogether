@@ -436,6 +436,29 @@
 27/11/16 10:34:10 PM | error loadView general | view | response 400
 28/11/16 06:51:20 PM | error loadView general | view | response 400
 28/11/16 06:52:30 PM | error loadView general | view | response 400
+<<<<<<< HEAD
+28/11/16 08:18:26 PM | error loadView general | view | response 400
+28/11/16 08:18:36 PM | error loadView general | view | response 400
+28/11/16 08:18:36 PM | error loadView general | view | response 400
+28/11/16 08:23:04 PM | error loadView general | view | response 400
+28/11/16 08:23:16 PM | error loadView general | view | response 400
+28/11/16 08:23:26 PM | error loadView general | view | response 400
+28/11/16 08:23:26 PM | error loadView general | view | response 400
+28/11/16 08:23:56 PM | error loadView general | view | response 400
+28/11/16 08:23:56 PM | error loadView general | view | response 400
+28/11/16 08:24:05 PM | error loadView general | view | response 400
+28/11/16 08:24:06 PM | error loadView general | view | response 400
+28/11/16 08:24:50 PM | error loadView general | view | response 400
+28/11/16 08:24:51 PM | error loadView general | view | response 400
+29/11/16 05:50:11 PM | error loadView general | view | response 400
+29/11/16 06:00:03 PM | error loadView general | users | response 400
+29/11/16 06:00:12 PM | error loadView general | view | response 400
+29/11/16 06:00:15 PM | error loadView general | mai | response 400
+29/11/16 06:00:23 PM | error loadView general | specialists | response 400
+29/11/16 06:00:30 PM | error loadView general | specalists | response 400
+29/11/16 06:00:51 PM | error loadView general | specalists | response 400
+29/11/16 06:01:51 PM | error loadView general | view | response 400
+=======
 29/11/16 11:33:38 AM | error loadView general | view | response 400
 29/11/16 11:33:41 AM | error loadView general | view | response 400
 29/11/16 11:33:41 AM | error loadView general | view | response 400
@@ -552,6 +575,7 @@ Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singlet
 29/11/16 11:40:59 AM | error loadView general | view | response 400
 29/11/16 11:41:04 AM | error loadView general | view | response 400
 29/11/16 11:41:04 AM | error loadView general | view | response 400
+<<<<<<< HEAD
 29/11/16 05:57:15 PM | error loadView general | hospital | response 400
 29/11/16 05:57:18 PM | error loadView general | hospital | response 400
 29/11/16 05:57:25 PM | error loadView general | view | response 400
@@ -623,3 +647,6 @@ Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singlet
 29/11/16 06:58:12 PM | error loadView general | view | response 400
 29/11/16 07:14:12 PM | error loadView general | view | response 400
 29/11/16 07:14:12 PM | error loadView general | view | response 400
+=======
+>>>>>>> f70b18e8e03288d75bfb2cfa784b0eab8b15897e
+>>>>>>> 257d3d6b40bd49378fe2ef4a2b5612f6f64c185f
