@@ -104,6 +104,7 @@ function cargarmap(arrArguments) {
     navigator.geolocation.getCurrentPosition(showPosition, showError);
 
     function showPosition(position){
+      console.log("hola");
         var lat = position.coords.latitude;
         var lon = position.coords.longitude;
         var latlon = new google.maps.LatLng(lat, lon);

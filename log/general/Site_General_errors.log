@@ -710,3 +710,6 @@ Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singlet
  | specialists | response 200
 30/11/16 08:07:12 PM | error loadView general | view | response 400
 30/11/16 08:07:12 PM | error loadView general | view | response 400
+30/11/16 08:25:01 PM | error loadView general | view | response 400
+30/11/16 09:02:03 PM | error loadView general | view | response 400
+30/11/16 09:02:03 PM | error loadView general | view | response 400
