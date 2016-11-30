@@ -650,3 +650,270 @@ Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singlet
 =======
 >>>>>>> f70b18e8e03288d75bfb2cfa784b0eab8b15897e
 >>>>>>> 257d3d6b40bd49378fe2ef4a2b5612f6f64c185f
+30/11/16 08:11:50 PM | error loadView general | view | response 400
+30/11/16 08:11:52 PM | error loadView general | view | response 400
+30/11/16 08:11:52 PM | error loadView general | view | response 400
+30/11/16 08:11:58 PM | error loadView general | view | response 400
+30/11/16 08:11:58 PM | error loadView general | view | response 400
+30/11/16 08:12:06 PM | error loadView general | view | response 400
+30/11/16 08:12:06 PM | error loadView general | view | response 400
+30/11/16 08:12:10 PM | error loadView general | view | response 400
+30/11/16 08:12:10 PM | error loadView general | view | response 400
+30/11/16 08:26:33 PM | error loadView general | view | response 400
+30/11/16 08:26:33 PM | error loadView general | view | response 400
+30/11/16 08:26:34 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:26:34 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:26:34 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:26:34 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:26:34 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:26:34 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:39 PM | error loadView general | view | response 400
+30/11/16 08:34:39 PM | error loadView general | view | response 400
+30/11/16 08:34:39 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:39 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:39 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:39 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:39 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:39 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:46 PM | error loadView general | view | response 400
+30/11/16 08:34:46 PM | error loadView general | view | response 400
+30/11/16 08:34:47 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:47 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:47 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:47 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:47 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:34:47 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:35:06 PM | error loadView general | view | response 400
+30/11/16 08:35:06 PM | error loadView general | view | response 400
+30/11/16 08:42:55 PM | error loadView general | view | response 400
+30/11/16 08:47:58 PM | error loadView general | view | response 400
+30/11/16 08:47:58 PM | error loadView general | view | response 400
+30/11/16 08:48:36 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:36 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:36 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:36 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:36 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:36 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:46 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:46 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:46 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:46 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:46 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:46 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:55 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:55 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:55 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:55 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:55 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:48:55 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:53:55 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:53:55 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:53:55 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:53:55 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:53:55 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:53:55 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:00 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:00 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:00 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:00 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:00 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:00 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:11 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:11 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:11 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:11 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:11 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:11 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:13 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:13 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:13 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:13 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:13 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:13 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:30 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:30 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:30 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:30 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:30 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:30 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:32 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:32 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:32 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:32 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'strongertogether'@'localhost' (using password: NO)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:32 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:54:32 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:55:57 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'testo'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:55:57 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:55:57 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:55:57 PM | ERROR: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'testo'@'localhost' (using password: YES)
+Warning on line 38 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:55:57 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 39 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:55:57 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singleton.php
+ | specialists | response 200
+30/11/16 08:56:01 PM | error loadView general | view | response 400
+30/11/16 09:05:22 PM | error loadView general | view | response 400
+30/11/16 09:05:22 PM | error loadView general | view | response 400
+30/11/16 09:05:30 PM | error loadView general | view | response 400
+30/11/16 09:05:30 PM | error loadView general | view | response 400
+30/11/16 09:05:31 PM | error loadView general | view | response 400
+30/11/16 09:06:54 PM | error loadView general | view | response 400
+30/11/16 09:06:55 PM | error loadView general | view | response 400
+30/11/16 09:06:58 PM | error loadView general | view | response 400
+30/11/16 09:06:58 PM | error loadView general | view | response 400
+30/11/16 09:07:01 PM | error loadView general | view | response 400
+30/11/16 09:07:02 PM | error loadView general | view | response 400
+30/11/16 09:11:11 PM | error loadView general | view | response 400
