@@ -5,8 +5,6 @@ class controller_users {
   public function __construct() {
     include (FUNCTIONS_USERS . "functions_users.inc.php");
     include (UTILS . "upload.php");
-    //include (UTILS . "common.inc.php");
-    //include (UTILS . "utils.inc.php");
 
     if(!isset($_SESSION)){
       session_start();
