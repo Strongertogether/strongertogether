@@ -12,34 +12,7 @@ class hospital_dao {
         return self::$_instance;
     }
 
-    public function create_hospitals_DAO($db, $arrArgument) {
-        /* $usuario = $arrArgument['usuario'];
-          $dni = $arrArgument['dni'];
-          $nombre = $arrArgument['nombre'];
-          $apellidos = $arrArgument['apellidos'];
-          $email = $arrArgument['email'];
-          $password = $arrArgument['password'];
-          $date_birthday = $arrArgument['date_birthday'];
-          $tipo = $arrArgument['tipo'];
-          $bank = $arrArgument['bank'];
-          $avatar = $arrArgument['avatar'];
-          $pais = " ";
-          $provincia = " ";
-          $poblacion = " ";
-          $valoracion = " ";
-          $token = $arrArgument['token'];
-          if ($arrArgument['activado'])
-          $activado = $arrArgument['activado'];
-          else
-          $activado = 0;
-
-          $sql = "INSERT INTO usuarios (usuario, email, nombre, apellidos, dni,"
-          . " password, date_birthday, tipo, bank, pais, provincia, poblacion, avatar, valoracion, activado, token"
-          . " ) VALUES ('$usuario', '$email', '$nombre',"
-          . " '$apellidos', '$dni', '$password', '$date_birthday', '$tipo', '$bank','$pais','$provincia','$poblacion', '$avatar', '$valoracion', '$activado','$token')";
-
-
-          return $db->ejecutar($sql); */
+    public function create_hospital_dao($db, $arrArgument) {
     }
 
     public function count_DAO($db, $arrArgument) {

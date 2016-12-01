@@ -13,7 +13,7 @@ class hospital_model {
         return self::$_instance;
     }
 
-    public function create_hospitals($arrArgument) {
+    public function create_hospital($arrArgument) {
         return $this->bll->create_hospitals_BLL($arrArgument);
     }
 

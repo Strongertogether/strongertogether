@@ -4,6 +4,8 @@ class hospital_bll {
     private $db;
     static $_instance;
 
+
+
     private function __construct() {
         $this->dao = hospital_dao::getInstance();
         $this->db = db::getInstance();
