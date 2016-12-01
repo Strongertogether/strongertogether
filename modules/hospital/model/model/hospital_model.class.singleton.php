@@ -1,4 +1,6 @@
 <?php
+
+require(SITE_ROOT . "/modules/hospital/model/bll/hospital_bll.class.singleton.php");
 class hospital_model {
     private $bll;
     static $_instance;

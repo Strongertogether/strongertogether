@@ -1,4 +1,5 @@
 <?php
+require(SITE_ROOT . "/modules/hospital/model/dao/hospital_dao.class.singleton.php");
 class hospital_bll{
     private $dao;
     private $db;
