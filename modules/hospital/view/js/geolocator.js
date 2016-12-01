@@ -42,8 +42,8 @@ function mostrarUbicacion(position) {
     var altitud = position.coords.altitude;
     var exactitud = position.coords.accuracy;
 
-    setCookie("lat", latitud, 14);
-    setCookie("lon", longitud, 14);
+    //setCookie("lat", latitud, 14);
+    //setCookie("lon", longitud, 14);
     Tools.createCookie("lat", latitud, 1);
     Tools.createCookie("lon", longitud, 1);
 }
@@ -60,7 +60,7 @@ function loadhospitals(of) {
 }
 
 function marcar(map, oferta) {
-    var latlon = new google.maps.LatLng(hospital.latitud, hospital.longitud);
+    var latlon = new google.maps.LatLng(hospital.latitude, hospital.longitude);
     var marker = new google.maps.Marker({position: latlon, map: map, title: hospital.description, animation: google.maps.Animation.DROP});
 
     var infowindow = new google.maps.InfoWindow({

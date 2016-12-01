@@ -4,7 +4,7 @@ class hospital_model {
     static $_instance;
 
     private function __construct() {
-        $this->bll = hospital_bll::getInstance();
+        $this->bll=hospital_bll::getInstance();
     }
 
     public static function getInstance() {
