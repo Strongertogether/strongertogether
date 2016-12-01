@@ -48,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul>
 						<li><a href="#"><span class="fb"> </span></a></li>
 						<li><a href="#"><span class="twit"> </span></a></li>
-						<li><a href="#"><span class="pin"> </span></a></li>
+						<li><a href="<?php amigable('?module=users&function=modal'); ?>"><span class="pin"> </span></a></li>
 						<li><a href="#"><span class="rss"> </span></a></li>
 					</ul>
 				</div>

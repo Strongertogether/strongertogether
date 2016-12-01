@@ -44,4 +44,9 @@
       <name>idPoblac</name>
       <uri>idPoblac</uri>
   </function>
+
+  <function>
+      <name>modal</name>
+      <uri>modal</uri>
+  </function>
 </functions>

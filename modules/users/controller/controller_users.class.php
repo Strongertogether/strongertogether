@@ -31,6 +31,16 @@ class controller_users {
     require_once(VIEW_PATH_INC."footer.php");
   }
 
+  public function modal() {
+    require_once(VIEW_PATH_INC."header.php");
+    require_once(VIEW_PATH_INC."menu.php");
+
+    loadView('modules/users/view/', 'modal.html');
+
+    require_once(VIEW_PATH_INC."footer.php");
+  }
+
+
   public function alta_users_json(){
     if ((isset($_POST['alta_users_json']))) {
 
