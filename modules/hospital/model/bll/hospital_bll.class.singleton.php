@@ -1,8 +1,9 @@
 <?php
-class hospital_bll {
+class hospital_bll{
     private $dao;
     private $db;
     static $_instance;
+
 
     private function __construct() {
         $this->dao = hospital_dao::getInstance();

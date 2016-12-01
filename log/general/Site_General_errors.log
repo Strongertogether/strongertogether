@@ -713,3 +713,71 @@ Warning on line 43 in file /var/www/html/Strongertogether/model/db.class.singlet
 30/11/16 08:25:01 PM | error loadView general | view | response 400
 30/11/16 09:02:03 PM | error loadView general | view | response 400
 30/11/16 09:02:03 PM | error loadView general | view | response 400
+30/11/16 09:22:31 PM | error loadView general | view | response 400
+30/11/16 09:22:32 PM | error loadView general | view | response 400
+30/11/16 09:28:17 PM | error loadView general | view | response 400
+30/11/16 09:28:17 PM | error loadView general | view | response 400
+30/11/16 09:29:16 PM | error loadView general | view | response 400
+30/11/16 09:29:16 PM | error loadView general | view | response 400
+30/11/16 09:30:45 PM | error loadView general | view | response 400
+30/11/16 09:30:45 PM | error loadView general | view | response 400
+30/11/16 09:30:53 PM | error loadView general | view | response 400
+30/11/16 09:30:53 PM | error loadView general | view | response 400
+30/11/16 09:32:18 PM | error loadView general | view | response 400
+30/11/16 09:32:18 PM | error loadView general | view | response 400
+30/11/16 09:37:57 PM | error loadView general | view | response 400
+30/11/16 09:37:58 PM | error loadView general | view | response 400
+30/11/16 09:41:14 PM | error loadView general | view | response 400
+30/11/16 09:41:14 PM | error loadView general | view | response 400
+30/11/16 09:41:16 PM | error loadView general | view | response 400
+30/11/16 09:41:16 PM | error loadView general | view | response 400
+30/11/16 09:41:59 PM | error loadView general | view | response 400
+30/11/16 09:41:59 PM | error loadView general | view | response 400
+30/11/16 09:42:30 PM | error loadView general | view | response 400
+30/11/16 09:42:30 PM | error loadView general | view | response 400
+30/11/16 09:42:42 PM | error loadView general | view | response 400
+30/11/16 09:42:43 PM | error loadView general | view | response 400
+30/11/16 09:45:58 PM | error loadView general | view | response 400
+30/11/16 09:45:58 PM | error loadView general | view | response 400
+01/12/16 03:49:00 PM | error loadView general | view | response 400
+01/12/16 03:49:07 PM | error loadView general | view | response 400
+01/12/16 03:49:07 PM | error loadView general | view | response 400
+01/12/16 03:55:52 PM | error loadView general | view | response 400
+01/12/16 03:55:52 PM | error loadView general | view | response 400
+01/12/16 05:17:17 PM | error loadView general | view | response 400
+01/12/16 06:00:30 PM | error loadView general | view | response 400
+01/12/16 06:00:59 PM | error loadView general | view | response 400
+01/12/16 06:00:59 PM | error loadView general | view | response 400
+01/12/16 06:34:20 PM | error loadView general | view | response 400
+01/12/16 06:34:20 PM | error loadView general | view | response 400
+01/12/16 06:34:20 PM | error loadView general | view | response 400
+01/12/16 06:34:22 PM | error loadView general | hospital | response 400
+01/12/16 06:34:22 PM | error loadView general | view | response 400
+01/12/16 06:34:22 PM | error loadView general | view | response 400
+01/12/16 06:35:01 PM | error loadView general | hospital | response 400
+01/12/16 06:35:01 PM | error loadView general | view | response 400
+01/12/16 06:35:01 PM | error loadView general | view | response 400
+01/12/16 06:35:07 PM | error loadView general | hospital | response 400
+01/12/16 06:35:08 PM | error loadView general | view | response 400
+01/12/16 06:35:08 PM | error loadView general | view | response 400
+01/12/16 06:35:15 PM | error loadView general | hospital | response 400
+01/12/16 06:35:15 PM | error loadView general | view | response 400
+01/12/16 06:35:15 PM | error loadView general | view | response 400
+01/12/16 06:35:42 PM | error loadView general | view | response 400
+01/12/16 06:35:42 PM | error loadView general | view | response 400
+01/12/16 06:36:21 PM | error loadView general | view | response 400
+01/12/16 06:36:21 PM | error loadView general | view | response 400
+01/12/16 06:37:34 PM | error loadView general | view | response 400
+01/12/16 06:37:34 PM | error loadView general | view | response 400
+01/12/16 06:39:45 PM | error loadView general | view | response 400
+01/12/16 06:39:45 PM | error loadView general | view | response 400
+01/12/16 06:40:23 PM | error loadView general | view | response 400
+01/12/16 06:40:23 PM | error loadView general | view | response 400
+01/12/16 06:40:24 PM | ERROR: [2] require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+Warning on line 2 in file /var/www/html/Strongertogether/modules/hospital/model/model/hospital_model.class.singleton.php
+ |  | response 200
+01/12/16 06:40:24 PM | ERROR: [2] require(http://localhost/Strongertogether/modules/hospital/model/bll/hospital_bll.class.singleton.php): failed to open stream: no suitable wrapper could be found
+Warning on line 2 in file /var/www/html/Strongertogether/modules/hospital/model/model/hospital_model.class.singleton.php
+ |  | response 200
+01/12/16 06:40:52 PM | error loadView general | view | response 400
+01/12/16 06:40:52 PM | error loadView general | view | response 400

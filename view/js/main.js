@@ -19,5 +19,5 @@ function amigable(url) {
         var aux = url[i].split("=");
         link +=  "/"+aux[1];
     }
-    return "https://projects-alumnes-yomogan.c9users.io/proj_final_login/JoinElderly" + link;
+    return "http://localhost/Strongertogether" + link;
 }

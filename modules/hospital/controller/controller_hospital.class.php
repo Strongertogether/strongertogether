@@ -2,7 +2,7 @@
 class controller_hospital {
     function __construct() {}
 
-    function load_map() {
+    function begin() {
       require_once VIEW_PATH_INC.'header.php';
       require_once VIEW_PATH_INC.'menu.php';
       loadView('modules/hospital/view/', 'hospitals.php');

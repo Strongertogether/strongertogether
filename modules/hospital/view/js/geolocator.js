@@ -2,12 +2,12 @@ $(document).ready(start);
 function start() {
     $.post(amigable("?module=hospital&function=maploader"), {value: {send: true}},
     function (response) {
-        //console.log(response);
+        console.log(response);
         if (response.success) {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(mostrarUbicacion);
-                cargarmap(response.hospitals);
-                loadhospitals(response.hospitals);
+                cargarmap(response.hospital);
+                loadhospitals(response.hospital);
             } else {
                 alert("¡Error! Este navegador no soporta la Geolocalización.");
             }
@@ -54,17 +54,19 @@ function refrescarUbicacion() {
 
 function loadhospitals(of) {
     for (var i = 0; i < of.length; i++) {
-        var content = '<div class="of" id="' + of[i].id + '"><div class="desc">' + of[i].descripcion + '</div><div class="fecha"> Fecha: ' + of[i].fecha_inicio + ' - ' + of[i].fecha_final + '</div><div class="hora"> Hora: ' + of[i].hora_inicio + ' - ' + of[i].hora_final + '</div><div class="precio"> Precio: ' + of[i].precio + ' €</div></div>';
+        var content = '<div class="of" id="' + of[i].name + '"><div class="desc">' + of[i].description + '</div><div class="fecha"> <div class="precio"> Specialty: ' + of[i].specialty + '</div></div>';
         $('.hospitals').append(content);
     }
 }
 
 function marcar(map, oferta) {
-    var latlon = new google.maps.LatLng(oferta.latitud, oferta.longitud);
-    var marker = new google.maps.Marker({position: latlon, map: map, title: oferta.descripcion, animation: google.maps.Animation.DROP});
+    var latlon = new google.maps.LatLng(hospital.latitude, hospital.longitude);
+    var marker = new google.maps.Marker({position: latlon, map: map, title: hospital.description, animation: google.maps.Animation.DROP});
 
     var infowindow = new google.maps.InfoWindow({
-        content: '<h1 class="oferta_title">Hospital en ' + oferta.lugar_inicio + '</h1><p class="hospital_content">' + oferta.descripcion + '</p><p class="hospital_content">Día: ' + oferta.fecha_inicio + '</p><p class="hospital_content">Horario: ' + oferta.hora_inicio + ' - ' + oferta.hora_final + '</p>'
+        content: '<h1 class="oferta_title">Name: ' + hospital.name +
+         '</h1><p class="hospital_content">' + hospital.description +
+         '</p><p class="hospital_content">Specialty: ' + hospital.specialty + '</p>'
     });
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
