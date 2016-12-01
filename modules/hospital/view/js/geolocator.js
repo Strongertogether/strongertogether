@@ -37,8 +37,8 @@ function start() {
 
 function mostrarUbicacion(position) {
     var times = position.timestamp;
-    var latitud = position.coords.latitude;
-    var longitud = position.coords.longitude;
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
     var altitud = position.coords.altitude;
     var exactitud = position.coords.accuracy;
 
@@ -64,7 +64,7 @@ function marcar(map, hospital) {
     var marker = new google.maps.Marker({position: latlon, map: map, title: hospital.description, animation: google.maps.Animation.DROP});
 
     var infowindow = new google.maps.InfoWindow({
-        content: '<h1 class="oferta_title">Name: ' + hospital.name +
+        content: '<h1 class="hospital_title">Name: ' + hospital.name +
          '</h1><p class="hospital_content">' + hospital.description +
          '</p><p class="hospital_content">Specialty: ' + hospital.specialty + '</p>'
     });
@@ -106,7 +106,6 @@ function cargarmap(arrArguments) {
     navigator.geolocation.getCurrentPosition(showPosition, showError);
 
     function showPosition(position){
-      console.log("hola");
         var lat = position.coords.latitude;
         var lon = position.coords.longitude;
         var latlon = new google.maps.LatLng(lat, lon);

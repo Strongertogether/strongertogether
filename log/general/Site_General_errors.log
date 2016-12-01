@@ -796,3 +796,41 @@ Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/
 01/12/16 07:24:48 PM | ERROR: [8] Undefined variable: fields
 Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
  |  | response 200
+01/12/16 07:30:29 PM | error loadView general | view | response 400
+01/12/16 07:30:29 PM | error loadView general | view | response 400
+01/12/16 07:30:30 PM | error loadView general | view | response 400
+01/12/16 09:18:10 PM | error loadView general | view | response 400
+01/12/16 09:18:16 PM | ERROR: [8] Undefined variable: fields
+Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+01/12/16 09:19:35 PM | error loadView general | view | response 400
+01/12/16 09:19:35 PM | error loadView general | view | response 400
+01/12/16 09:22:57 PM | error loadView general | view | response 400
+01/12/16 09:22:57 PM | error loadView general | view | response 400
+01/12/16 09:22:57 PM | ERROR: [8] Undefined variable: fields
+Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+01/12/16 09:23:24 PM | error loadView general | view | response 400
+01/12/16 09:23:24 PM | error loadView general | view | response 400
+01/12/16 09:23:25 PM | ERROR: [8] Undefined variable: fields
+Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+01/12/16 09:23:47 PM | error loadView general | view | response 400
+01/12/16 09:23:47 PM | error loadView general | view | response 400
+01/12/16 09:23:47 PM | ERROR: [8] Undefined variable: fields
+Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+01/12/16 09:24:56 PM | error loadView general | view | response 400
+01/12/16 09:24:56 PM | error loadView general | view | response 400
+01/12/16 09:24:56 PM | ERROR: [8] Undefined variable: fields
+Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+01/12/16 09:25:08 PM | error loadView general | view | response 400
+01/12/16 09:25:08 PM | error loadView general | view | response 400
+01/12/16 09:25:09 PM | ERROR: [8] Undefined variable: fields
+Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+01/12/16 09:26:57 PM | error loadView general | view | response 400
+01/12/16 09:27:10 PM | ERROR: [8] Undefined variable: fields
+Notice on line 51 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
