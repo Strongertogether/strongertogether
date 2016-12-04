@@ -4,7 +4,7 @@ $path=$_SERVER['DOCUMENT_ROOT'].'/Strongertogether/';
 define('SITE_ROOT', $path);
 
 //SITE_PATH
-   define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Strongertogether/');
+define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Strongertogether/');
 
 //CSS
 define('CSS_PATH', SITE_PATH . 'view/css/');

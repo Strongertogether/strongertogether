@@ -40,6 +40,88 @@ class controller_users {
     require_once(VIEW_PATH_INC."footer.php");
   }
 
+/*
+ *  LOGIN
+ */
+ public function login() {
+
+    $user = json_decode($_POST['login_json'], true);
+    $column = array(
+        'usuario'
+    );
+    $like = array(
+        $user['usuario']
+    );
+
+    $arrArgument = array(
+        'column' => $column,
+        'like' => $like,
+        'field' => array('password')
+    );
+
+    set_error_handler('ErrorHandler');
+    try {
+        //loadModel
+        $arrValue = loadModel(MODEL_USER, "user_model", "select", $arrArgument);
+        $arrValue = password_verify($user['pass'], $arrValue[0]['password']);
+    } catch (Exception $e) {
+        $arrValue = "error";
+    }
+    restore_error_handler();
+
+    if ($arrValue !== "error") {
+        if ($arrValue) { //OK
+            set_error_handler('ErrorHandler');
+            try {
+                $arrArgument = array(
+                    'column' => array("usuario", "activado"),
+                    'like' => array($user['usuario'], "1")
+                );
+                $arrValue = loadModel(MODEL_USER, "users_model", "count", $arrArgument);
+
+                if ($arrValue[0]["total"] == 1) {
+                    $arrArgument = array(
+                        'column' => array("usuario"),
+                        'like' => array($user['usuario']),
+                        'field' => array('*')
+                    );
+                    $user = loadModel(MODEL_USER, "users_model", "select", $arrArgument);
+                    echo json_encode($user);
+                    exit();
+                } else {
+                    $value = array(
+                        "error" => true,
+                        "datos" => "El usuario no ha sido activado, revise su correo"
+                    );
+                    echo json_encode($value);
+                    exit();
+                }
+            } catch (Exception $e) {
+                $value = array(
+                    "error" => true,
+                    "datos" => 503
+                );
+                echo json_encode($value);
+            }
+        } else {
+            $value = array(
+                "error" => true,
+                "datos" => "El usuario y la contraseña no coinciden"
+            );
+            echo json_encode($value);
+        }
+    } else {
+        $value = array(
+            "error" => true,
+            "datos" => 503
+        );
+        echo json_encode($value);
+    }
+}
+
+
+
+
 
   public function alta_users_json(){
     if ((isset($_POST['alta_users_json']))) {

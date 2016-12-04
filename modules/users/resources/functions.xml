@@ -49,4 +49,9 @@
       <name>modal</name>
       <uri>modal</uri>
   </function>
+
+  <function>
+      <name>login</name>
+      <uri>login</uri>
+  </function>
 </functions>

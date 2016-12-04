@@ -70,7 +70,7 @@ ul.log li{
 }
 </style>
 <div class="modal-header">
-  <script type="text/javascript" src="http://92.222.94.202/Strongertogether/modules/users/view/js/login.js"></script>
+  <script type="text/javascript" src="<?php SITE_ROOT . USERS_JS_PATH . "login.js" ?>"></script>
   <!-- <script type="text/javascript" src=""></script> -->
 
   <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->

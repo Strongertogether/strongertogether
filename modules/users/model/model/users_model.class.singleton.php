@@ -40,4 +40,14 @@ class users_model {
     public function details_users($id) {
         return $this->bll->details_users_BLL($id);
     }
+/*
+ * LOGIN
+ */
+    public function count($arrArgument) {
+        return $this->bll->count_BLL($arrArgument);
+    }
+    public function select($arrArgument) {
+    return $this->bll->select_BLL($arrArgument);
+    }
+
 }
