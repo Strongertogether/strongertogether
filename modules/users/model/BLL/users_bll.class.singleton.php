@@ -45,4 +45,16 @@ class users_bll {
     return $this->dao->details_users_DAO($this->db,$id);
   }
 
+/*
+ *  LOGIN
+ */
+
+ public function count_BLL($arrArgument) {
+    return $this->dao->count_DAO($this->db, $arrArgument);
+}
+
+public function select_BLL($arrArgument) {
+    return $this->dao->select_DAO($this->db, $arrArgument);
+}
+
 }

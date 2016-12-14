@@ -4,11 +4,13 @@ class controller_users {
 
   public function __construct() {
     include (FUNCTIONS_USERS . "functions_users.inc.php");
+    include (LIBS . 'password_compat-master/lib/password.php');
     include (UTILS . "upload.php");
 
     if(!isset($_SESSION)){
       session_start();
     }
+
   }
 
   public function results_users() {
@@ -45,25 +47,52 @@ class controller_users {
  */
  public function login() {
 
+   //$user es un array que conte contrasenya i usuari que li introduim (pass usuario)
     $user = json_decode($_POST['login_json'], true);
+
+    //echo json_encode($_POST['login_json']);
+    //exit;
+
+  //un array que du "usuario"
     $column = array(
-        'usuario'
+        'email'
     );
+  //conte el nom del usuari que li introduim
     $like = array(
         $user['usuario']
     );
-
+  //array que conte camp usuario, password i el nom usuario que li passem nosaltres
     $arrArgument = array(
         'column' => $column,
         'like' => $like,
         'field' => array('password')
     );
 
+    //echo json_encode($arrArgument);
+    //exit;
+
     set_error_handler('ErrorHandler');
     try {
         //loadModel
-        $arrValue = loadModel(MODEL_USER, "user_model", "select", $arrArgument);
-        $arrValue = password_verify($user['pass'], $arrValue[0]['password']);
+        $arrValue = loadModel(MODEL_USERS, "users_model", "select", $arrArgument);
+        $hola = password_hash($user['pass'], PASSWORD_BCRYPT);
+
+        //echo json_encode($hola . " ||||| " . $arrValue[0]['password']);
+
+        //echo json_encode($arrValue[0]['password'] . " |||| " . $hola);
+
+        //exit;
+
+        //echo json_encode($arrValue[0]['password']);
+        //echo json_encode(LIBS . 'password_compat-master/lib/password.php');
+
+        //$arrValue = password_verify($user['pass'], $arrValue[0]['password']);
+        $arrValue = password_verify("hola", "hola");
+
+        echo json_encode($arrValue);
+        exit;
+
+
     } catch (Exception $e) {
         $arrValue = "error";
     }
@@ -71,6 +100,10 @@ class controller_users {
 
     if ($arrValue !== "error") {
         if ($arrValue) { //OK
+          //
+          //echo json_encode($arrValue);
+          //exit;
+          //
             set_error_handler('ErrorHandler');
             try {
                 $arrArgument = array(
@@ -152,8 +185,9 @@ class controller_users {
         'id_document' => $result['datos']['id_document'],
         'phone' => $result['datos']['phone'],
         'email' => $result['datos']['email'],
-        'password' => $result['datos']['password'],
-        'repeat_password' => $result['datos']['repeat_password'],
+        //'password' => $result['datos']['password'],
+        'password' => password_hash($result['datos']['password'], PASSWORD_BCRYPT),
+        'repeat_password' => password_hash($result['datos']['repeat_password'], PASSWORD_BCRYPT),
         'interests' => $result['datos']['interests'],
         'gender' => $result['datos']['gender'],
         'date_birthday' => $result['datos']['date_birthday'],
