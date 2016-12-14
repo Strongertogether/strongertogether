@@ -4,6 +4,11 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+.login{
+  text-decoration: none;
+  color:white;
+}
 @font-face {
     font-family: 'Roboto-Regular';
     src:url(../fonts/Roboto-Regular.ttf) format('truetype');
@@ -136,7 +141,7 @@ ul.navig li a {
 }
 ul.navig li.active a, ul.navig li a:hover {
     color: #fff;
-    background-color: #6b0f24;
+    background-color: #3082F1;
 }
 ul.navig li a:hover ul.navig li a:after{
 	display: block;
@@ -144,7 +149,7 @@ ul.navig li a:hover ul.navig li a:after{
 @media (max-width: 768px){
 span.menu:before {
 	content: url(../images/nav-icon.png);
-	cursor: pointer;	
+	cursor: pointer;
 	height:32px;
 }
 .header {
@@ -345,7 +350,7 @@ span.glyphicon.glyphicon-search:hover {
 }
 .servc-grid-left span.glyphicon {
     font-size: 3.5em;
-    color: #fff;   
+    color: #fff;
 	padding: 0.4em;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -590,7 +595,7 @@ h3.title {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -992,7 +997,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 	padding: 1em;
 	color:#999;
 	overflow: hidden;
-	display: block;	
+	display: block;
 	font-size: 1em;
 	background:none;
 }

@@ -44,4 +44,24 @@
       <name>idPoblac</name>
       <uri>idPoblac</uri>
   </function>
+
+  <function>
+      <name>modal</name>
+      <uri>modal</uri>
+  </function>
+
+  <function>
+      <name>signup</name>
+      <uri>signup</uri>
+  </function>
+
+  <function>
+      <name>profile</name>
+      <uri>profile</uri>
+  </function>
+
+  <function>
+      <name>login</name>
+      <uri>login</uri>
+  </function>
 </functions>

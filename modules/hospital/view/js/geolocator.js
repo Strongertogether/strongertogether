@@ -37,15 +37,15 @@ function start() {
 
 function mostrarUbicacion(position) {
     var times = position.timestamp;
-    var latitude = position.coords.latitude;
-    var longitude = position.coords.longitude;
+    var latitud = position.coords.latitude;
+    var longitud = position.coords.longitude;
     var altitud = position.coords.altitude;
     var exactitud = position.coords.accuracy;
 
     //setCookie("lat", latitud, 14);
     //setCookie("lon", longitud, 14);
-    Tools.createCookie("lat", latitude, 1);
-    Tools.createCookie("lon", longitude, 1);
+    Tools.createCookie("lat", latitud, 1);
+    Tools.createCookie("lon", longitud, 1);
 }
 
 function refrescarUbicacion() {
@@ -106,6 +106,7 @@ function cargarmap(arrArguments) {
     navigator.geolocation.getCurrentPosition(showPosition, showError);
 
     function showPosition(position){
+      console.log("hola");
         var lat = position.coords.latitude;
         var lon = position.coords.longitude;
         var latlon = new google.maps.LatLng(lat, lon);

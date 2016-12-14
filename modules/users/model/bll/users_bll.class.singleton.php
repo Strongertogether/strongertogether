@@ -1,8 +1,5 @@
 <?php
 
-require (MODEL_PATH . "db.class.singleton.php");
-require(DAO_USERS . "users_dao.class.singleton.php");
-
 class users_bll {
 
   private $dao;

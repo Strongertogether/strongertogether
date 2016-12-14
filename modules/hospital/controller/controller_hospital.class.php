@@ -1,8 +1,10 @@
 <?php
 class controller_hospital {
-    function __construct() {}
+    function __construct() {
+      
+    }
 
-    function begin() {
+    function load_map() {
       require_once VIEW_PATH_INC.'header.php';
       require_once VIEW_PATH_INC.'menu.php';
       loadView('modules/hospital/view/', 'hospitals.php');

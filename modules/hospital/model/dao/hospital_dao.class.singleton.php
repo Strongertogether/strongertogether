@@ -12,7 +12,8 @@ class hospital_dao {
         return self::$_instance;
     }
 
-    public function create_hospital_dao($db, $arrArgument) {
+    public function create_hospitals_DAO($db, $arrArgument) {
+        
     }
 
     public function count_DAO($db, $arrArgument) {

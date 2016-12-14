@@ -4,7 +4,7 @@ $path=$_SERVER['DOCUMENT_ROOT'].'/Strongertogether/';
 define('SITE_ROOT', $path);
 
 //SITE_PATH
-   define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Strongertogether/');
+define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Strongertogether/');
 
 //CSS
 define('CSS_PATH', SITE_PATH . 'view/css/');
@@ -28,12 +28,18 @@ define('PRODUCTION',true);
 define('MODEL_PATH',SITE_ROOT.'model/');
 //view
 define('VIEW_PATH_INC',SITE_ROOT.'view/inc/');
+
+//img
+define('VIEW_PATH_IMG',SITE_ROOT.'view/images/');
+
 define('VIEW_PATH_INC_ERROR',SITE_ROOT.'view/inc/templates_error/');
 //modules
 define('MODULES_PATH',SITE_ROOT.'modules/');
 
 //resources
 define('RESOURCES',SITE_ROOT.'resources/');
+//modules
+define('MODULES_PATH', SITE_ROOT . 'modules/');
 //media
 define('MEDIA_PATH',SITE_ROOT.'media/');
 //model
@@ -50,8 +56,8 @@ define('URL_AMIGABLES', TRUE);
 //model specialists
 define('FUNCTIONS_SPECIALISTS',SITE_ROOT.'modules/specialists/utils/');
 define('MODEL_PATH_SPECIALISTS',SITE_ROOT.'modules/specialists/model/');
-define('DAO_SPECIALISTS',SITE_ROOT.'modules/specialists/model/DAO/');
-define('BLL_SPECIALISTS',SITE_ROOT.'modules/specialists/model/BLL/');
+define('DAO_SPECIALISTS',SITE_ROOT.'modules/specialists/model/dao/');
+define('BLL_SPECIALISTS',SITE_ROOT.'modules/specialists/model/bll/');
 define('MODEL_SPECIALISTS',SITE_ROOT.'modules/specialists/model/model/');
 define('SPECIALISTS_JS_PATH', SITE_PATH . 'modules/specialists/view/js/');
 define('SPECIALISTS_JS_LIB_PATH', SITE_PATH . 'modules/specialists/view/lib/');
@@ -67,12 +73,13 @@ define('CONTACT_VIEW_PATH', 'modules/contact/view/');
 //model users
 define('FUNCTIONS_USERS',SITE_ROOT.'modules/users/utils/');
 define('MODEL_PATH_USERS',SITE_ROOT.'modules/users/model/');
-define('DAO_USERS',SITE_ROOT.'modules/users/model/DAO/');
-define('BLL_USERS',SITE_ROOT.'modules/users/model/BLL/');
+define('DAO_USERS',SITE_ROOT.'modules/users/model/dao/');
+define('BLL_USERS',SITE_ROOT.'modules/users/model/bll/');
 define('MODEL_USERS',SITE_ROOT.'modules/users/model/model/');
 define('USERS_JS_PATH', SITE_PATH . 'modules/users/view/js/');
+define('USERS_CSS_PATH', SITE_PATH . 'modules/users/view/css/');
 
 //model hospital
-define('HOSPITALS_CSS_PATH', SITE_PATH . 'modules/hospital/view/css/');
-define('HOSPITALS_JS_PATH', SITE_PATH . 'modules/hospital/view/js/');
-define('MODEL_HOSPITALS', SITE_ROOT . 'modules/hospital/model/model/');
+define('HOSPITALS_CSS_PATH', SITE_PATH . '/modules/hospital/view/css/');
+define('HOSPITALS_JS_PATH', SITE_PATH . '/modules/hospital/view/js/');
+define('MODEL_HOSPITALS', SITE_ROOT . '/modules/hospital/model/model/');

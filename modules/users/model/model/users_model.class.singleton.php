@@ -1,9 +1,5 @@
 <?php
 
-//$path = $_SERVER['DOCUMENT_ROOT'];
-//define('SITE_ROOT', $path . "/workspace");
-require(SITE_ROOT . "/modules/users/model/BLL/users_bll.class.singleton.php");
-
 class users_model {
 
     private $bll;
@@ -42,4 +38,14 @@ class users_model {
     public function details_users($id) {
         return $this->bll->details_users_BLL($id);
     }
+/*
+ * LOGIN
+ */
+    public function count($arrArgument) {
+        return $this->bll->count_BLL($arrArgument);
+    }
+    public function select($arrArgument) {
+    return $this->bll->select_BLL($arrArgument);
+    }
+
 }
