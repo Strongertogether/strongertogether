@@ -47,14 +47,17 @@ function login() {
         function (response) {
             console.log(response);
             //die;
+            console.log(response.error);
+            exit;
             if (!response.error) {
-              console.log(response.error);
                 //create session cookies
                 Tools.createCookie("user", response[0]['usuario'] + "|" + response[0]['avatar'] + "|" + response[0]['tipo'] + "|" + response[0]['nombre'], 1);
                 window.location.href = amigable1("?module=main");
             } else {
+              console.log(response.datos);
+              exit;
                 if (response.datos == 503)
-                    window.location.href = amigable("?module=main&fn=begin&param=503");
+                    window.location.href = amigable1("?module=main&fn=begin&param=503");
                 else
                     $("#inputPass").focus().after("<span class='error'>" + response.datos + "</span>");
             }

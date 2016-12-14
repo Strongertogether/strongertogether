@@ -1,0 +1,188 @@
+14/12/16 07:29:42 PM | error loadView general | view | response 400
+14/12/16 07:29:51 PM | error loadView general | view | response 400
+14/12/16 07:29:51 PM | error loadView general | view | response 400
+14/12/16 07:37:42 PM | error loadView general | view | response 400
+14/12/16 07:37:42 PM | error loadView general | view | response 400
+14/12/16 07:39:03 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:39:03 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:40:15 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:40:15 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:40:16 PM | error loadView general | view | response 400
+14/12/16 07:40:17 PM | error loadView general | view | response 400
+14/12/16 07:40:25 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:40:25 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:42:46 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:42:46 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:42:46 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:42:52 PM | error loadView general | view | response 400
+14/12/16 07:42:52 PM | error loadView general | view | response 400
+14/12/16 07:44:03 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:44:03 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:44:03 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:44:06 PM | error loadView general | view | response 400
+14/12/16 07:44:06 PM | error loadView general | view | response 400
+14/12/16 07:44:09 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:44:09 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:44:09 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:44:11 PM | error loadView general | view | response 400
+14/12/16 07:44:11 PM | error loadView general | view | response 400
+14/12/16 07:44:30 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:44:30 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:44:30 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:44:33 PM | error loadView general | view | response 400
+14/12/16 07:44:33 PM | error loadView general | view | response 400
+14/12/16 07:45:00 PM | error loadView general | view | response 400
+14/12/16 07:45:00 PM | error loadView general | view | response 400
+14/12/16 07:45:24 PM | error loadView general | view | response 400
+14/12/16 07:45:24 PM | error loadView general | view | response 400
+14/12/16 07:45:31 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:45:31 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:45:31 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:45:55 PM | error loadView general | view | response 400
+14/12/16 07:45:55 PM | error loadView general | view | response 400
+14/12/16 07:46:03 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:46:03 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:46:03 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:47:34 PM | error loadView general | view | response 400
+14/12/16 07:47:34 PM | error loadView general | view | response 400
+14/12/16 07:47:41 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:47:41 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:48:12 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:48:12 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:48:12 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:55:17 PM | error loadView general | view | response 400
+14/12/16 07:55:17 PM | error loadView general | view | response 400
+14/12/16 07:55:27 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:55:27 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:55:27 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 101 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+14/12/16 07:56:11 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:56:11 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:56:50 PM | ERROR: [8] Undefined variable: sql
+Notice on line 166 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:56:50 PM | ERROR: [8] Undefined variable: fields
+Notice on line 172 in file /var/www/html/Strongertogether/modules/users/model/DAO/users_dao.class.singleton.php
+ |  | response 200
+14/12/16 08:44:30 PM | error loadView general | view | response 400
+14/12/16 08:44:30 PM | error loadView general | view | response 400
+14/12/16 08:48:23 PM | error loadView general | users/modal/<br /><b>Notice</b>:  Use of undefined constant USERS_CSS_PATH - assumed 'USERS_CSS_PATH' in <b>/var/www/html/Strongertogether/modules/users/view/modal.php</b> on line <b>1< | response 400
+14/12/16 08:48:23 PM | error loadView general | view | response 400
+14/12/16 08:48:23 PM | error loadView general | view | response 400
+14/12/16 08:49:13 PM | error loadView general | users/modal/<br /><b>Notice</b>:  Use of undefined constant USERS_CSS_PATH - assumed 'USERS_CSS_PATH' in <b>/var/www/html/Strongertogether/modules/users/view/modal.php</b> on line <b>1< | response 400
+14/12/16 08:49:13 PM | error loadView general | view | response 400
+14/12/16 08:49:13 PM | error loadView general | view | response 400
+14/12/16 08:49:42 PM | error loadView general | users/modal/<br /><b>Notice</b>:  Use of undefined constant USERS_CSS_PATH - assumed 'USERS_CSS_PATH' in <b>/var/www/html/Strongertogether/modules/users/view/modal.php</b> on line <b>1< | response 400
+14/12/16 08:49:42 PM | error loadView general | view | response 400
+14/12/16 08:49:43 PM | error loadView general | view | response 400
+14/12/16 08:50:15 PM | error loadView general | users/modal/<br /><b>Notice</b>:  Use of undefined constant USERS_CSS_PATH - assumed 'USERS_CSS_PATH' in <b>/var/www/html/Strongertogether/modules/users/view/modal.php</b> on line <b>1< | response 400
+14/12/16 08:50:16 PM | error loadView general | view | response 400
+14/12/16 08:50:16 PM | error loadView general | view | response 400
+14/12/16 08:50:23 PM | error loadView general | users/modal/<br /><b>Notice</b>:  Use of undefined constant USERS_CSS_PATH - assumed 'USERS_CSS_PATH' in <b>/var/www/html/Strongertogether/modules/users/view/modal.php</b> on line <b>1< | response 400
+14/12/16 08:50:24 PM | error loadView general | view | response 400
+14/12/16 08:50:24 PM | error loadView general | view | response 400
+14/12/16 08:50:55 PM | error loadView general | users | response 400
+14/12/16 08:50:55 PM | error loadView general | view | response 400
+14/12/16 08:50:56 PM | error loadView general | view | response 400
+14/12/16 08:50:58 PM | error loadView general | users/modal/<br /><b>Notice</b>:  Use of undefined constant USERS_CSS_PATH - assumed 'USERS_CSS_PATH' in <b>/var/www/html/Strongertogether/modules/users/view/modal.php</b> on line <b>1< | response 400
+14/12/16 08:50:58 PM | error loadView general | view | response 400
+14/12/16 08:50:58 PM | error loadView general | view | response 400
+14/12/16 08:52:09 PM | error loadView general | view | response 400
+14/12/16 08:52:09 PM | error loadView general | view | response 400
+14/12/16 08:52:18 PM | error loadView general | view | response 400
+14/12/16 08:52:19 PM | error loadView general | view | response 400
+14/12/16 08:54:41 PM | error loadView general | view | response 400
+14/12/16 08:54:41 PM | error loadView general | view | response 400
+14/12/16 08:55:11 PM | error loadView general | view | response 400
+14/12/16 08:55:11 PM | error loadView general | view | response 400
+14/12/16 08:55:30 PM | error loadView general | view | response 400
+14/12/16 08:55:31 PM | error loadView general | view | response 400
+14/12/16 08:57:55 PM | error loadView general | view | response 400
+14/12/16 08:57:55 PM | error loadView general | view | response 400
+14/12/16 08:59:20 PM | error loadView general | view | response 400
+14/12/16 08:59:20 PM | error loadView general | view | response 400
+14/12/16 08:59:46 PM | error loadView general | view | response 400
+14/12/16 08:59:46 PM | error loadView general | view | response 400
+14/12/16 09:00:28 PM | error loadView general | view | response 400
+14/12/16 09:00:28 PM | error loadView general | view | response 400
+14/12/16 09:00:32 PM | error loadView general | view | response 400
+14/12/16 09:00:33 PM | error loadView general | view | response 400
+14/12/16 09:00:50 PM | error loadView general | view | response 400
+14/12/16 09:00:51 PM | error loadView general | view | response 400
+14/12/16 09:00:53 PM | error loadView general | view | response 400
+14/12/16 09:00:54 PM | error loadView general | view | response 400
+14/12/16 09:00:56 PM | error loadView general | view | response 400
+14/12/16 09:00:56 PM | error loadView general | view | response 400
+14/12/16 09:01:02 PM | error loadView general | view | response 400
+14/12/16 09:01:02 PM | error loadView general | view | response 400
+14/12/16 09:01:25 PM | error loadView general | view | response 400
+14/12/16 09:01:25 PM | error loadView general | view | response 400
+14/12/16 09:07:16 PM | error loadView general | view | response 400
+14/12/16 09:07:16 PM | error loadView general | view | response 400

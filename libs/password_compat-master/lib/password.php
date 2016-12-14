@@ -250,7 +250,6 @@ namespace {
 
             return $status === 0;
 
-            return true;
         }
     }
 

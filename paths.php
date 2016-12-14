@@ -71,6 +71,7 @@ define('DAO_USERS',SITE_ROOT.'modules/users/model/DAO/');
 define('BLL_USERS',SITE_ROOT.'modules/users/model/BLL/');
 define('MODEL_USERS',SITE_ROOT.'modules/users/model/model/');
 define('USERS_JS_PATH', SITE_PATH . 'modules/users/view/js/');
+define('USERS_CSS_PATH', SITE_PATH . 'modules/users/view/css/');
 
 //model hospital
 define('HOSPITALS_CSS_PATH', SITE_PATH . '/modules/hospital/view/css/');

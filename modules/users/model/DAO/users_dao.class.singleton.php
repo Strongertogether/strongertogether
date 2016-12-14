@@ -70,12 +70,13 @@ class userDAO {
       $undefined = 1;
     }
 
+    if ($arrArgument['activado'])?$activado = $arrArgument['activado']:$activado = 0;
 
     $sql= "INSERT INTO users (name, surname, id_document, phone, "
     . "email, password, repeat_password, internet, art, technology, literature, "
-    . "music, other, male, female, undefined, date_birthday, pais, provincia, poblacion, avatar) "
+    . "music, other, male, female, undefined, date_birthday, pais, provincia, poblacion, avatar, activado) "
     . "VALUES ('$name', '$surname', '$id_document', '$phone', '$email', '$password', '$repeat_password', '$internet', '$art', '$technology', '$literature', "
-    . "'$music', '$other', '$male', '$female', '$undefined', '$date_birthday', '$pais', '$provincia', '$poblacion', '$avatar')";
+    . "'$music', '$other', '$male', '$female', '$undefined', '$date_birthday', '$pais', '$provincia', '$poblacion', '$avatar', '$activado')";
 
 
     return $db->ejecutar($sql);

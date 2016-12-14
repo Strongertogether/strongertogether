@@ -1,4 +1,18 @@
-<!-- Modal -->
+<link href="<?php echo USERS_CSS_PATH ?>login.css" rel="stylesheet">
+<script type="text/javascript" src="http://92.222.94.202/Strongertogether/modules/users/view/js/login.js"></script>
+<div class="login-page">
+  <div class="form">
+    <form id="login_form" name="login_form" class="form-contact" align="center">
+      <input type="text" id="inputUser" name="inputUser" placeholder="Usuario" class="input-block-level" dir="auto" maxlength="100">
+      <input type="password" id="inputPass" name="inputPass" placeholder="Contraseña" class="input-block-level" maxlength="100">
+      <button type="button" name="submitLog" id="submitLog" value="Enviar" >login</button>
+      <p class="message">Not registered? <a href="<?php amigable('?module=users&function=signup'); ?>">Create an account</a></p>
+      <p class="message">Forgot your password? <a href="#" >Click Here!</a></p><br>
+    </form>
+  </div>
+</div>
+<!-- Anterior modal
+
 <style>
 .modal-header{
   background-color: #061C33;
@@ -70,10 +84,7 @@ ul.log li{
 }
 </style>
 <div class="modal-header">
-  <script type="text/javascript" src="<?php SITE_ROOT . USERS_JS_PATH . "login.js" ?>"></script>
-  <!-- <script type="text/javascript" src=""></script> -->
-
-  <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+  <script type="text/javascript" src="http://92.222.94.202/Strongertogether/modules/users/view/js/login.js"></script>
   <h4 class="modal-title" id="myModalLabel">Log In</h4>
 </div>
 <div class="modal-body" style="background-color: #36B6FF;" >
@@ -87,20 +98,7 @@ ul.log li{
 
     <input class="btn btn-primary" type="button" name="submitLog" id="submitLog" value="Enviar" />
   </form>
-  <!-- <div class="separator"><p>Ó</p></div> -->
-  <!--
-  <div class="social form-contact">
-  <ul class="icons log">
-  <li>
-  <a class="icon rounded fa-facebook" id="fb" href="#"><span class="label">Facebook</span></a>
-</li>
 
-<li>
-<a class="icon rounded fa-twitter" id="twlogin" href="#"><span class="label">Twitter</span></a>
-</li>
-</ul>
-</div>
--->
 <div class="col-md-4 head-left wow fadeInRight animated" data-wow-delay=".5s">
   <ul>
     <li>Login facebook and twitter: </li>
@@ -110,9 +108,6 @@ ul.log li{
 </div>
 <div class="clearfix"></div>
 <div class="form-contact reg ">
-<!--
-  <p>¿Aun no te has registrado? Hazlo <a href="https://projects-alumnes-yomogan.c9users.io/proj_final_login/JoinElderly/user/alta/" id="linkReg">aquí</a></p>
-  <p><a href="https://projects-alumnes-yomogan.c9users.io/proj_final_login/JoinElderly/user/recuperar/" id="linkRest">¿Has olvidado tu contraseña?</a></p>
+</div>
+</div>
 -->
-</div>
-</div>
