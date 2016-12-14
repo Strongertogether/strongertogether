@@ -86,11 +86,11 @@ class controller_users {
         //echo json_encode($arrValue[0]['password']);
         //echo json_encode(LIBS . 'password_compat-master/lib/password.php');
 
-        //$arrValue = password_verify($user['pass'], $arrValue[0]['password']);
-        $arrValue = password_verify("hola", "hola");
+        $arrValue = password_verify($user['pass'], $arrValue[0]['password']);
+        //$arrValue = password_verify("hola", "hola");
 
-        echo json_encode($arrValue);
-        exit;
+        //echo json_encode($arrValue);
+        //exit;
 
 
     } catch (Exception $e) {
