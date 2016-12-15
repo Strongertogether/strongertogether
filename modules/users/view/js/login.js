@@ -40,21 +40,21 @@ function login() {
     }
 
     var data = {"usuario": user, "pass": pass};
+
     var login_JSON = JSON.stringify(data);
     if (value){
-
-        $.post(amigable2("?module=users&function=login"), {login_json: login_JSON},
+      //console.log(value);
+      //exit;
+        $.post(amigable("?module=users&function=login"), {login_json: login_JSON},
         function (response) {
             console.log(response);
-            //die;
             if (!response.error) {
-              console.log(response.error);
                 //create session cookies
                 Tools.createCookie("user", response[0]['usuario'] + "|" + response[0]['avatar'] + "|" + response[0]['tipo'] + "|" + response[0]['nombre'], 1);
-                window.location.href = amigable1("?module=main");
+                window.location.href = amigable('?module=main&function=begin');
             } else {
                 if (response.datos == 503)
-                    window.location.href = amigable("?module=main&fn=begin&param=503");
+                    window.location.href = amigable("?module=main&function=begin&param=503");
                 else
                     $("#inputPass").focus().after("<span class='error'>" + response.datos + "</span>");
             }

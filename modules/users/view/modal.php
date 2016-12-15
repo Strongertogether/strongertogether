@@ -2,12 +2,12 @@
 <script src="<?php echo USERS_JS_PATH . "login.js" ?>"></script>
 <div class="login-page">
   <div class="form">
-    <form class="login-form">
-      <input id="inputUser" type="text" placeholder="username"/>
-      <input id="inputPass" type="password" placeholder="password"/>
-      <input class="button" type="button" name="submitLog" id="submitLog"  value="Login" />
-      <p class="message">Not registered? <a href="<?php amigable('?module=users&function=signup'); ?>">Create an account</a></p>
-      <p class="message">Forgot your password? <a href="<?php amigable('?module=users&function=restorepass'); ?>" >Click Here!</a></p><br>
+    <form id="login_form" name="login_form" class="form-contact" align="center">
+          <input type="text" id="inputUser" name="inputUser" placeholder="Email" class="input-block-level" dir="auto" maxlength="100">
+          <input type="password" id="inputPass" name="inputPass" placeholder="Contraseña" class="input-block-level" maxlength="100">
+          <button type="button" class="button" name="submitLog" id="submitLog" value="Enviar" >login</button>
+          <p class="message">Not registered? <a href="<?php amigable('?module=users&function=signup'); ?>">Create an account</a></p>
+          <p class="message">Forgot your password? <a href="<?php amigable('?module=users&function=newpass'); ?>" >Click Here!</a></p><br>
     </form>
   </div>
 </div>

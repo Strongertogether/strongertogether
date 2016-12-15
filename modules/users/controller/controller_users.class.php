@@ -298,46 +298,34 @@ class controller_users {
         'like' => $like,
         'field' => array('password')
     );
-    //echo json_encode($arrArgument);
-    //exit;
     set_error_handler('ErrorHandler');
     try {
         //loadModel
         $arrValue = loadModel(MODEL_USERS, "users_model", "select", $arrArgument);
-        $hola = password_hash($user['pass'], PASSWORD_BCRYPT);
-        //echo json_encode($hola . " ||||| " . $arrValue[0]['password']);
-        //echo json_encode($arrValue[0]['password'] . " |||| " . $hola);
-        //exit;
-        //echo json_encode($arrValue[0]['password']);
-        //echo json_encode(LIBS . 'password_compat-master/lib/password.php');
         $arrValue = password_verify($user['pass'], $arrValue[0]['password']);
-        //$arrValue = password_verify("hola", "hola");
-        //echo json_encode($arrValue);
-        //exit;
+
     } catch (Exception $e) {
         $arrValue = "error";
     }
     restore_error_handler();
     if ($arrValue !== "error") {
         if ($arrValue) { //OK
-          //
-          //echo json_encode($arrValue);
-          //exit;
-          //
+
             set_error_handler('ErrorHandler');
             try {
                 $arrArgument = array(
-                    'column' => array("usuario", "activado"),
+                    'column' => array("email", "activado"),
                     'like' => array($user['usuario'], "1")
                 );
-                $arrValue = loadModel(MODEL_USER, "users_model", "count", $arrArgument);
+                $arrValue = loadModel(MODEL_USERS, "users_model", "count", $arrArgument);
                 if ($arrValue[0]["total"] == 1) {
                     $arrArgument = array(
-                        'column' => array("usuario"),
+                        'column' => array("email"),
                         'like' => array($user['usuario']),
                         'field' => array('*')
                     );
-                    $user = loadModel(MODEL_USER, "users_model", "select", $arrArgument);
+                    $user = loadModel(MODEL_USERS, "users_model", "select", $arrArgument);
+
                     echo json_encode($user);
                     exit();
                 } else {
