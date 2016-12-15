@@ -1,16 +1,13 @@
 <?php
 
 class users_bll {
-
   private $dao;
   private $db;
   static $_instance;
-
   private function __construct() {
-    $this->dao = userDAO::getInstance();
-    $this->db = Db::getInstance();
+    $this->dao = users_dao::getInstance();
+    $this->db = db::getInstance();
   }
-
   public static function getInstance() {
     if (!(self::$_instance instanceof self))
     self::$_instance = new self();
@@ -19,7 +16,11 @@ class users_bll {
 
   public function create_user_BLL($arrArgument) {
     return $this->dao->create_user_DAO($this->db, $arrArgument);
-  }
+    }
+
+  public function update_BLL($arrArgument) {
+    return $this->dao->update_DAO($this->db, $arrArgument);
+    }
 
   public function obtain_paises_BLL($url) {
     return $this->dao->obtain_paises_DAO($url);
@@ -33,7 +34,6 @@ class users_bll {
     return $this->dao->obtain_poblaciones_DAO($arrArgument);
   }
 
-
   public function list_users_BLL() {
     return $this->dao->list_users_DAO($this->db);
   }
@@ -41,5 +41,13 @@ class users_bll {
   public function details_users_BLL($id) {
     return $this->dao->details_users_DAO($this->db,$id);
   }
-
+/*
+ *  LOGIN
+ */
+ public function count_BLL($arrArgument) {
+    return $this->dao->count_DAO($this->db, $arrArgument);
+}
+public function select_BLL($arrArgument) {
+    return $this->dao->select_DAO($this->db, $arrArgument);
+}
 }

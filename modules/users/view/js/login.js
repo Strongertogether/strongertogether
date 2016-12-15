@@ -46,7 +46,7 @@ function login() {
         $.post(amigable2("?module=users&function=login"), {login_json: login_JSON},
         function (response) {
             console.log(response);
-            exit;
+            //die;
             if (!response.error) {
               console.log(response.error);
                 //create session cookies

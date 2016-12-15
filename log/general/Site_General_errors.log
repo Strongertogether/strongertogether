@@ -1264,3 +1264,439 @@ Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/
 13/12/16 07:22:26 PM | error loadView general | view | response 400
 13/12/16 07:22:39 PM | error loadView general | view | response 400
 13/12/16 07:22:39 PM | error loadView general | view | response 400
+14/12/16 07:18:13 PM | error loadView general | view | response 400
+14/12/16 07:21:02 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+14/12/16 07:22:09 PM | error loadView general | view | response 400
+14/12/16 07:53:08 PM | error loadView general | view | response 400
+14/12/16 07:53:11 PM | error loadView general | view | response 400
+14/12/16 08:24:33 PM | error loadView general | view | response 400
+14/12/16 08:24:38 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+14/12/16 08:24:53 PM | error loadView general | view | response 400
+14/12/16 08:25:11 PM | error loadView general | view | response 400
+14/12/16 08:47:26 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+14/12/16 08:47:27 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+14/12/16 08:47:28 PM | error loadView general | view | response 400
+14/12/16 08:47:34 PM | error loadView general | view | response 400
+14/12/16 08:48:18 PM | error loadView general | view | response 400
+14/12/16 08:48:18 PM | error loadView general | view | response 400
+14/12/16 08:48:30 PM | error loadView general | view | response 400
+14/12/16 08:48:31 PM | error loadView general | view | response 400
+14/12/16 08:48:33 PM | error loadView general | view | response 400
+14/12/16 08:48:33 PM | error loadView general | view | response 400
+14/12/16 08:48:35 PM | error loadView general | view | response 400
+14/12/16 08:48:35 PM | error loadView general | view | response 400
+14/12/16 08:48:36 PM | error loadView general | view | response 400
+14/12/16 08:48:37 PM | error loadView general | view | response 400
+14/12/16 08:50:15 PM | error loadView general | view | response 400
+14/12/16 08:50:15 PM | error loadView general | view | response 400
+14/12/16 08:50:16 PM | error loadView general | view | response 400
+14/12/16 08:50:17 PM | error loadView general | view | response 400
+14/12/16 08:51:57 PM | error loadView general | view | response 400
+14/12/16 08:51:57 PM | error loadView general | view | response 400
+14/12/16 08:53:05 PM | error loadView general | view | response 400
+14/12/16 08:53:05 PM | error loadView general | view | response 400
+14/12/16 08:56:54 PM | error loadView general | view | response 400
+14/12/16 08:56:54 PM | error loadView general | view | response 400
+14/12/16 09:05:17 PM | error loadView general | view | response 400
+14/12/16 09:05:17 PM | error loadView general | view | response 400
+14/12/16 09:05:30 PM | error loadView general | user | response 400
+14/12/16 09:08:10 PM | error loadView general | view | response 400
+14/12/16 09:08:10 PM | error loadView general | view | response 400
+14/12/16 09:08:25 PM | error loadView general | user | response 400
+14/12/16 09:22:10 PM | error loadView general | view | response 400
+14/12/16 09:22:10 PM | error loadView general | view | response 400
+14/12/16 09:22:26 PM | error loadView general | user | response 400
+14/12/16 09:22:38 PM | error loadView general | view | response 400
+14/12/16 09:22:38 PM | error loadView general | view | response 400
+14/12/16 09:24:07 PM | error loadView general | view | response 400
+14/12/16 09:24:07 PM | error loadView general | view | response 400
+14/12/16 09:24:19 PM | error loadView general | user | response 400
+14/12/16 09:24:53 PM | error loadView general | view | response 400
+14/12/16 09:24:53 PM | error loadView general | view | response 400
+14/12/16 09:24:57 PM | error loadView general | view | response 400
+14/12/16 09:24:57 PM | error loadView general | view | response 400
+14/12/16 09:25:09 PM | error loadView general | user | response 400
+14/12/16 09:25:23 PM | error loadView general | view | response 400
+14/12/16 09:25:23 PM | error loadView general | view | response 400
+14/12/16 09:25:23 PM | error loadView general | view | response 400
+14/12/16 09:25:23 PM | error loadView general | view | response 400
+14/12/16 09:25:43 PM | error loadView general | user | response 400
+14/12/16 09:26:44 PM | error loadView general | view | response 400
+14/12/16 09:26:44 PM | error loadView general | view | response 400
+14/12/16 09:27:53 PM | error loadView general | view | response 400
+14/12/16 09:27:53 PM | error loadView general | view | response 400
+14/12/16 09:28:13 PM | error loadView general | user | response 400
+14/12/16 09:29:13 PM | error loadView general | view | response 400
+14/12/16 09:29:13 PM | error loadView general | view | response 400
+14/12/16 09:29:31 PM | error loadView general | user | response 400
+14/12/16 09:30:25 PM | error loadView general | view | response 400
+14/12/16 09:30:25 PM | error loadView general | view | response 400
+14/12/16 09:30:27 PM | error loadView general | view | response 400
+14/12/16 09:30:27 PM | error loadView general | view | response 400
+14/12/16 09:30:41 PM | error loadView general | user | response 400
+14/12/16 09:30:44 PM | error loadView general | user | response 400
+14/12/16 09:32:11 PM | error loadView general | view | response 400
+14/12/16 09:32:11 PM | error loadView general | view | response 400
+14/12/16 09:32:23 PM | error loadView general | users | response 400
+14/12/16 09:32:31 PM | error loadView general | view | response 400
+14/12/16 09:32:31 PM | error loadView general | view | response 400
+14/12/16 09:33:46 PM | error loadView general | view | response 400
+14/12/16 09:33:46 PM | error loadView general | view | response 400
+14/12/16 09:34:41 PM | error loadView general | view | response 400
+14/12/16 09:34:41 PM | error loadView general | view | response 400
+14/12/16 09:35:38 PM | error loadView general | view | response 400
+14/12/16 09:35:39 PM | error loadView general | view | response 400
+14/12/16 09:36:34 PM | error loadView general | view | response 400
+14/12/16 09:36:34 PM | error loadView general | view | response 400
+14/12/16 09:37:02 PM | error loadView general | view | response 400
+14/12/16 09:37:03 PM | error loadView general | view | response 400
+14/12/16 09:37:46 PM | error loadView general | view | response 400
+14/12/16 09:37:46 PM | error loadView general | view | response 400
+14/12/16 09:37:49 PM | error loadView general | view | response 400
+14/12/16 09:37:49 PM | error loadView general | view | response 400
+14/12/16 09:39:04 PM | error loadView general | view | response 400
+14/12/16 09:39:04 PM | error loadView general | view | response 400
+14/12/16 09:39:51 PM | error loadView general | view | response 400
+14/12/16 09:39:51 PM | error loadView general | view | response 400
+14/12/16 09:42:10 PM | error loadView general | view | response 400
+14/12/16 09:42:10 PM | error loadView general | view | response 400
+14/12/16 09:43:30 PM | error loadView general | view | response 400
+14/12/16 09:43:30 PM | error loadView general | view | response 400
+14/12/16 09:44:57 PM | error loadView general | view | response 400
+14/12/16 09:44:57 PM | error loadView general | view | response 400
+14/12/16 09:45:27 PM | error loadView general | view | response 400
+14/12/16 09:45:27 PM | error loadView general | view | response 400
+14/12/16 09:45:29 PM | error loadView general | view | response 400
+14/12/16 09:45:29 PM | error loadView general | view | response 400
+14/12/16 09:45:56 PM | error loadView general | view | response 400
+14/12/16 09:45:56 PM | error loadView general | view | response 400
+14/12/16 09:46:40 PM | error loadView general | view | response 400
+14/12/16 09:46:40 PM | error loadView general | view | response 400
+14/12/16 09:47:22 PM | error loadView general | view | response 400
+14/12/16 09:47:22 PM | error loadView general | view | response 400
+14/12/16 09:47:25 PM | error loadView general | view | response 400
+14/12/16 09:47:25 PM | error loadView general | view | response 400
+14/12/16 09:47:48 PM | error loadView general | view | response 400
+14/12/16 09:47:48 PM | error loadView general | view | response 400
+14/12/16 09:47:52 PM | error loadView general | view | response 400
+14/12/16 09:47:52 PM | error loadView general | view | response 400
+14/12/16 09:48:17 PM | error loadView general | view | response 400
+14/12/16 09:48:17 PM | error loadView general | view | response 400
+14/12/16 09:48:18 PM | error loadView general | view | response 400
+14/12/16 09:48:18 PM | error loadView general | view | response 400
+14/12/16 09:48:22 PM | error loadView general | view | response 400
+14/12/16 09:48:22 PM | error loadView general | view | response 400
+14/12/16 09:49:06 PM | error loadView general | view | response 400
+14/12/16 09:49:07 PM | error loadView general | view | response 400
+14/12/16 09:50:42 PM | error loadView general | view | response 400
+14/12/16 09:50:42 PM | error loadView general | view | response 400
+14/12/16 09:50:44 PM | error loadView general | view | response 400
+14/12/16 09:50:44 PM | error loadView general | view | response 400
+15/12/16 10:41:02 AM | error loadView general | view | response 400
+15/12/16 10:49:56 AM | error loadView general | view | response 400
+15/12/16 10:50:16 AM | error loadView general | view | response 400
+15/12/16 10:50:16 AM | error loadView general | view | response 400
+15/12/16 10:51:59 AM | error loadView general | view | response 400
+15/12/16 10:51:59 AM | error loadView general | view | response 400
+15/12/16 10:55:59 AM | error loadView general | view | response 400
+15/12/16 10:55:59 AM | error loadView general | view | response 400
+15/12/16 10:56:01 AM | error loadView general | view | response 400
+15/12/16 10:56:01 AM | error loadView general | view | response 400
+15/12/16 11:00:32 AM | error loadView general | view | response 400
+15/12/16 11:00:32 AM | error loadView general | view | response 400
+15/12/16 11:01:17 AM | error loadView general | view | response 400
+15/12/16 11:01:17 AM | error loadView general | view | response 400
+15/12/16 11:04:32 AM | error loadView general | view | response 400
+15/12/16 11:04:32 AM | error loadView general | view | response 400
+15/12/16 11:05:10 AM | error loadView general | view | response 400
+15/12/16 11:05:10 AM | error loadView general | view | response 400
+15/12/16 11:05:36 AM | error loadView general | view | response 400
+15/12/16 11:05:36 AM | error loadView general | view | response 400
+15/12/16 11:08:48 AM | error loadView general | view | response 400
+15/12/16 11:08:48 AM | error loadView general | view | response 400
+15/12/16 11:09:01 AM | error loadView general | view | response 400
+15/12/16 11:09:01 AM | error loadView general | view | response 400
+15/12/16 11:09:46 AM | error loadView general | view | response 400
+15/12/16 11:09:46 AM | error loadView general | view | response 400
+15/12/16 11:10:34 AM | error loadView general | view | response 400
+15/12/16 11:10:34 AM | error loadView general | view | response 400
+15/12/16 11:11:13 AM | error loadView general | view | response 400
+15/12/16 11:11:13 AM | error loadView general | view | response 400
+15/12/16 11:11:42 AM | error loadView general | view | response 400
+15/12/16 11:11:42 AM | error loadView general | view | response 400
+15/12/16 11:11:59 AM | error loadView general | view | response 400
+15/12/16 11:12:00 AM | error loadView general | view | response 400
+15/12/16 11:12:19 AM | error loadView general | view | response 400
+15/12/16 11:12:19 AM | error loadView general | view | response 400
+15/12/16 11:12:20 AM | error loadView general | view | response 400
+15/12/16 11:12:20 AM | error loadView general | view | response 400
+15/12/16 11:13:13 AM | error loadView general | view | response 400
+15/12/16 11:13:13 AM | error loadView general | view | response 400
+15/12/16 11:14:42 AM | error loadView general | view | response 400
+15/12/16 11:14:42 AM | error loadView general | view | response 400
+15/12/16 11:14:56 AM | error loadView general | view | response 400
+15/12/16 11:14:56 AM | error loadView general | view | response 400
+15/12/16 11:15:52 AM | error loadView general | view | response 400
+15/12/16 11:15:52 AM | error loadView general | view | response 400
+15/12/16 11:18:19 AM | error loadView general | view | response 400
+15/12/16 11:18:19 AM | error loadView general | view | response 400
+15/12/16 11:19:19 AM | error loadView general | view | response 400
+15/12/16 11:19:19 AM | error loadView general | view | response 400
+15/12/16 11:20:04 AM | error loadView general | view | response 400
+15/12/16 11:20:04 AM | error loadView general | view | response 400
+15/12/16 11:20:08 AM | error loadView general | view | response 400
+15/12/16 11:20:08 AM | error loadView general | view | response 400
+15/12/16 11:20:32 AM | error loadView general | view | response 400
+15/12/16 11:20:32 AM | error loadView general | view | response 400
+15/12/16 11:23:35 AM | error loadView general | view | response 400
+15/12/16 11:23:35 AM | error loadView general | view | response 400
+15/12/16 11:25:09 AM | error loadView general | view | response 400
+15/12/16 11:25:09 AM | error loadView general | view | response 400
+15/12/16 11:27:08 AM | error loadView general | view | response 400
+15/12/16 11:27:08 AM | error loadView general | view | response 400
+15/12/16 11:28:48 AM | error loadView general | view | response 400
+15/12/16 11:28:48 AM | error loadView general | view | response 400
+15/12/16 11:44:49 AM | error loadView general | view | response 400
+15/12/16 11:44:50 AM | error loadView general | view | response 400
+15/12/16 11:48:31 AM | error loadView general | view | response 400
+15/12/16 11:48:31 AM | error loadView general | view | response 400
+15/12/16 11:48:46 AM | error loadView general | view | response 400
+15/12/16 11:48:46 AM | error loadView general | view | response 400
+15/12/16 11:52:54 AM | error loadView general | view | response 400
+15/12/16 11:52:54 AM | error loadView general | view | response 400
+15/12/16 11:52:55 AM | error loadView general | view | response 400
+15/12/16 11:52:55 AM | error loadView general | view | response 400
+15/12/16 11:53:38 AM | error loadView general | view | response 400
+15/12/16 11:53:38 AM | error loadView general | view | response 400
+15/12/16 11:59:33 AM | error loadView general | view | response 400
+15/12/16 11:59:33 AM | error loadView general | view | response 400
+15/12/16 12:00:58 PM | error loadView general | view | response 400
+15/12/16 12:00:58 PM | error loadView general | view | response 400
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:01:08 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:02 PM | error loadView general | view | response 400
+15/12/16 12:04:02 PM | error loadView general | view | response 400
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:04:12 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:05:35 PM | error loadView general | view | response 400
+15/12/16 12:05:35 PM | error loadView general | view | response 400
+15/12/16 12:06:24 PM | error loadView general | view | response 400
+15/12/16 12:06:24 PM | error loadView general | view | response 400
+15/12/16 12:07:53 PM | error loadView general | view | response 400
+15/12/16 12:07:53 PM | error loadView general | view | response 400
+15/12/16 12:09:59 PM | error loadView general | view | response 400
+15/12/16 12:09:59 PM | error loadView general | view | response 400
+15/12/16 12:12:23 PM | error loadView general | view | response 400
+15/12/16 12:12:23 PM | error loadView general | view | response 400
+15/12/16 12:16:40 PM | error loadView general | view | response 400
+15/12/16 12:16:40 PM | error loadView general | view | response 400
+15/12/16 12:17:09 PM | error loadView general | view | response 400
+15/12/16 12:17:09 PM | error loadView general | view | response 400
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:17:21 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:18:49 PM | error loadView general | view | response 400
+15/12/16 12:18:49 PM | error loadView general | view | response 400
+15/12/16 12:20:20 PM | error loadView general | view | response 400
+15/12/16 12:20:20 PM | error loadView general | view | response 400
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:20:30 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:22 PM | error loadView general | view | response 400
+15/12/16 12:28:22 PM | error loadView general | view | response 400
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 12:28:32 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 53 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 12:28:33 PM | error loadView general | view | response 400
+15/12/16 12:28:33 PM | error loadView general | view | response 400
+15/12/16 12:28:33 PM | error loadView general | view | response 400
