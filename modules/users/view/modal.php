@@ -7,7 +7,7 @@
           <input type="password" id="inputPass" name="inputPass" placeholder="Contraseña" class="input-block-level" maxlength="100">
           <button type="button" class="button" name="submitLog" id="submitLog" value="Enviar" >login</button>
           <p class="message">Not registered? <a href="<?php amigable('?module=users&function=signup'); ?>">Create an account</a></p>
-          <p class="message">Forgot your password? <a href="<?php amigable('?module=users&function=newpass'); ?>" >Click Here!</a></p><br>
+          <p class="message">Forgot your password? <a href="<?php amigable('?module=users&function=restorepass'); ?>" >Click Here!</a></p><br>
     </form>
   </div>
 </div>
