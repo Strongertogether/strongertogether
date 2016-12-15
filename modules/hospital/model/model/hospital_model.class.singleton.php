@@ -1,4 +1,5 @@
 <?php
+
 class hospital_model {
     private $bll;
     static $_instance;

@@ -22,8 +22,6 @@ class controller_users {
     require_once(VIEW_PATH_INC."footer.php");
   }
 
-
-
   public function users() {
     require_once(VIEW_PATH_INC."header.php");
     require_once(VIEW_PATH_INC."menu.php");
@@ -41,6 +39,125 @@ class controller_users {
 
     require_once(VIEW_PATH_INC."footer.php");
   }
+//vista sign up
+  public function signup() {
+  require_once(VIEW_PATH_INC."header.php");
+  require_once(VIEW_PATH_INC."menu.php");
+
+  loadView('modules/users/view/', 'signup.php');
+
+  require_once(VIEW_PATH_INC."footer.php");
+}
+
+//vista profile
+public function profile() {
+  require_once(VIEW_PATH_INC."header.php");
+  require_once(VIEW_PATH_INC."menu.php");
+
+  loadView('modules/users/view/', 'profile.php');
+
+  require_once(VIEW_PATH_INC."footer.php");
+}
+
+
+public function signup_user() {
+
+  $jsondata = array();
+  $userJSON = json_decode($_POST['signup_user_json'], true);
+  $result = validate_userPHP($userJSON);
+
+  if ($result['resultado']) {
+      $avatar = get_gravatar($result['datos']['email'], $s = 400, $d = 'identicon', $r = 'g', $img = false, $atts = array());
+
+      $arrArgument = array(
+          'email' => $result['datos']['email'],
+          'password' => password_hash($result['datos']['password'], PASSWORD_BCRYPT),
+          'repeat_password'=> password_hash($result['datos']['repeat_password'], PASSWORD_BCRYPT),
+          'token' => '',
+          'activado' => 0,
+          'tipo' => "client",
+          'avatar' => $avatar
+
+      );
+      // Control de registro
+      set_error_handler('ErrorHandler');
+      try {
+          //loadModel
+              $arrValue = loadModel(MODEL_USERS, "users_model", "count", array('column' => array('email'), 'like' => array($arrArgument['email'])));
+              if ($arrValue[0]['total'] == 1) {
+                  $arrValue = false;
+                  $typeErr = 'Email';
+                  $error = "Email already registered";
+              }
+      } catch (Exception $e) {
+          $arrValue = false;
+      }
+
+      restore_error_handler();
+      // Fin de control de registro
+
+      if ($arrValue) {
+          set_error_handler('ErrorHandler');
+          try {
+              //loadModel
+              $arrArgument['token'] = "Ver" . md5(uniqid(rand(), true));
+              $arrValue = loadModel(MODEL_USERS, "users_model", "create_user", $arrArgument);
+          } catch (Exception $e) {
+              $arrValue = false;
+          }
+          restore_error_handler();
+
+          if ($arrValue) {
+              sendtoken($arrArgument, "alta");
+              $url = amigable('?module=main&function=begin&param=reg', true);
+              $jsondata["success"] = true;
+              $jsondata["redirect"] = $url;
+              echo json_encode($jsondata);
+              exit;
+          } else {
+              $url = amigable('?module=main&function=begin&param=503', true);
+              $jsondata["success"] = true;
+              $jsondata["redirect"] = $url;
+              echo json_encode($jsondata);
+          }
+      } else {
+          $jsondata["success"] = false;
+          $jsondata['typeErr'] = $typeErr;
+          $jsondata["error"] = $error;
+          echo json_encode($jsondata);
+      }
+  } else {
+      $jsondata["success"] = false;
+      $jsondata['datos'] = $result;
+      echo json_encode($jsondata);
+  }
+
+}
+
+public function verify(){
+    if (substr($_GET['param'], 0, 3) == 'Ver') {
+        $arrArgument = array(
+          'column' => array('token'),
+          'like' => array($_GET['param']),
+          'field' => array('activado'),
+          'new' => array('1'),
+      );
+
+        set_error_handler('ErrorHandler');
+        try {
+            $value = loadModel(MODEL_USERS, 'users_model', 'update', $arrArgument);
+        } catch (Exception $e) {
+            $value = false;
+        }
+        restore_error_handler();
+
+        if ($value) {
+            loadView('modules/main/view/', 'main.html');
+        } else {
+            showErrorPage(1, '', 'HTTP/1.0 503 Service Unavailable', 503);
+        }
+    }
+}
 
 /*
  *  LOGIN
@@ -77,8 +194,7 @@ class controller_users {
         $arrValue = loadModel(MODEL_USERS, "users_model", "select", $arrArgument);
 
         $arrValue = password_verify($user['pass'], $arrValue[0]['password']);
-        //No funciona el password_verify, el torne a true a saco
-
+        //No funciona el password_verify, el torne a true
         $arrValue = true;
 
     } catch (Exception $e) {
@@ -88,7 +204,8 @@ class controller_users {
 
     if ($arrValue !== "error") {
         if ($arrValue) { //OK
-
+          //echo json_encode($arrValue);
+          //die;
             set_error_handler('ErrorHandler');
             try {
                 $arrArgument = array(
@@ -110,8 +227,8 @@ class controller_users {
                         'field' => array('*')
                     );
                     $user = loadModel(MODEL_USER, "users_model", "select", $arrArgument);
-                    echo json_encode($user);
-                    exit();
+                    //echo json_encode($user);
+                    //exit();
                 } else {
                     $value = array(
                         "error" => true,

@@ -1,4 +1,5 @@
 <?php
+
 class hospital_bll {
     private $dao;
     private $db;

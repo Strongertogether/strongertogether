@@ -27,6 +27,7 @@ function login() {
     var pass = $("#inputPass").val();
     var value = false;
 
+
     $(".error").remove();
     if (!user) {
         $("#inputUser").focus().after("<span class='error'>Usuario vacío</span>");
@@ -40,15 +41,15 @@ function login() {
     }
 
     var data = {"usuario": user, "pass": pass};
+
     var login_JSON = JSON.stringify(data);
     if (value){
-
         $.post(amigable2("?module=users&function=login"), {login_json: login_JSON},
         function (response) {
-            console.log(response);
-            //die;
-            console.log(response.error);
-            exit;
+            //console.log(response);
+            //exit;
+            //console.log(response.error);
+            //exit;
             if (!response.error) {
                 //create session cookies
                 Tools.createCookie("user", response[0]['usuario'] + "|" + response[0]['avatar'] + "|" + response[0]['tipo'] + "|" + response[0]['nombre'], 1);
