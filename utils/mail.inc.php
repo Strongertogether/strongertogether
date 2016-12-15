@@ -7,21 +7,22 @@
         $return = '';
 
         switch ($arr['type']) {
+
             case 'alta':
                 $subject = 'Tu Alta en StrongerTogether';
-                $ruta = "<a href='" . amigable("?module=login&function=activar&aux=A" . $arr['token'], true) . "'>aqu&iacute;</a>";
+                $ruta = "<a href='" . amigable("?module=users&function=verify&aux=A" . $arr['token'], true) . "'>aqu&iacute;</a>";
                 $body = 'Gracias por unirte a nuestra aplicaci&oacute;n<br> Para finalizar el registro, pulsa ' . $ruta;
                 break;
 
             case 'modificacion':
-                $subject = 'Tu Nuevo Password en Rural_Shop<br>';
-                $ruta = '<a href="' . amigable("?module=login&function=activar&aux=F" . $arr['token'], true) . '">aqu&iacute;</a>';
+                $subject = 'Tu Nuevo Password en StrongerTogether<br>';
+                $ruta = '<a href="' . amigable("?module=users&function=verify&aux=F" . $arr['token'], true) . '">aqu&iacute;</a>';
                 $body = 'Para recordar tu password pulsa ' . $ruta;
                 break;
 
             case 'contact':
                 $subject = 'Tu Petici&oacute;n a StrongerTogether ha sido enviada<br>';
-                $ruta = '<a href=' . 'https://examples-php-yomogan.c9.io/13B%20framework_contact/'. '>aqu&iacute;</a>';
+                $ruta = '<a href=' . 'http://localhost/Strongertogether/'. '>aqu&iacute;</a>';
                 $body = 'Para visitar nuestra web, pulsa ' . $ruta;
                 break;
 

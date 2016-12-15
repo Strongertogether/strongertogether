@@ -64,7 +64,7 @@
                 $this->mail->AddAddress($this->address, $this->name);
                 $this->mail->IsHTML(true);
 
-                $result = $this->send_mailgun($this->address);
+                $result = $this->send_mailgun($this->address, $this->subject, $this->body);
                 return $result;
 
             } catch (phpmailerException $e) {
@@ -82,7 +82,7 @@
             }
         }
 
-        public function send_mailgun($email){
+        public function send_mailgun($email, $subject, $body){
         	$config = array();
         	$config['api_key'] = "key-0556bb59cb537e7ef8a4aced43dc4ae1"; //API Key
         	$config['api_url'] = "https://api.mailgun.net/v3/sandbox1029179414b84e3ca5a028728953c3da.mailgun.org/messages"; //API Base URL
@@ -91,8 +91,9 @@
         	$message['from'] = "strongertogetherdaw@gmail.com";
         	$message['to'] = $email;
         	$message['h:Reply-To'] = "strongertogetherdaw@gmail.com";
-        	$message['subject'] = "Hello, this is a test";
-        	$message['html'] = 'Hello ' . $email . ',</br></br> This is a test';
+          $message['subject'] = $subject;
+        	$message['html'] = $body;
+
 
         	$ch = curl_init();
         	curl_setopt($ch, CURLOPT_URL, $config['api_url']);
