@@ -2988,3 +2988,12 @@ Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
 15/12/16 07:10:12 PM | error loadView general | view | response 400
 15/12/16 07:10:13 PM | error loadView general | view | response 400
 15/12/16 07:10:13 PM | error loadView general | view | response 400
+15/12/16 07:26:28 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 07:26:28 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 07:26:28 PM | error loadView general | view | response 400
+15/12/16 07:26:33 PM | error loadView general | view | response 400
+15/12/16 07:26:33 PM | error loadView general | view | response 400
