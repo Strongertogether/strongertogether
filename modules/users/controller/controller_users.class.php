@@ -49,6 +49,30 @@ class controller_users {
     require_once(VIEW_PATH_INC."footer.php");
   }
 
+  //vista restore password
+  public function restorepass() {
+    require_once(VIEW_PATH_INC."header.php");
+    require_once(VIEW_PATH_INC."menu.php");
+
+    loadView('modules/users/view/', 'restorepass.php');
+
+    require_once(VIEW_PATH_INC."footer.php");
+  }
+
+  //vista restore password
+  public function newpass() {
+    if (substr($_GET['param'], 0, 3) == "Cha") {
+      require_once(VIEW_PATH_INC."header.php");
+      require_once(VIEW_PATH_INC."menu.php");
+
+      loadView('modules/users/view/', 'newpass.php');
+
+      require_once(VIEW_PATH_INC."footer.php");
+    } else {
+        showErrorPage(1, "", 'HTTP/1.0 503 Service Unavailable', 503);
+    }
+  }
+
   //vista profile
   public function profile() {
     require_once(VIEW_PATH_INC."header.php");
@@ -110,7 +134,7 @@ class controller_users {
               restore_error_handler();
 
               if ($arrValue) {
-                  sendtoken($arrArgument, "alta");
+                  sendtoken($arrArgument,"alta");
                   $url = amigable('?module=main&function=begin&param=reg', true);
                   $jsondata["success"] = true;
                   $jsondata["redirect"] = $url;
@@ -154,7 +178,13 @@ class controller_users {
             restore_error_handler();
 
             if ($value) {
-                loadView('modules/main/view/', 'main.html');
+              require_once(VIEW_PATH_INC."header.php");
+              require_once(VIEW_PATH_INC."menu.php");
+
+              loadView('modules/main/view/', 'main.html');
+
+              require_once(VIEW_PATH_INC."footer.php");
+
             } else {
                 showErrorPage(1, '', 'HTTP/1.0 503 Service Unavailable', 503);
             }
@@ -162,6 +192,90 @@ class controller_users {
     }
        ////////////end signup///////////
 
+       ///////restore password/////////
+       //Envia un email para cambiar la contraseña
+       public function process_restore() {
+        $result = array();
+        if (isset($_POST['inputEmail'])) {
+            $result = validatemail($_POST['inputEmail']);
+            if ($result) {
+                $column = array(
+                    'email'
+                );
+                $like = array(
+                    $_POST['inputEmail']
+                );
+                $field = array(
+                    'token'
+                );
+
+                $token = "Cha" . md5(uniqid(rand(), true));
+                $new = array(
+                    $token
+                );
+
+                $arrArgument = array(
+                    'column' => $column,
+                    'like' => $like,
+                    'field' => $field,
+                    'new' => $new
+                );
+                $arrValue = loadModel(MODEL_USERS, "users_model", "count", $arrArgument);
+                if ($arrValue[0]['total'] == 1) {
+                    $arrValue = true;//loadModel(MODEL_USERS, "users_model", "update", $arrArgument);
+                    if ($arrValue) {
+                        //////////////// Envio del correo al usuario
+                        $arrArgument = array(
+                            'token' => $token,
+                            'email' => $_POST['inputEmail']
+                        );
+                        if (sendtoken($arrArgument, "modificacion"))
+                            echo "Tu nueva contraseña ha sido enviada al email";
+                        else
+                            echo "Error en el servidor. Intentelo más tarde";
+                    }
+                } else {
+                    echo "El email introducido no existe ";
+                }
+            } else {
+                echo "El email no es válido";
+            }
+        }
+    }
+    //cambiar la contraseña
+    function update_pass() {
+        $jsondata = array();
+        $pass = json_decode($_POST['passw'], true);
+        $arrArgument = array(
+            'column' => array('token'),
+            'like' => array($pass['token']),
+            'field' => array('password'),
+            'new' => array(password_hash($pass['password'], PASSWORD_BCRYPT))
+        );
+
+        set_error_handler('ErrorHandler');
+        try {
+            $value = loadModel(MODEL_USERS, "users_model", "update", $arrArgument);
+        } catch (Exception $e) {
+            $value = false;
+        }
+        restore_error_handler();
+
+        if ($value) {
+            $url = amigable('?module=main&function=begin&param=rest', true);
+            $jsondata["success"] = true;
+            $jsondata["redirect"] = $url;
+            echo json_encode($jsondata);
+            exit;
+        } else {
+            $url = amigable('?module=main&function=begin&param=503', true);
+            $jsondata["success"] = true;
+            $jsondata["redirect"] = $url;
+            echo json_encode($jsondata);
+            exit;
+        }
+    }
+    ///end restore password/////
 /*
  *  LOGIN
  */

@@ -1,11 +1,12 @@
 RewriteEngine on
-RewriteBase /Strongertogether/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)$ /Strongertogether/index.php?module=$1&function=$2&param=$3&param2=$4 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-Rewriterule ^(.*)/(.*)/(.*)$ index.php?module=$1&function=$2&aux=$3 [L,NC]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)$ /Strongertogether/index.php?module=$1&function=$2&param=$3 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-Rewriterule ^(.*)/(.*)$ index.php?module=$1&function=$2 [L,NC]
+Rewriterule ^([^/]*)/([^/]*)$ /Strongertogether/index.php?module=$1&function=$2 [L,NC]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-Rewriterule ^(.*)/$ index.php?module=$1 [L,NC]
+Rewriterule ^([^/]*)$ /Strongertogether/index.php?module=$1 [L,NC]

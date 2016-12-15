@@ -19,7 +19,7 @@ class users_bll {
     }
 
   public function update_BLL($arrArgument) {
-    return $this->dao->update_DAO($this->db, $arrArgument);
+    return $this->dao->update_user_DAO($this->db, $arrArgument);
     }
 
   public function obtain_paises_BLL($url) {

@@ -7,7 +7,7 @@
       <input id="inputPass" type="password" placeholder="password"/>
       <input class="button" type="button" name="submitLog" id="submitLog"  value="Login" />
       <p class="message">Not registered? <a href="<?php amigable('?module=users&function=signup'); ?>">Create an account</a></p>
-      <p class="message">Forgot your password? <a href="#" >Click Here!</a></p><br>
+      <p class="message">Forgot your password? <a href="<?php amigable('?module=users&function=restorepass'); ?>" >Click Here!</a></p><br>
     </form>
   </div>
 </div>

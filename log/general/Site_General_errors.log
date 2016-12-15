@@ -1896,3 +1896,1095 @@ Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/c
 15/12/16 04:50:01 PM | ERROR: [8] Undefined variable: path
 Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
  | contact | response 200
+15/12/16 04:58:11 PM | error loadView general | view | response 400
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: inputName
+Notice on line 51 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:00:24 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 55 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:00:29 PM | error loadView general | view | response 400
+15/12/16 05:00:29 PM | error loadView general | view | response 400
+15/12/16 05:00:41 PM | error loadView general | view | response 400
+15/12/16 05:00:41 PM | error loadView general | view | response 400
+15/12/16 05:02:46 PM | error loadView general | view | response 400
+15/12/16 05:02:46 PM | error loadView general | view | response 400
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: inputName
+Notice on line 50 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:02:57 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 54 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:02:58 PM | error loadView general | view | response 400
+15/12/16 05:02:58 PM | error loadView general | view | response 400
+15/12/16 05:02:58 PM | error loadView general | view | response 400
+15/12/16 05:07:42 PM | error loadView general | view | response 400
+15/12/16 05:07:42 PM | error loadView general | view | response 400
+15/12/16 05:07:42 PM | error loadView general | view | response 400
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: inputName
+Notice on line 50 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:08:25 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 54 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:08:26 PM | error loadView general | view | response 400
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:15 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:24:19 PM | error loadView general | view | response 400
+15/12/16 05:24:19 PM | error loadView general | view | response 400
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: inputName
+Notice on line 94 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:33:19 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 98 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:33:20 PM | error loadView general | view | response 400
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: inputName
+Notice on line 94 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:35:30 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 98 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: inputName
+Notice on line 94 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:35:44 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 98 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:35:46 PM | error loadView general | view | response 400
+15/12/16 05:35:46 PM | error loadView general | view | response 400
+15/12/16 05:35:54 PM | error loadView general | view | response 400
+15/12/16 05:35:54 PM | error loadView general | view | response 400
+15/12/16 05:36:05 PM | error loadView general | view | response 400
+15/12/16 05:36:05 PM | error loadView general | view | response 400
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: inputName
+Notice on line 94 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:37:12 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 98 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:37:26 PM | error loadView general | view | response 400
+15/12/16 05:37:27 PM | error loadView general | view | response 400
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: inputName
+Notice on line 94 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:38:11 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 98 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:39:06 PM | error loadView general | view | response 400
+15/12/16 05:39:06 PM | error loadView general | view | response 400
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:32 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:39:47 PM | error loadView general | view | response 400
+15/12/16 05:39:47 PM | error loadView general | view | response 400
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:10 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:19 PM | error loadView general | view | response 400
+15/12/16 05:40:20 PM | error loadView general | view | response 400
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:40:39 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:25 PM | error loadView general | view | response 400
+15/12/16 05:42:25 PM | error loadView general | view | response 400
+15/12/16 05:42:36 PM | error loadView general | view | response 400
+15/12/16 05:42:37 PM | error loadView general | view | response 400
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:42:46 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 99 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:44:12 PM | error loadView general | view | response 400
+15/12/16 05:44:12 PM | error loadView general | view | response 400
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:31 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:44:32 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:44:32 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:44:32 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:44:32 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:44:32 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 99 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:44:52 PM | error loadView general | view | response 400
+15/12/16 05:44:52 PM | error loadView general | view | response 400
+15/12/16 05:45:07 PM | error loadView general | view | response 400
+15/12/16 05:45:07 PM | error loadView general | view | response 400
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:45:16 PM | ERROR: [8] Undefined index: inputEmail
+Notice on line 99 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:46:54 PM | error loadView general | view | response 400
+15/12/16 05:46:55 PM | error loadView general | view | response 400
+15/12/16 05:47:04 PM | error loadView general | view | response 400
+15/12/16 05:47:04 PM | error loadView general | view | response 400
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:47:20 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:47:29 PM | error loadView general | view | response 400
+15/12/16 05:47:29 PM | error loadView general | view | response 400
+15/12/16 05:47:41 PM | error loadView general | view | response 400
+15/12/16 05:47:42 PM | error loadView general | view | response 400
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 05:48:07 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 05:48:08 PM | error loadView general | view | response 400
+15/12/16 05:48:08 PM | error loadView general | view | response 400
+15/12/16 05:48:09 PM | error loadView general | view | response 400
+15/12/16 05:48:27 PM | error loadView general | view | response 400
+15/12/16 05:48:27 PM | error loadView general | view | response 400
+15/12/16 05:48:29 PM | error loadView general | view | response 400
+15/12/16 05:48:29 PM | error loadView general | view | response 400
+15/12/16 05:55:02 PM | error loadView general | view | response 400
+15/12/16 06:02:51 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:02:51 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:05:22 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:05:22 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:06:50 PM | error loadView general | users | response 400
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:34:36 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 06:34:37 PM | error loadView general | view | response 400
+15/12/16 06:34:49 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:34:49 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:08 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:08 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:19 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:19 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:22 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:22 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:54 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:37:54 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:03 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:03 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:06 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:06 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:16 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:16 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:36 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:36 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:41 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:38:41 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:39:20 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:39:20 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 06:39:21 PM | error loadView general | view | response 400
+15/12/16 06:39:26 PM | error loadView general | view | response 400
+15/12/16 06:49:42 PM | error loadView general | user | response 400
+15/12/16 06:49:45 PM | error loadView general | view | response 400
+15/12/16 06:49:52 PM | error loadView general | view | response 400
+15/12/16 06:49:52 PM | error loadView general | view | response 400
+15/12/16 06:54:44 PM | error loadView general | user | response 400
+15/12/16 06:54:48 PM | error loadView general | view | response 400
+15/12/16 06:56:06 PM | error loadView general | view | response 400
+15/12/16 06:56:35 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:56:35 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:56:35 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:56:35 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 06:56:39 PM | error loadView general | view | response 400
+15/12/16 06:57:10 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:57:10 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:57:10 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 06:57:10 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 06:57:14 PM | error loadView general | view | response 400
+15/12/16 07:02:57 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:02:57 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:02:57 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:02:57 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 07:03:01 PM | error loadView general | view | response 400
+15/12/16 07:06:06 PM | error loadView general | view | response 400
+15/12/16 07:06:08 PM | error loadView general | view | response 400
+15/12/16 07:06:12 PM | error loadView general | view | response 400
+15/12/16 07:08:03 PM | error loadView general | view | response 400
+15/12/16 07:08:08 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:08:08 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:08:08 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:08:08 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 07:08:12 PM | error loadView general | view | response 400
+15/12/16 07:08:22 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 07:08:22 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 07:09:14 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 07:09:14 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+15/12/16 07:09:32 PM | error loadView general | view | response 400
+15/12/16 07:09:41 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:09:41 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:09:41 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:09:41 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 07:09:45 PM | error loadView general | view | response 400
+15/12/16 07:10:07 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:10:07 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:10:07 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+15/12/16 07:10:07 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+15/12/16 07:10:12 PM | error loadView general | view | response 400
+15/12/16 07:10:13 PM | error loadView general | view | response 400
+15/12/16 07:10:13 PM | error loadView general | view | response 400

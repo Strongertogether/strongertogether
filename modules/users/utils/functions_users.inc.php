@@ -61,7 +61,7 @@ function validatemail($email) {
     return false;
 }
 
-function sendtoken($arrArgument, $type) {
+function sendtoken($arrArgument,$type) {
     $mail = array(
         'type' => $type,
         'token' => $arrArgument['token'],

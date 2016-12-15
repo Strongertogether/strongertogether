@@ -68,7 +68,7 @@ class users_dao {
     $sql= "INSERT INTO users (name, surname, id_document, phone, "
     . "email, password, repeat_password,token,tipo,activado, internet, art, technology, literature, "
     . "music, other, male, female, undefined, date_birthday, pais, provincia, poblacion, avatar) "
-    . "VALUES ('$name', '$surname', '$id_document', '$phone', '$email', '$password', '$repeat_password','$token','$activado','$tipo', '$internet', '$art', '$technology', '$literature', "
+    . "VALUES ('$name', '$surname', '$id_document', '$phone', '$email', '$password', '$repeat_password','$token','$tipo','$activado','$internet', '$art', '$technology', '$literature', "
     . "'$music', '$other', '$male', '$female', '$undefined', '$date_birthday', '$pais', '$provincia', '$poblacion', '$avatar')";
     return $db->ejecutar($sql);
     //return $sql;

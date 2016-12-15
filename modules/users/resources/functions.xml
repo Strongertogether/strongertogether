@@ -61,6 +61,26 @@
   </function>
 
   <function>
+      <name>restorepass</name>
+      <uri>restorepass</uri>
+  </function>
+
+<function>
+    <name>process_restore</name>
+    <uri>process_restore</uri>
+</function>
+
+<function>
+    <name>newpass</name>
+    <uri>newpass</uri>
+</function>
+
+<function>
+    <name>update_pass</name>
+    <uri>update_pass</uri>
+</function>
+
+  <function>
       <name>signup_user</name>
       <uri>signup_user</uri>
   </function>
