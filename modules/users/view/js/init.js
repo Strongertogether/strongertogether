@@ -20,12 +20,12 @@ $(document).ready(function () {
     if (user) {
         //console.log(user); //yomogan|https://projects-alumnes-yomogan.c9users.io/proj_final_login/JoinElderly//media/flowers.png|client|yomogan
         user = user.split("|");
-        $("#LogProf").html("<a href=" + amigable('?module=user&function=profile') + "><img id='menuImg' class='icon rounded' src='" + user[1] + "'/>" + user[3] + "</a>");
+        $("#LogProf").html("<a href=" + amigable2('?module=user&function=profile') + "><img id='menuImg' class='icon rounded' src='" + user[1] + "'/>" + user[3] + "</a>");
         $("#LogProf").after("<li><a id='logout' href='#' >Log Out</a></li>");
         if ( (user[2] === "worker") || (user[2] === "client")  ) {
-            $("#LogProf").before("<li><a href=" + amigable('?module=ofertas') + ">Mis ofertas</a></li>")
+            $("#LogProf").before("<li><a href=" + amigable2('?module=ofertas') + ">Mis ofertas</a></li>")
         } else if (user[2] === "admin") {
-            $("#LogProf").before("<li><a href=" + amigable('?module=admin') + ">Administrar</a></li>")
+            $("#LogProf").before("<li><a href=" + amigable2('?module=admin') + ">Administrar</a></li>")
         }
         $("head").append("<script src='https://projects-alumnes-yomogan.c9users.io/proj_final_login/JoinElderly/modules/user/view/js/logout.js'></script>");
     }

@@ -90,6 +90,7 @@ class controller_users {
 
       $jsondata = array();
       $userJSON = json_decode($_POST['signup_user_json'], true);
+
       $result = validate_userPHP($userJSON);
 
       if ($result['resultado']) {
@@ -110,6 +111,7 @@ class controller_users {
           try {
               //loadModel
                   $arrValue = loadModel(MODEL_USERS, "users_model", "count", array('column' => array('email'), 'like' => array($arrArgument['email'])));
+
                   if ($arrValue[0]['total'] == 1) {
                       $arrValue = false;
                       $typeErr = 'Email';

@@ -19,7 +19,7 @@ function amigable(url) {
         var aux = url[i].split("=");
         link +=  "/"+aux[1];
     }
-    return "http://localhost/Strongertogether" + link;
+    return "https://localhost/Strongertogether" + link;
 }
 
 function amigable2(url) {
@@ -31,5 +31,5 @@ function amigable2(url) {
         var aux = url[i].split("=");
         link +=  "/"+aux[1];
     }
-    return "http://92.222.94.202/Strongertogether" + link;
+    return "https://92.222.94.202/Strongertogether" + link;
 }
