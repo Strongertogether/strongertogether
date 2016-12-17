@@ -136,7 +136,7 @@ class controller_users {
               restore_error_handler();
 
               if ($arrValue) {
-                  sendtoken($arrArgument,"alta");
+                  //sendtoken($arrArgument,"alta");
                   $url = amigable('?module=main&function=begin&param=reg', true);
                   $jsondata["success"] = true;
                   $jsondata["redirect"] = $url;

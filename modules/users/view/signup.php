@@ -1,4 +1,3 @@
-<link href="<?php echo USERS_CSS_PATH ?>login.css" rel="stylesheet">
 <script src="<?php echo USERS_JS_PATH . "signup.js" ?>"></script>
 <div class="login-page">
   <div class="form">

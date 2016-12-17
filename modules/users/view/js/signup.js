@@ -58,8 +58,7 @@ function validate_user() {
         var data_users_JSON = JSON.stringify(data);
         $.post(amigable2("?module=users&function=signup_user"), {signup_user_json: data_users_JSON},
         function (response) {
-            //console.log(response);
-            //exit;
+            console.log(response);
             if (response.success) {
               console.log("sign up correcto");
                 window.location.href = response.redirect;
