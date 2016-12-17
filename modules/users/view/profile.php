@@ -1,5 +1,4 @@
 <!--- Lateral Izquierdo --->
-<link href="<?php echo USERS_CSS_PATH ?>profile.css" rel="stylesheet">
 <div class="container">
 
     <form class="well form-horizontal" action=" " method="post"  id="profile_form">

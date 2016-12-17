@@ -43,14 +43,12 @@ function login() {
 
     var login_JSON = JSON.stringify(data);
     if (value){
-      //console.log(value);
-      //exit;
         $.post(amigable2("?module=users&function=login"), {login_json: login_JSON},
         function (response) {
             console.log(response);
             if (!response.error) {
                 //create session cookies
-                Tools.createCookie("user", response[0]['usuario'] + "|" + response[0]['avatar'] + "|" + response[0]['tipo'] + "|" + response[0]['nombre'], 1);
+                Tools.createCookie("user", response[0]['email'] + "|" + response[0]['avatar'] + "|" + response[0]['tipo'] + "|" + response[0]['name'], 1);
                 window.location.href = amigable2('?module=main&function=begin');
             } else {
                 if (response.datos == 503)

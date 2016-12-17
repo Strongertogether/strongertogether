@@ -12,6 +12,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="<?php echo JS_PATH ?>cookies.js"></script>
 <script src="<?php echo JS_PATH ?>jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo JS_PATH ?>main.js"></script>
+<link href="<?php echo USERS_CSS_PATH?>main.css" rel="stylesheet">
 <!--JS for animate-->
 	<link href="<?php echo CSS_PATH ?>animate.css" rel="stylesheet" type="text/css" media="all">
 	<script src="<?php echo JS_PATH ?>wow.min.js"></script>
@@ -29,7 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 
-
+<script type="text/javascript" src="<?php echo USERS_JS_PATH ?>init.js"></script>
 	<!--//end-animate-->
 </head>
 <body>

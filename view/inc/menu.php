@@ -18,4 +18,5 @@
       });
     });
   </script>
+  <div id="alertbanner"></div>
 <!--script-for-menu-->
