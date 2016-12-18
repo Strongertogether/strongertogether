@@ -1082,3 +1082,25 @@ Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
 18/12/16 01:11:45 AM | ERROR: [8] Undefined variable: fields
 Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
  |  | response 200
+18/12/16 03:20:41 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+18/12/16 03:20:41 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+18/12/16 03:20:46 PM | error loadView general | view | response 400
+18/12/16 03:23:15 PM | error loadView general | view | response 400
+18/12/16 03:23:15 PM | error loadView general | view | response 400
+18/12/16 03:23:58 PM | error loadView general | view | response 400
+18/12/16 03:23:58 PM | error loadView general | view | response 400
+18/12/16 03:24:00 PM | error loadView general | view | response 400
+18/12/16 03:24:03 PM | error loadView general | view | response 400
+18/12/16 03:24:03 PM | error loadView general | view | response 400
+18/12/16 03:24:04 PM | error loadView general | view | response 400
+18/12/16 03:26:06 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+18/12/16 03:26:06 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+18/12/16 03:26:08 PM | error loadView general | view | response 400

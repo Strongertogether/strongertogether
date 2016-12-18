@@ -36,10 +36,9 @@ $(document).ready(function () {
   var registro = "<a href='#alertbanner' class='alertbanner'>Se le ha enviado un email para verificar su cuenta</div>";
   var password = "<a href='#alertbanner' class='alertbanner'>Se ha cambiado satisfactoriamente su contraseña</div>";
   var email_verificado = "<a href='#alertbanner' class='alertbanner'>Su email ha sido verificado, disfrute de nuestros servicios</div>";
+
   var problema_db = "<a href='#alertbanner' class='alertbanner alertbannerErr'>Hay un problema en la base de datos, inténtelo más tarde</div>";
   var update_profile = "<a href='#alertbanner' class='alertbanner'>Usuario correctamente actualizado</div>";
-
-
   //depenent de la sintaxis de la URL enviarem un missatge al alert banner o un altre
   if (url[4] === "main") {
     if (url[5] === "begin"){
@@ -52,26 +51,7 @@ $(document).ready(function () {
       $("#alertbanner").html(password);
     }
   }
-
-
-
-
-  /*
-  if (url[6] === "activar" && url[7].substring(0, 3) == "Ver"){
-  $("#alertbanner").html("<a href='#alertbanner' class='alertbanner'>Su email ha sido verificado, disfrute de nuestros servicios</div>");
-}else if(url[7]==="503"){
-$("#alertbanner").html("<a href='#alertbanner' class='alertbanner alertbannerErr'>Hay un problema en la base de datos, inténtelo más tarde</div>");
-}else if (url[6] === "begin") {
-if (url[7] === "reg"){
-$("#alertbanner").html("<a href='#alertbanner' class='alertbanner'>Se le ha enviado un email para verificar su cuenta</div>");
-}else if (url[7] === "rest"){
-$("#alertbanner").html("<a href='#alertbanner' class='alertbanner'>Se ha cambiado satisfactoriamente su contraseña</div>");
+  if (url[4] === "users" && url[5] === "verify"){
+  $("#alertbanner").html(email_verificado);
 }
-} else if (url[6] === "profile"){
-if (url[7] === "done")
-$("#alertbanner").html("<a href='#alertbanner' class='alertbanner'>Usuario correctamente actualizado</div>");
-}
-*/
-
-
 });
