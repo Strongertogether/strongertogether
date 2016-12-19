@@ -6,8 +6,7 @@
       <li><a href="<?php amigable('?module=specialists&function=list_specialists'); ?>">Specialists</a></li>
       <li><a href="<?php amigable('?module=hospital&function=load_map'); ?>">Hospitals</a></li>
       <li><a href="<?php amigable('?module=contact&function=loadcontact'); ?>">Contact</a></li>
-      <li><a href="<?php amigable('?module=users&function=profile'); ?>">Profile</a></li>
-      <li><a href="<?php amigable('?module=users&function=modal'); ?>">Log In</a></li>
+      <li id="LogProf"><a href="<?php amigable('?module=users&function=modal'); ?>">Log In</a></li>
     </ul>
 </div>
 <!--navigation-end-->

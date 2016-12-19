@@ -107,7 +107,7 @@ class users_dao {
   public function obtain_provincias_DAO() {
     $json = array();
     $tmp = array();
-    $provincias = simplexml_load_file($_SERVER['DOCUMENT_ROOT'] . "/workspace/resources/provinciasypoblaciones.xml");
+    $provincias = simplexml_load_file(RESOURCES. "provinciasypoblaciones.xml");
     $result = $provincias->xpath("/lista/provincia/nombre | /lista/provincia/@id");
     for ($i=0; $i<count($result); $i+=2) {
       $e=$i+1;
@@ -119,20 +119,22 @@ class users_dao {
     }
     return $json;
   }
-  public function obtain_poblaciones_DAO($arrArgument) {
-    $json = array();
-    $tmp = array();
-    $filter = (string)$arrArgument;
-    $xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'] . '/workspace/resources/provinciasypoblaciones.xml');
-    $result = $xml->xpath("/lista/provincia[@id='$filter']/localidades");
-    for ($i=0; $i<count($result[0]); $i++) {
-      $tmp = array(
-        'poblacion' => (string) $result[0]->localidad[$i]
-      );
-      array_push($json, $tmp);
+
+  public function obtain_poblaciones_DAO($arrArgument){
+        $json = array();
+        $tmp = array();
+        $filter = (string) $arrArgument;
+        $xml = simplexml_load_file(RESOURCES . 'provinciasypoblaciones.xml');
+        $result = $xml->xpath("/lista/provincia[@id='$filter']/localidades");
+        for ($i = 0; $i < count($result[0]); ++$i) {
+            $tmp = array(
+             'poblacion' => (string) $result[0]->localidad[$i],
+           );
+            array_push($json, $tmp);
+        }
+        return $json;
     }
-    return $json;
-  }
+
   /*
   *  LOGIN
   */

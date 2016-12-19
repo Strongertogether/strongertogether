@@ -1,6 +1,8 @@
 <!--- Lateral Izquierdo --->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.js"></script>
+<script src="<?php echo USERS_JS_PATH . "profile.js" ?>"></script>
 <div class="container">
-
     <form class="well form-horizontal" action=" " method="post"  id="profile_form">
 <fieldset>
 
@@ -8,6 +10,7 @@
 <legend>Profile</legend>
 
 <!-- Text input-->
+<h3 class="form-profile-heading" id="username">UserName</h3>
 <div class="user-avatar">
   <img id="avatar" src="" />
  <span id="e_avatar" class="styerror"></span>
@@ -18,52 +21,63 @@
  <div class="msg"></div>
  <br/>
  <div id="dropzone" class="dropzone"></div>
-</div>
-<h1 class="form-profile-heading" id="username">Username</h1>
+</div><br><br>
 
-
+<!-- name-->
 <div class="form-group">
-  <label class="col-md-4 control-label">First Name</label>
+  <label class="col-md-4 control-label">Name</label>
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+  <input  id="name" name="name" placeholder="Name" class="form-control"  type="text">
     </div>
   </div>
 </div>
 
-<!-- Text input-->
+<!-- surname-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label" >Last Name</label>
+  <label class="col-md-4 control-label" >Surname</label>
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+  <input id="surname" name="surname" placeholder="Surname" class="form-control"  type="text">
     </div>
   </div>
 </div>
 
-<!-- Text input-->
-       <div class="form-group">
-  <label class="col-md-4 control-label">E-Mail</label>
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-
-<!-- Text input-->
+<!-- password-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label">Phone #</label>
+  <label class="col-md-4 control-label" >Password</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+  <input id="password" name="pass" placeholder="password" class="form-control"  type="password">
+    </div>
+  </div>
+</div>
+
+<!-- repeat password
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Repeat Password</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+  <input id="repeat_password" placeholder="repeat password" class="form-control"  type="password">
+    </div>
+  </div>
+</div>
+-->
+<!-- telefono-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Phone </label>
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+  <input id="phone" name="phone" placeholder="Number Phone" class="form-control" type="text">
     </div>
   </div>
 </div>
@@ -71,149 +85,129 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-4 control-label">Address</label>
+  <label class="col-md-4 control-label">Date Birthday</label>
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="address" placeholder="Address" class="form-control" type="text">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+  <input id="date_birthday" name="date_birthday" placeholder="Date Birthday" class="form-control"  type="text">
     </div>
   </div>
 </div>
 
-<!-- Text input-->
+<!-- Poblacion -->
 
 <div class="form-group">
   <label class="col-md-4 control-label">City</label>
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="city" placeholder="city" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Select Basic -->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">State</label>
     <div class="col-md-4 selectContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-    <select name="state" class="form-control selectpicker" >
-      <option value=" " >Please select your state</option>
-      <option>Alabama</option>
-      <option>Alaska</option>
-      <option >Arizona</option>
-      <option >Arkansas</option>
-      <option >California</option>
-      <option >Colorado</option>
-      <option >Connecticut</option>
-      <option >Delaware</option>
-      <option >District of Columbia</option>
-      <option> Florida</option>
-      <option >Georgia</option>
-      <option >Hawaii</option>
-      <option >daho</option>
-      <option >Illinois</option>
-      <option >Indiana</option>
-      <option >Iowa</option>
-      <option> Kansas</option>
-      <option >Kentucky</option>
-      <option >Louisiana</option>
-      <option>Maine</option>
-      <option >Maryland</option>
-      <option> Mass</option>
-      <option >Michigan</option>
-      <option >Minnesota</option>
-      <option>Mississippi</option>
-      <option>Missouri</option>
-      <option>Montana</option>
-      <option>Nebraska</option>
-      <option>Nevada</option>
-      <option>New Hampshire</option>
-      <option>New Jersey</option>
-      <option>New Mexico</option>
-      <option>New York</option>
-      <option>North Carolina</option>
-      <option>North Dakota</option>
-      <option>Ohio</option>
-      <option>Oklahoma</option>
-      <option>Oregon</option>
-      <option>Pennsylvania</option>
-      <option>Rhode Island</option>
-      <option>South Carolina</option>
-      <option>South Dakota</option>
-      <option>Tennessee</option>
-      <option>Texas</option>
-      <option> Uttah</option>
-      <option>Vermont</option>
-      <option>Virginia</option>
-      <option >Washington</option>
-      <option >West Virginia</option>
-      <option>Wisconsin</option>
-      <option >Wyoming</option>
+    <select id="poblacion" name="poblacion" class="form-control selectpicker" >
     </select>
   </div>
 </div>
 </div>
 
-<!-- Text input-->
+<!-- provincia -->
 
 <div class="form-group">
-  <label class="col-md-4 control-label">Zip Code</label>
-    <div class="col-md-4 inputGroupContainer">
+  <label class="col-md-4 control-label">Province</label>
+    <div class="col-md-4 selectContainer">
     <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
-    </div>
-</div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label">Website or domain name</label>
-   <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
-  <input name="website" placeholder="Website or domain name" class="form-control" type="text">
-    </div>
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select id="provincia" name="provincia" class="form-control selectpicker" >
+    </select>
   </div>
 </div>
+</div>
 
-<!-- radio checks -->
+<!-- PAIS -->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Country</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select id="pais" name="pais" class="form-control selectpicker" >
+    </select>
+  </div>
+</div>
+</div>
+
+<!-- DNI -->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">ID Document</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+  <input id="id_document" name="id_document" placeholder="ID Document(DNI)" class="form-control"  type="text">
+    </div>
+</div>
+</div>
+<!-- Intereses-->
+<div class="form-group">
+                       <label class="col-md-4 control-label">Interests:</label>
+                       <div class="col-md-4">
+                           <div class="radio">
+                               <label>
+                                   <input type="checkbox" id="internet" name="interests[]" class="messageCheckbox" value="internet">Internet</input>
+                               </label>
+                           </div>
+                           <div class="radio">
+                               <label>
+                                   <input type="checkbox" id="art" name="interests[]" class="messageCheckbox" value="art">Art</input>
+                               </label>
+                           </div>
+                           <div class="radio">
+                               <label>
+                                   <input type="checkbox" id="technology" name="interests[]" class="messageCheckbox" value="technology">Technology</input>
+                               </label>
+                           </div>
+                           <div class="radio">
+                               <label>
+                                   <input type="checkbox" id="literature" name="interests[]" class="messageCheckbox" value="literature">Literature</input>
+                               </label>
+                           </div>
+                           <div class="radio">
+                               <label>
+                                   <input type="checkbox" id="music" name="interests[]" class="messageCheckbox" value="music">Music</input>
+                               </label>
+                           </div>
+                           <div class="radio">
+                               <label>
+                                   <input type="checkbox" id="other" name="interests[]" class="messageCheckbox" value="other">Other</input>
+                               </label>
+                           </div>
+                       </div>
+                   </div>
+
+<!-- sexo -->
  <div class="form-group">
-                        <label class="col-md-4 control-label">Do you have hosting?</label>
+                        <label class="col-md-4 control-label">Gender</label>
                         <div class="col-md-4">
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" value="yes" /> Yes
+                                    <input type="radio" id="male" name="gender" value="male" class="messageRadio"/> Male
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" value="no" /> No
+                                    <input type="radio" id="female" name="gender" value="female" class="messageRadio"/> Female
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" id="undefined" name="gender" value="undefined" class="messageRadio"/> Other
                                 </label>
                             </div>
                         </div>
                     </div>
 
-<!-- Text area -->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">Project Description</label>
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-        	<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
-  </div>
-  </div>
-</div>
-
 <!-- Button -->
 <div class="form-group">
   <label class="col-md-4 control-label"></label>
   <div class="col-md-4">
-    <button type="submit" class="btn btn-warning" >Save Profile <span class="glyphicon glyphicon-send"></span></button>
+    <button id="SubmitUser" type="submit" class="btn btn-warning" >Save Profile <span class="glyphicon glyphicon-floppy-disk"></span></button>
   </div>
 </div>
 

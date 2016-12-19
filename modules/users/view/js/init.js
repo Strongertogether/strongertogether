@@ -6,24 +6,24 @@ $(document).ready(function () {
     user = user.split("|");
     console.log(user);
 
-    $("#LogProf").html("<a href=" + amigable2('?module=users&function=profile') + "><img id='menuImg' class='icon rounded' src='" + user[1] + "'/>" + user[3] + "</a>");
+    $("#LogProf").html("<a href=" + amigable('?module=users&function=profile') + "><img id='menuImg' src='" + user[1] + "'/>" + user[0] + "</a>");
     $("#LogProf").after("<li><a id='logout' href='#' >Log Out</a></li>");
 
     //Envie els usuaris de tipo worker o client a la vista main
 
     if ( (user[2] === "worker") || (user[2] === "client")  ) {
       console.log(user[2] + " going to main module");
-      $("#LogProf").before("<li><a href=" + amigable2('?module=main') + ">Mis ofertas</a></li>")
+      $("#LogProf").before("<li><a href=" + amigable('?module=main') + ">Mis Hospitales</a></li>")
 
     //Envie els usuaris de tipo admin a la vista main
 
     } else if (user[2] === "admin") {
       console.log(user[2] + " going to main module");
-      $("#LogProf").before("<li><a href=" + amigable2('?module=main') + ">Administrar</a></li>")
+      $("#LogProf").before("<li><a href=" + amigable('?module=main') + ">Administrar</a></li>")
     }
 
-    //No se exactament on esta $("head"), per a fer funcionar el logout
-    $("head").append("https://92.222.94.202/var/www/html/Strongertogether/modules/users/view/js/logout.js");
+    //$("head").append("https://92.222.94.202/var/www/html/Strongertogether/modules/users/view/js/logout.js");
+    //$("head").append("http://localhost/Strongertogether/modules/users/view/js/logout.js");
   }
 
   var url = window.location.href;
@@ -46,9 +46,9 @@ $(document).ready(function () {
         $("#alertbanner").html(registro);
       }else{
         $("#alertbanner").html(login);
+      }else if (url[6] === "rest"){
+        $("#alertbanner").html(password);
       }
-    }else if (url[6] === "rest"){
-      $("#alertbanner").html(password);
     }
   }
   if (url[4] === "users" && url[5] === "verify"){

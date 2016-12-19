@@ -1,6 +1,6 @@
 $(document).ready(start);
 function start() {
-    $.post(amigable2("?module=hospital&function=maploader"), {value: {send: true}},
+    $.post(amigable("?module=hospital&function=maploader"), {value: {send: true}},
     function (response) {
         console.log(response);
         if (response.success) {
@@ -13,7 +13,7 @@ function start() {
             }
         } else {
             if (response.error == 503)
-                window.location.href = amigable2("?module=main&fn=begin&param=503");
+                window.location.href = amigable("?module=main&fn=begin&param=503");
         }
     }, "json").fail(function (xhr, textStatus, errorThrown) {
         console.log(xhr.responseText);
@@ -106,7 +106,7 @@ function cargarmap(arrArguments) {
     navigator.geolocation.getCurrentPosition(showPosition, showError);
 
     function showPosition(position){
-      console.log("hola");
+      //console.log("hola");
         var lat = position.coords.latitude;
         var lon = position.coords.longitude;
         var latlon = new google.maps.LatLng(lat, lon);
