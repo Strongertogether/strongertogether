@@ -35,9 +35,10 @@ function changepass() {
         var token = window.location.href;
         token = token.split("/");
 
-        var data = {"password": password, "token": token[7]};
+        var data = {"password": password, "token": token[6]};
+        //console.log(data);
         var change_JSON = JSON.stringify(data);
-            $.post(amigable("?module=users&function=update_pass"), {passw: change_JSON},
+            $.post(amigable("?module=users&function=update_pass"), {passw:change_JSON},
             function (response) {
                 if (response.success) {
                     window.location.href = response.redirect;

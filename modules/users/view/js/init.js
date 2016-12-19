@@ -44,10 +44,12 @@ $(document).ready(function () {
     if (url[5] === "begin"){
       if (url[6] === "reg"){
         $("#alertbanner").html(registro);
-      }else{
-        $("#alertbanner").html(login);
       }else if (url[6] === "rest"){
         $("#alertbanner").html(password);
+      }else if(url[6] == "done"){
+        $("#alertbanner").html(update_profile);
+      }else{
+        $("#alertbanner").html(login);
       }
     }
   }

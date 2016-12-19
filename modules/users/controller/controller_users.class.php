@@ -224,7 +224,8 @@ class controller_users {
                 );
                 $arrValue = loadModel(MODEL_USERS, "users_model", "count", $arrArgument);
                 if ($arrValue[0]['total'] == 1) {
-                    $arrValue = true;//loadModel(MODEL_USERS, "users_model", "update", $arrArgument);
+                  set_error_handler('ErrorHandler');
+                    $arrValue = loadModel(MODEL_USERS, "users_model", "update", $arrArgument);
                     if ($arrValue) {
                         //////////////// Envio del correo al usuario
                         $arrArgument = array(
@@ -262,8 +263,6 @@ class controller_users {
             $value = false;
         }
         restore_error_handler();
-        console.log($value);
-        exit;
         if ($value) {
             $url = amigable('?module=main&function=begin&param=rest', true);
             $jsondata["success"] = true;
