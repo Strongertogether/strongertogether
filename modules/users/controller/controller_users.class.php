@@ -320,7 +320,7 @@ function modify() {
       $userJSON = json_decode($_POST['mod_user_json'], true);
       //$userJSON['repeat_password'] = $userJSON['password'];
 
-      $result = validate_userPHP($userJSON);
+      $result = validate_user($userJSON);
       if ($result['resultado']) {
           $arrArgument = array(
             'name' => ucfirst($result['datos']['name']),
@@ -329,15 +329,16 @@ function modify() {
             'phone' => $result['datos']['phone'],
             'email' => $result['datos']['email'],
             'password' => password_hash($result['datos']['password'], PASSWORD_BCRYPT),
+            'repeat_password' => password_hash($result['datos']['repeat_password'], PASSWORD_BCRYPT),
             'interests' => $result['datos']['interests'],
             'gender' => $result['datos']['gender'],
             'date_birthday' => $result['datos']['date_birthday'],
             'pais' => $result['datos']['pais'],
             'provincia' => $result['datos']['provincia'],
             'poblacion' => $result['datos']['poblacion'],
-            'avatar' => $_SESSION['avatar']['datos'],
-
+            'avatar' => $_SESSION['avatar']['datos']
           );
+
           $arrayDatos = array(
               column => array(
                   'email'

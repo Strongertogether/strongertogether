@@ -1,22 +1,4 @@
 $(document).ready(function () {
-    $.datepicker.regional['es'] = {
-        closeText: 'Cerrar',
-        prevText: '<Ant',
-        nextText: 'Sig>',
-        currentText: 'Hoy',
-        monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
-        monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
-        dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
-        dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mié', 'Juv', 'Vie', 'Sáb'],
-        dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sá'],
-        weekHeader: 'Sm',
-        dateFormat: 'dd/mm/yy',
-        firstDay: 1,
-        isRTL: false,
-        showMonthAfterYear: false,
-        yearSuffix: ''
-    };
-    $.datepicker.setDefaults($.datepicker.regional['es']);
 
     $("#date_birthday").datepicker({
         maxDate: '0',
@@ -27,38 +9,6 @@ $(document).ready(function () {
 
     $('#SubmitUser').click(function () {
         validate_modify_user();
-    });
-
-    $("#name, #surname, #password ,#repeat_password").keyup(function () {
-        if ($(this).val() !== "") {
-            $(".error").fadeOut();
-            return false;
-        }
-    });
-    $("#name").keyup(function () {
-        if ($(this).val().length >= 2) {
-            $(".error").fadeOut();
-            return false;
-        }
-    });
-    $("#surname").keyup(function () {
-        if ($(this).val().length >= 3) {
-            $(".error").fadeOut();
-            return false;
-        }
-    });
-    $("#password").keyup(function () {
-        if ($(this).val().length >= 6) {
-            $(".error").fadeOut();
-            return false;
-        }
-    });
-
-    $("#repeat_password").keyup(function () {
-        if ($(this).val().length >= 6) {
-            $(".error").fadeOut();
-            return false;
-        }
     });
 
     $("#progress").hide();
@@ -329,8 +279,10 @@ function load_poblaciones_v1(prov, pobl) {
 
 function validate_modify_user() {
     var result = true;
-    var nomreg = /^\D{3,30}$/;
-    var apelreg = /^(\D{3,30})+$/;
+    var name_regex = /^\D{3,30}$/;
+    var dni_regex = /^\d{8}[a-zA-Z]$/;
+    var phone_regex = /^[67][0-9]{8}$/;
+    var password_regex = /^(?=[^A-Z]*[A-Z])(?=[^a-z]*[a-z])(?=[^0-9]*[0-9]).{6,}$/;
     var name = $("#name").val();
     var phone = $("#phone").val();
     var surname = $("#surname").val();
@@ -364,6 +316,76 @@ function validate_modify_user() {
 
     $(".error").remove();
 
+    $(".error").remove();
+    if ($("#name").val() != "") {
+    if (!name_regex.test($("#name").val())) {
+      $("#name").focus().after("<span class='error'> Name must be 4 to 10 letters</span>");
+      result = false;
+      return false;
+    }
+  }
+
+    if ($("#surname").val() != "") {
+    if (!name_regex.test($("#surname").val())) {
+      $("#surname").focus().after("<span class='error'> Name must be 4 to 10 letters</span>");
+      result = false;
+      return false;
+    }
+  }
+
+
+    else if ($("#id_document").val() != "") {
+    if(!dni_regex.test($("#id_document").val())){
+      $("#id_document").focus().after("<span class='error'> Introduce correctly the ID Document</span>");
+      result = false;
+      return false;
+    }else{
+      var numero
+      var letr
+      var letra
+      numero = id_document.substr(0,id_document.length-1);
+      letr = id_document.substr(id_document.length-1,1);
+      numero = numero % 23;
+      letra='TRWAGMYFPDXBNJZSQVHLCKET';
+      letra=letra.substring(numero,numero+1);
+      if (letra!=letr.toUpperCase()) {
+        $("#id_document").focus().after("<span class='error'> Incorrect word</span>");
+        result = false;
+        return false;
+      }
+    }
+  }
+
+    if ($("#phone").val() != "") {
+    if (!phone_regex.test($("#phone").val())) {
+      $("#phone").focus().after("<span class='error'>Introduce a valid phone number</span>");
+      result = false;
+      return false;
+    }
+  }
+
+    else if ($("#password").val() != "") {
+    if (!password_regex.test($("#password").val())) {
+      $("#password").focus().after("<span class='error'>At least 1 upper and lower case and one number</span>");
+      result = false;
+      return false;
+    }
+  }
+
+    else if ($("#repeat_password").val() != "") {
+    if (!password_regex.test($("#repeat_password").val())) {
+      $("#repeat_password").focus().after("<span class='error'>At least 1 upper and lower case and one number</span>");
+      result = false;
+      return false;
+    }
+  }
+    else if($("#password").val() != $("#repeat_password").val()){
+      $("#repeat_password").focus().after("<span class='error'>Passwords are not equal</span>");
+      result = false;
+      return false;
+    }
+
+
     if (result) {
         if (provincia == null) {
             provincia = '';
@@ -383,19 +405,21 @@ function validate_modify_user() {
 
             var data = {"name": name, "surname": surname, "id_document": id_document,
             "phone": phone, "email": $("#username").text(), "password": password,
-            repeat_password: "repeat_password", "interests": interests, "gender": gender,
+            "repeat_password": repeat_password, "interests": interests, "gender": gender,
             "date_birthday": date_birthday, "pais": pais, "provincia": provincia, "poblacion": poblacion};
 
         var data_users_JSON = JSON.stringify(data);
-        alert(data_users_JSON);
+        //alert(data_users_JSON);
         $.post(amigable('?module=users&function=modify'), {mod_user_json: data_users_JSON},
         function (response) {
+          console.log(response);
+          alert(response);
             if (response.success) {
                 window.location.href = response.redirect;
             } else {
                 if (response.redirect) {
                     window.location.href = response.redirect;
-                } else
+                }else{
                 if (response["datos"]["name"] !== undefined && response["datos"]["name"] !== null) {
                     $("#name").focus().after("<span class='error'>" + response["datos"]["name"] + "</span>");
                 }
@@ -414,15 +438,7 @@ function validate_modify_user() {
                 if (response["datos"]["id_document"] !== undefined && response["datos"]["id_document"] !== null) {
                     $("#id_document").focus().after("<span class='error'>" + response["datos"]["id_document"] + "</span>");
                 }
-                if (response["datos"]["pais"] !== undefined && response["datos"]["pais"] !== null) {
-                    $("#pais").focus().after("<span class='error'>" + response["datos"]["pais"] + "</span>");
-                }
-                if (response["datos"]["provincia"] !== undefined && response["datos"]["provincia"] !== null) {
-                    $("#provincia").focus().after("<span class='error'>" + response["datos"]["provincia"] + "</span>");
-                }
-                if (response["datos"]["poblacion"] !== undefined && response["datos"]["poblacion"] !== null) {
-                    $("#poblacion").focus().after("<span class='error'>" + response["datos"]["poblacion"] + "</span>");
-                }
+              }
             }
         }, "json").fail(function (xhr, textStatus, errorThrown) {
             if (xhr.responseJSON === undefined || xhr.responseJSON === null)

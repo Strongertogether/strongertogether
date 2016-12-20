@@ -53,23 +53,23 @@
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-  <input id="password" name="pass" placeholder="password" class="form-control"  type="password">
+  <input id="password" name="password" placeholder="password" class="form-control"  type="password">
     </div>
   </div>
 </div>
 
-<!-- repeat password
+<!-- repeat password-->
 
 <div class="form-group">
   <label class="col-md-4 control-label" >Repeat Password</label>
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-  <input id="repeat_password" placeholder="repeat password" class="form-control"  type="password">
+  <input id="repeat_password" name="repeat_password" placeholder="repeat password" class="form-control"  type="password">
     </div>
   </div>
 </div>
--->
+
 <!-- telefono-->
 
 <div class="form-group">
