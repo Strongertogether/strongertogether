@@ -51,6 +51,16 @@
   </function>
 
   <function>
+      <name>modify</name>
+      <uri>modify</uri>
+  </function>
+
+  <function>
+      <name>profile_filler</name>
+      <uri>profile_filler</uri>
+  </function>
+
+  <function>
       <name>signup</name>
       <uri>signup</uri>
   </function>
@@ -94,4 +104,10 @@
       <name>login</name>
       <uri>login</uri>
   </function>
+
+  <function>
+        <name>logout</name>
+        <uri>logout</uri>
+    </function>
+
 </functions>

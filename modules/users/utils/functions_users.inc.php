@@ -27,7 +27,7 @@ function validateUsers($resultado) {
         $result['password'] = 'Password debe tener de 6 a 12 caracteres y las dos contrasenyas deben ser iguales';
         $result['resultado'] = false;
 
-    } else {
+  }else {
         $result['resultado'] = true;
         $result['datos']=$resultado;
     }

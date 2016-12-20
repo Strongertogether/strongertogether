@@ -1,6 +1,14 @@
 /* login */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+#menuImg{
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 50px; height: 50px;
+}
+#LogProf{
+    font-weight: bold;
+}
 
 .login-page {
   width: 360px;
@@ -63,8 +71,12 @@ span.error{
 
 .form-profile-heading {
     font-weight: bold;
-    height: 100px;
-    font-size: 50px;
+    height: 90px;
+    font-size: 40px;
+}
+#username{
+  width: 45%;
+  margin: 0 auto;
 }
 #profile_form{
   background-color: white;
@@ -74,10 +86,11 @@ img#avatar {
     height: 200px;
     border-radius: 80%;
     color: #061C33;
-    position: relative;
 }
 .user-avatar{
   background-color: white;
+  width: 25%;
+  margin: 0 auto;
 }
 
 label.pefil {

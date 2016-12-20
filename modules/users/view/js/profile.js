@@ -18,42 +18,43 @@ $(document).ready(function () {
     };
     $.datepicker.setDefaults($.datepicker.regional['es']);
 
-    $("#inputBirth").datepicker({
+    $("#date_birthday").datepicker({
         maxDate: '0',
         changeMonth: true,
         changeYear: true,
         yearRange: "1930:2020"
     });
 
-    $('#submitBtn_user').click(function () {
+    $('#SubmitUser').click(function () {
         validate_modify_user();
     });
 
-    $("#inputName, #inputSurn, #inputPass, #inputBank").keyup(function () {
+    $("#name, #surname, #password ,#repeat_password").keyup(function () {
         if ($(this).val() !== "") {
             $(".error").fadeOut();
             return false;
         }
     });
-    $("#inputName").keyup(function () {
+    $("#name").keyup(function () {
         if ($(this).val().length >= 2) {
             $(".error").fadeOut();
             return false;
         }
     });
-    $("#inputSurn").keyup(function () {
+    $("#surname").keyup(function () {
         if ($(this).val().length >= 3) {
             $(".error").fadeOut();
             return false;
         }
     });
-    $("#inputPass").keyup(function () {
+    $("#password").keyup(function () {
         if ($(this).val().length >= 6) {
             $(".error").fadeOut();
             return false;
         }
     });
-    $("#inputBank").keyup(function () {
+
+    $("#repeat_password").keyup(function () {
         if ($(this).val().length >= 6) {
             $(".error").fadeOut();
             return false;
@@ -64,7 +65,7 @@ $(document).ready(function () {
 
     Dropzone.autoDiscover = false;
     $("#dropzone").dropzone({
-        url: amigable("?module=user&function=upload_avatar"),
+        url: amigable("?module=users&function=upload"),
         addRemoveLinks: true,
         maxFileSize: 1000,
         dictResponseError: "Ha ocurrido un error en el server",
@@ -90,7 +91,7 @@ $(document).ready(function () {
             var name = file.name;
             $.ajax({
                 type: "GET",
-                url: amigable("?module=user&function=delete_avatar&delete=true"),
+                url: amigable("?module=users&function=delete&delete=true"),
                 data: {"filename": name},
                 success: function (data) {
                     $("#progress").hide();
@@ -156,7 +157,7 @@ $(document).ready(function () {
     var user = Tools.readCookie("user");
     if (user) {
         user = user.split("|");
-        $.post(amigable('?module=user&function=profile_filler'), {usuario: user[0]},
+        $.post(amigable('?module=users&function=profile_filler'), {usuario: user[0]},
         function (response) {
             if (response.success) {
                 fill(response.user);
@@ -192,11 +193,12 @@ $(document).ready(function () {
         alert('User profile not available');
     }
 });
+///FI ready
 
 function load_countries_v2(cad, pais) {
     $.getJSON(cad, function (data) {
         $("#pais").empty();
-        if (!pais)
+        //if (!pais)
             $("#pais").append('<option value="" selected="selected">Selecciona un Pais</option>');
 
         $.each(data, function (i, valor) {
@@ -215,17 +217,17 @@ function load_countries_v2(cad, pais) {
 }
 
 function load_countries_v1(pais) {
-    $.get(amigable("?module=user&function=load_pais_user&load_pais=true"),
+    $.get(amigable("?module=users&function=load_pais&load_pais=true"),
             function (response) {
                 //console.log(response);
                 if (response === 'error') {
-                    load_countries_v2("resources/ListOfCountryNamesByName.json", pais);
+                    load_countries_v2("http://localhost/Strongertogether/resources/ListOfCountryNamesByName.json", pais);
                 } else {
-                    load_countries_v2(amigable("?module=user&function=load_pais_user&load_pais=true"), pais); //oorsprong.org
+                    load_countries_v2(amigable("?module=users&function=load_pais&load_pais=true"), pais); //oorsprong.org
                 }
             })
             .fail(function (response) {
-                load_countries_v2("resources/ListOfCountryNamesByName.json", pais);
+                load_countries_v2("http://localhost/Strongertogether/resources/ListOfCountryNamesByName.json", pais);
             });
 }
 
@@ -249,7 +251,7 @@ function load_provincias_v2(prov) {
 }
 
 function load_provincias_v1(prov) { //provinciasypoblaciones.xml - xpath
-    $.get(amigable("?module=user&function=load_provincias_user&load_provincias=true"),
+    $.get(amigable("?module=users&function=load_provincias&load_provincias=true"),
             function (response) {
                 $("#provincia").empty();
                 //$("#provincia").append('<option value="" selected="selected">Selecciona una Provincia</option>');
@@ -276,7 +278,7 @@ function load_provincias_v1(prov) { //provinciasypoblaciones.xml - xpath
 }
 
 function load_poblaciones_v2(prov, pobl) {
-    $.get("resources/provinciasypoblaciones.xml", function (xml) {
+    $.get("http://localhost/Strongertogether/resources/provinciasypoblaciones.xml", function (xml) {
         $("#poblacion").empty();
         // $("#poblacion").append('<option value="" selected="selected">Selecciona una Poblacion</option>');
 
@@ -299,7 +301,7 @@ function load_poblaciones_v2(prov, pobl) {
 
 function load_poblaciones_v1(prov, pobl) {
     var datos = {idPoblac: prov};
-    $.post(amigable("?module=user&function=load_poblaciones_user"), datos, function (response) {
+    $.post(amigable("?module=users&function=load_poblaciones"), datos, function (response) {
         var json = JSON.parse(response);
         var poblaciones = json.poblaciones;
 
@@ -329,37 +331,38 @@ function validate_modify_user() {
     var result = true;
     var nomreg = /^\D{3,30}$/;
     var apelreg = /^(\D{3,30})+$/;
-    var nombre = $("#inputName").val();
-    var apellidos = $("#inputSurn").val();
-    var email = $("#inputEmail").val();
-    var password = $("#inputPass").val();
-    var date_birthday = $("#inputBirth").val();
-    var bank = $("#inputBank").val();
-    var dni = $("#inputDni").val();
+    var name = $("#name").val();
+    var phone = $("#phone").val();
+    var surname = $("#surname").val();
+    var password = $("#password").val();
+    var repeat_password = $("#repeat_password").val();
+    var date_birthday = $("#date_birthday").val();
+    var id_document = $("#id_document").val();
     var pais = $("#pais").val();
     var provincia = $("#provincia").val();
     var poblacion = $("#poblacion").val();
+    var gender = [];
+    var inputElementsQuality = document.getElementsByClassName('messageRadio');
+    var h = 0;
+    for (var i = 0; i < inputElementsQuality.length; i++) {
+      if (inputElementsQuality[i].checked) {
+        gender[h] = inputElementsQuality[i].value;
+        h++;
+      }
+    }
+
+    var interests = [];
+    var inputElements = document.getElementsByClassName('messageCheckbox');
+    var j = 0;
+    for (var i = 0; i < inputElements.length; i++) {
+      if (inputElements[i].checked) {
+        interests[j] = inputElements[i].value;
+        j++;
+      }
+    }
+
 
     $(".error").remove();
-    if ($("#inputName").val() === "" || !nomreg.test($("#inputName").val())) {
-        $("#inputName").focus().after("<span class='error'>Ingrese su nombre</span>");
-        result = false;
-    } else if ($("#inputName").val().length < 2) {
-        $("#inputName").focus().after("<span class='error'>Mínimo 2 carácteres para el nombre</span>");
-        result = false;
-    } else if ($("#inputSurn").val() === "" || !apelreg.test($("#inputSurn").val())) {
-        $("#inputSurn").focus().after("<span class='error'>Ingrese sus apellidos</span>");
-        result = false;
-    } else if ($("#inputSurn").val().length < 3) {
-        $("#inputSurn").focus().after("<span class='error'>Mínimo 3 carácteres para los apellidos</span>");
-        result = false;
-    } else if ($("#inputPass").val() === "") {
-        $("#inputPass").focus().after("<span class='error'>Ingrese su contraseña</span>");
-        result = false;
-    } else if ($("#inputPass").val().length < 6) {
-        $("#inputPass").focus().after("<span class='error'>Mínimo 6 carácteres para la contraseña</span>");
-        result = false;
-    }
 
     if (result) {
         if (provincia == null) {
@@ -378,10 +381,14 @@ function validate_modify_user() {
             return '';
         }
 
-        var data = {"nombre": nombre, "apellidos": apellidos, "date_birthday": date_birthday, "password": password, "bank": bank,
-            "usuario": $("#username").text(), "email": email, "dni": dni, "pais": pais, "provincia": provincia, "poblacion": poblacion};
+            var data = {"name": name, "surname": surname, "id_document": id_document,
+            "phone": phone, "email": $("#username").text(), "password": password,
+            repeat_password: "repeat_password", "interests": interests, "gender": gender,
+            "date_birthday": date_birthday, "pais": pais, "provincia": provincia, "poblacion": poblacion};
+
         var data_users_JSON = JSON.stringify(data);
-        $.post(amigable('?module=user&function=modify'), {mod_user_json: data_users_JSON},
+        alert(data_users_JSON);
+        $.post(amigable('?module=users&function=modify'), {mod_user_json: data_users_JSON},
         function (response) {
             if (response.success) {
                 window.location.href = response.redirect;
@@ -389,23 +396,23 @@ function validate_modify_user() {
                 if (response.redirect) {
                     window.location.href = response.redirect;
                 } else
-                if (response["datos"]["nombre"] !== undefined && response["datos"]["nombre"] !== null) {
-                    $("#inputName").focus().after("<span class='error'>" + response["datos"]["nombre"] + "</span>");
+                if (response["datos"]["name"] !== undefined && response["datos"]["name"] !== null) {
+                    $("#name").focus().after("<span class='error'>" + response["datos"]["name"] + "</span>");
                 }
-                if (response["datos"]["apellidos"] !== undefined && response["datos"]["apellidos"] !== null) {
-                    $("#inputSurn").focus().after("<span class='error'>" + response["datos"]["apellidos"] + "</span>");
+                if (response["datos"]["surname"] !== undefined && response["datos"]["surname"] !== null) {
+                    $("#surname").focus().after("<span class='error'>" + response["datos"]["surname"] + "</span>");
                 }
                 if (response["datos"]["password"] !== undefined && response["datos"]["password"] !== null) {
-                    $("#inputPass").focus().after("<span class='error'>" + response.error.password + "</span>");
+                    $("#password").focus().after("<span class='error'>" + response.error.password + "</span>");
+                }
+                if (response["datos"]["repeat_password"] !== undefined && response["datos"]["repeat_password"] !== null) {
+                    $("#repeat_password").focus().after("<span class='error'>" + response.error.repeat_password + "</span>");
                 }
                 if (response["datos"]["date_birthday"] !== undefined && response["datos"]["date_birthday"] !== null) {
-                    $("#inputBirth").focus().after("<span class='error'>" + response["datos"]["date_birthday"] + "</span>");
+                    $("#date_birthday").focus().after("<span class='error'>" + response["datos"]["date_birthday"] + "</span>");
                 }
-                if (response["datos"]["bank"] !== undefined && response["datos"]["bank"] !== null) {
-                    $("#inputBank").focus().after("<span class='error'>" + response["datos"]["bank"] + "</span>");
-                }
-                if (response["datos"]["dni"] !== undefined && response["datos"]["dni"] !== null) {
-                    $("#inputDni").focus().after("<span class='error'>" + response["datos"]["dni"] + "</span>");
+                if (response["datos"]["id_document"] !== undefined && response["datos"]["id_document"] !== null) {
+                    $("#id_document").focus().after("<span class='error'>" + response["datos"]["id_document"] + "</span>");
                 }
                 if (response["datos"]["pais"] !== undefined && response["datos"]["pais"] !== null) {
                     $("#pais").focus().after("<span class='error'>" + response["datos"]["pais"] + "</span>");
@@ -440,17 +447,58 @@ function validate_modify_user() {
 }
 
 function fill(user) {
-    $("#inputName").val(user['nombre']);
-    $("#inputSurn").val(user['apellidos']);
-    $("#inputBirth").val(user['date_birthday']);
-    $("#inputPass").val("");
-    $("#inputBank").val(user['bank']);
-    $("#username").html(user['nombre']);
-    $("#avatar_user").attr('src', user['avatar']);
-    $("#inputEmail").val(user['email']);
-    $("#inputDni").val(user['dni']);
-    if (user['email'])
-        $("#inputEmail").attr('disabled', true);
-    if (user['dni'])
-        $("#inputDni").attr('disabled', true);
+    $("#name").val(user['name']);
+    $("#surname").val(user['surname']);
+    $("#phone").val(user['phone']);
+    if(user['male']=="1"){
+      $("#male").prop('checked', user['male']);
+    }
+    if(user['female']=="1"){
+      $("#female").prop('checked', user['female']);
+    }
+    else if(user['undefined']=="1"){
+      $("#undefined").prop('checked', user['undefined']);
+    }
+    $("#poblacion").val(user['poblacion']);
+    $("#provincia").val(user['provincia']);
+    $("#pais").val(user['pais']);
+    $("#date_birthday").val(user['date_birthday']);
+    $("#password").val("");
+    $("#repeat_password").val("");
+    $("#username").html(user['email']);
+    $("#avatar").attr('src', user['avatar']);
+    $("#id_document").val(user['id_document']);
+    if (user['id_document'])
+        $("#id_document").attr('disabled', true);
+
+    if(user['internet'] == 1){
+            $("#internet").prop('checked', user['internet']);
+        } else {
+            $("#internet").removeAttr('checked');
+        }
+        if(user['art'] == 1){
+            $("#art").prop('checked', user['art']);
+        } else {
+            $("#art").removeAttr('checked');
+        }
+        if(user['technology'] == 1){
+            $("#technology").prop('checked', user['technology']);
+        } else {
+            $("#technology").removeAttr('checked');
+        }
+        if(user['literature'] == 1){
+            $("#literature").prop('checked', user['literature']);
+        } else {
+            $("#literature").removeAttr('checked');
+        }
+        if(user['music'] == 1){
+            $("#music").prop('checked', user['music']);
+        } else {
+            $("#music").removeAttr('checked');
+        }
+        if(user['other'] == 1){
+            $("#other").prop('checked', user['other']);
+        } else {
+            $("#other").removeAttr('checked');
+        }
 }

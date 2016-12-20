@@ -4,7 +4,7 @@ $path=$_SERVER['DOCUMENT_ROOT'].'/Strongertogether/';
 define('SITE_ROOT', $path);
 
 //SITE_PATH
-define('SITE_PATH','https://'.$_SERVER['HTTP_HOST'].'/Strongertogether/');
+define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/Strongertogether/');
 
 //CSS
 define('CSS_PATH', SITE_PATH . 'view/css/');
@@ -41,7 +41,8 @@ define('RESOURCES',SITE_ROOT.'resources/');
 //modules
 define('MODULES_PATH', SITE_ROOT . 'modules/');
 //media
-define('MEDIA_PATH',SITE_ROOT.'media/');
+define('MEDIA_PATH',SITE_PATH . 'media/');
+define('MEDIA_ROOT', SITE_ROOT . 'media/');
 //model
 define('MODEL_PATH', SITE_ROOT . 'model/');
 //utils
