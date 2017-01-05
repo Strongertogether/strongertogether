@@ -907,3 +907,14 @@ Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/da
  |  | response 200
 05/01/17 06:13:20 PM | error loadView general | view | response 400
 05/01/17 06:13:28 PM | error loadView general | view | response 400
+05/01/17 06:27:16 PM | error loadView general | view | response 400
+05/01/17 06:27:16 PM | error loadView general | view | response 400
+05/01/17 06:27:18 PM | ERROR: [8] Undefined variable: sql
+Notice on line 165 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:27:18 PM | ERROR: [8] Undefined variable: fields
+Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:27:18 PM | error loadView general | view | response 400
+05/01/17 06:27:19 PM | error loadView general | view | response 400
+05/01/17 06:27:19 PM | error loadView general | view | response 400
