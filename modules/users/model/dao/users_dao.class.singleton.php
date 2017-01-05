@@ -150,6 +150,7 @@ class users_dao {
       $sql.=" AND ";
       $sql .= $arrArgument['column'][$j] . " like '" . $arrArgument['like'][$j] . "'";
     }
+
     $stmt = $db->ejecutar($sql);
     return $db->listar($stmt);
   }

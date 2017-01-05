@@ -1,4 +1,3 @@
-
 <script src="<?php echo USERS_JS_PATH . "login.js" ?>"></script>
 <div class="login-page">
   <div class="form">

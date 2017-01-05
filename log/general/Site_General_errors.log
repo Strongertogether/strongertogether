@@ -1,0 +1,909 @@
+20/12/16 01:35:05 AM | error loadView general | view | response 400
+20/12/16 01:35:12 AM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:35:37 AM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:35:43 AM | error loadView general | view | response 400
+20/12/16 01:35:59 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:35:59 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:35:59 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:35:59 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:00 AM | error loadView general | view | response 400
+20/12/16 01:36:05 AM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:36:05 AM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:36:05 AM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:36:05 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:05 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:29 AM | error loadView general | view | response 400
+20/12/16 01:36:37 AM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:40 AM | error loadView general | view | response 400
+20/12/16 01:36:51 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:51 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:51 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:51 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:52 AM | error loadView general | view | response 400
+20/12/16 01:36:59 AM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:36:59 AM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:36:59 AM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:36:59 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:36:59 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:02 AM | error loadView general | view | response 400
+20/12/16 01:39:04 AM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:39:04 AM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:39:04 AM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:39:04 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:04 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:20 AM | error loadView general | view | response 400
+20/12/16 01:39:28 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:28 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:28 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:28 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:29 AM | error loadView general | view | response 400
+20/12/16 01:39:32 AM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:39:32 AM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:39:32 AM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 01:39:32 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:32 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 01:39:58 AM | error loadView general | view | response 400
+20/12/16 03:41:14 PM | error loadView general | view | response 400
+20/12/16 03:41:22 PM | error loadView general | view | response 400
+20/12/16 04:30:01 PM | error loadView general | view | response 400
+20/12/16 04:30:18 PM | error loadView general | view | response 400
+20/12/16 04:30:18 PM | error loadView general | view | response 400
+20/12/16 04:30:20 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 04:30:20 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 04:30:20 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 04:30:20 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 04:30:21 PM | error loadView general | view | response 400
+20/12/16 04:30:21 PM | error loadView general | view | response 400
+20/12/16 04:30:21 PM | error loadView general | view | response 400
+20/12/16 04:30:31 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 04:30:31 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 04:30:31 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 04:30:31 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 04:30:31 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 04:32:00 PM | error loadView general | view | response 400
+20/12/16 10:49:55 PM | error loadView general | view | response 400
+20/12/16 10:50:14 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+20/12/16 10:50:39 PM | error loadView general | view | response 400
+20/12/16 10:50:39 PM | error loadView general | view | response 400
+20/12/16 10:50:48 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 10:50:48 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 10:50:48 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 10:50:48 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 10:50:49 PM | error loadView general | view | response 400
+20/12/16 10:50:52 PM | error loadView general | view | response 400
+20/12/16 10:50:55 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 10:50:55 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 10:50:55 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+20/12/16 10:50:55 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 10:50:55 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+20/12/16 10:51:05 PM | error loadView general | view | response 400
+21/12/16 09:12:40 PM | error loadView general | view | response 400
+21/12/16 09:12:46 PM | error loadView general | view | response 400
+21/12/16 09:13:33 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:13:33 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:13:37 PM | error loadView general | view | response 400
+21/12/16 09:17:56 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:18:33 PM | error loadView general | view | response 400
+21/12/16 09:18:55 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:18:55 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:18:55 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:18:55 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:18:56 PM | error loadView general | view | response 400
+21/12/16 09:19:00 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+21/12/16 09:19:00 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+21/12/16 09:19:00 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+21/12/16 09:19:00 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:19:00 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:19:17 PM | error loadView general | view | response 400
+21/12/16 09:20:28 PM | error loadView general | view | response 400
+23/12/16 04:26:25 PM | error loadView general | view | response 400
+23/12/16 04:26:47 PM | error loadView general | view | response 400
+23/12/16 04:27:44 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:28:30 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ | contact | response 200
+23/12/16 04:28:30 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ | contact | response 200
+23/12/16 04:28:30 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ | contact | response 200
+23/12/16 04:28:30 PM | ERROR: [8] Undefined index: email
+Notice on line 99 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ | contact | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 04:29:07 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+23/12/16 04:29:09 PM | error loadView general | view | response 400
+23/12/16 04:29:33 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:33 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:29:35 PM | error loadView general | view | response 400
+23/12/16 04:30:13 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:30:13 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:30:13 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:30:13 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:30:15 PM | error loadView general | view | response 400
+23/12/16 04:30:19 PM | error loadView general | view | response 400
+23/12/16 04:30:24 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:30:30 PM | error loadView general | view | response 400
+23/12/16 04:30:32 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:30:32 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:30:32 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:30:32 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:30:32 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:21 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:31:21 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:31:21 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:31:21 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:21 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:29 PM | error loadView general | view | response 400
+23/12/16 04:31:48 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:48 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:48 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:48 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:50 PM | error loadView general | view | response 400
+23/12/16 04:31:53 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:31:53 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:31:53 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:31:53 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:53 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:31:59 PM | error loadView general | view | response 400
+23/12/16 04:32:29 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:32:29 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:32:29 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 04:32:29 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 04:32:29 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 04:32:29 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+23/12/16 04:32:34 PM | error loadView general | view | response 400
+23/12/16 04:49:43 PM | ERROR: [8] Undefined variable: change
+Notice on line 86 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:49:43 PM | ERROR: [8] Undefined variable: sql
+Notice on line 91 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:49:45 PM | error loadView general | view | response 400
+23/12/16 04:50:00 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:00 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:00 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:00 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:01 PM | error loadView general | view | response 400
+23/12/16 04:50:04 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:50:04 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:50:04 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:50:04 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:04 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:19 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:50:19 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:50:19 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:50:19 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:19 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:50:26 PM | error loadView general | view | response 400
+23/12/16 04:55:25 PM | error loadView general | view | response 400
+23/12/16 04:55:25 PM | error loadView general | view | response 400
+23/12/16 04:55:26 PM | error loadView general | view | response 400
+23/12/16 04:55:30 PM | error loadView general | view | response 400
+23/12/16 04:55:45 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:55:45 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:55:45 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:55:45 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:55:46 PM | error loadView general | view | response 400
+23/12/16 04:55:47 PM | error loadView general | view | response 400
+23/12/16 04:55:47 PM | error loadView general | view | response 400
+23/12/16 04:55:50 PM | error loadView general | view | response 400
+23/12/16 04:55:50 PM | error loadView general | view | response 400
+23/12/16 04:55:50 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:55:50 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:55:50 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 04:55:50 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:55:50 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 04:56:00 PM | error loadView general | view | response 400
+23/12/16 04:56:01 PM | error loadView general | view | response 400
+23/12/16 04:56:01 PM | error loadView general | view | response 400
+23/12/16 06:31:10 PM | error loadView general | view | response 400
+23/12/16 06:31:25 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:31:50 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:27 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:27 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:27 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:27 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:29 PM | error loadView general | view | response 400
+23/12/16 06:32:36 PM | error loadView general | view | response 400
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: name
+Notice on line 17 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: surname
+Notice on line 18 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [2] Missing argument 1 for phpmailer::AddAttachment(), called in /var/www/html/Strongertogether/classes/email/email.class.singleton.php on line 27 and defined
+Warning on line 1511 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined variable: path
+Notice on line 1513 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined variable: path
+Notice on line 1514 in file /var/www/html/Strongertogether/libs/PHPMailer_v5.1/class.phpmailer.php
+ |  | response 200
+23/12/16 06:32:57 PM | ERROR: [8] Undefined index: inputName
+Notice on line 95 in file /var/www/html/Strongertogether/utils/mail.inc.php
+ |  | response 200
+23/12/16 06:33:00 PM | error loadView general | view | response 400
+23/12/16 06:33:11 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:33:11 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:33:16 PM | error loadView general | view | response 400
+23/12/16 06:33:30 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:33:30 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+23/12/16 06:33:30 PM | ERROR: [8] Undefined offset: 0
+Notice on line 409 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+23/12/16 06:33:36 PM | error loadView general | view | response 400
+23/12/16 07:59:20 PM | error loadView general | view | response 400
+23/12/16 07:59:36 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+23/12/16 08:26:21 PM | error loadView general | view | response 400
+23/12/16 08:27:33 PM | error loadView general | view | response 400
+26/12/16 12:57:17 AM | error loadView general | view | response 400
+26/12/16 12:57:30 AM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+26/12/16 12:58:15 AM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+26/12/16 01:17:22 AM | error loadView general | view | response 400
+26/12/16 01:17:50 AM | error loadView general | view | response 400
+26/12/16 01:17:50 AM | error loadView general | view | response 400
+26/12/16 01:18:11 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+26/12/16 01:18:11 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+26/12/16 01:18:11 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+26/12/16 01:18:11 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+26/12/16 01:18:12 AM | error loadView general | view | response 400
+26/12/16 01:18:12 AM | error loadView general | view | response 400
+26/12/16 01:18:12 AM | error loadView general | view | response 400
+26/12/16 01:18:22 AM | error loadView general | view | response 400
+26/12/16 01:18:22 AM | error loadView general | view | response 400
+26/12/16 01:18:22 AM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+26/12/16 01:18:22 AM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+26/12/16 01:18:22 AM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+26/12/16 01:18:22 AM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+26/12/16 01:18:22 AM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+26/12/16 01:18:41 AM | error loadView general | users | response 400
+26/12/16 01:18:49 AM | error loadView general | view | response 400
+26/12/16 01:18:49 AM | error loadView general | view | response 400
+26/12/16 01:18:49 AM | error loadView general | view | response 400
+29/12/16 01:48:22 PM | error loadView general | view | response 400
+29/12/16 01:48:51 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+29/12/16 08:32:45 PM | error loadView general | view | response 400
+05/01/17 03:50:56 PM | error loadView general | view | response 400
+05/01/17 03:51:15 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/Strongertogether/modules/hospital/model/dao/hospital_dao.class.singleton.php
+ |  | response 200
+05/01/17 03:51:33 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 03:51:33 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 03:51:34 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 03:51:34 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 03:51:36 PM | error loadView general | view | response 400
+05/01/17 03:51:41 PM | error loadView general | view | response 400
+05/01/17 03:57:47 PM | error loadView general | view | response 400
+05/01/17 03:57:52 PM | error loadView general | view | response 400
+05/01/17 03:58:00 PM | error loadView general | view | response 400
+05/01/17 03:59:42 PM | error loadView general | view | response 400
+05/01/17 04:00:11 PM | error loadView general | view | response 400
+05/01/17 04:00:20 PM | error loadView general | view | response 400
+05/01/17 04:03:46 PM | error loadView general | view | response 400
+05/01/17 04:03:48 PM | error loadView general | users | response 400
+05/01/17 04:03:53 PM | error loadView general | view | response 400
+05/01/17 04:07:17 PM | error loadView general | view | response 400
+05/01/17 04:07:17 PM | error loadView general | view | response 400
+05/01/17 04:07:26 PM | error loadView general | users | response 400
+05/01/17 04:07:27 PM | error loadView general | view | response 400
+05/01/17 04:07:28 PM | error loadView general | view | response 400
+05/01/17 04:08:39 PM | error loadView general | view | response 400
+05/01/17 04:08:39 PM | error loadView general | view | response 400
+05/01/17 04:08:40 PM | error loadView general | view | response 400
+05/01/17 04:08:43 PM | error loadView general | users | response 400
+05/01/17 04:08:44 PM | error loadView general | view | response 400
+05/01/17 04:08:45 PM | error loadView general | view | response 400
+05/01/17 04:14:36 PM | error loadView general | view | response 400
+05/01/17 04:14:50 PM | error loadView general | view | response 400
+05/01/17 04:14:51 PM | error loadView general | view | response 400
+05/01/17 04:14:58 PM | error loadView general | view | response 400
+05/01/17 04:14:59 PM | error loadView general | view | response 400
+05/01/17 04:17:43 PM | error loadView general | view | response 400
+05/01/17 04:17:44 PM | error loadView general | view | response 400
+05/01/17 04:17:46 PM | error loadView general | view | response 400
+05/01/17 04:17:46 PM | error loadView general | view | response 400
+05/01/17 04:18:09 PM | error loadView general | view | response 400
+05/01/17 04:18:09 PM | error loadView general | view | response 400
+05/01/17 04:18:33 PM | error loadView general | view | response 400
+05/01/17 04:18:33 PM | error loadView general | view | response 400
+05/01/17 04:18:38 PM | error loadView general | view | response 400
+05/01/17 04:18:39 PM | error loadView general | view | response 400
+05/01/17 04:18:39 PM | error loadView general | view | response 400
+05/01/17 04:18:46 PM | error loadView general | view | response 400
+05/01/17 04:18:46 PM | error loadView general | view | response 400
+05/01/17 04:18:50 PM | error loadView general | view | response 400
+05/01/17 04:20:04 PM | error loadView general | view | response 400
+05/01/17 04:20:05 PM | error loadView general | view | response 400
+05/01/17 04:21:34 PM | error loadView general | view | response 400
+05/01/17 04:21:34 PM | error loadView general | view | response 400
+05/01/17 05:15:57 PM | error loadView general | view | response 400
+05/01/17 05:15:57 PM | error loadView general | view | response 400
+05/01/17 05:18:52 PM | error loadView general | view | response 400
+05/01/17 05:18:53 PM | error loadView general | view | response 400
+05/01/17 05:22:46 PM | error loadView general | view | response 400
+05/01/17 05:22:46 PM | error loadView general | view | response 400
+05/01/17 05:22:47 PM | error loadView general | view | response 400
+05/01/17 05:23:47 PM | error loadView general | view | response 400
+05/01/17 05:23:47 PM | error loadView general | view | response 400
+05/01/17 05:23:47 PM | error loadView general | view | response 400
+05/01/17 05:23:50 PM | error loadView general | view | response 400
+05/01/17 05:23:50 PM | error loadView general | view | response 400
+05/01/17 05:23:54 PM | error loadView general | view | response 400
+05/01/17 05:23:54 PM | error loadView general | view | response 400
+05/01/17 05:28:30 PM | error loadView general | view | response 400
+05/01/17 05:28:30 PM | error loadView general | view | response 400
+05/01/17 05:29:58 PM | error loadView general | view | response 400
+05/01/17 05:29:59 PM | error loadView general | view | response 400
+05/01/17 05:31:44 PM | error loadView general | view | response 400
+05/01/17 05:31:44 PM | error loadView general | view | response 400
+05/01/17 05:31:46 PM | error loadView general | user | response 400
+05/01/17 05:31:59 PM | error loadView general | view | response 400
+05/01/17 05:31:59 PM | error loadView general | view | response 400
+05/01/17 05:32:09 PM | error loadView general | user | response 400
+05/01/17 05:33:29 PM | error loadView general | view | response 400
+05/01/17 05:33:29 PM | error loadView general | view | response 400
+05/01/17 05:33:49 PM | error loadView general | view | response 400
+05/01/17 05:37:54 PM | error loadView general | view | response 400
+05/01/17 05:37:54 PM | error loadView general | view | response 400
+05/01/17 05:37:56 PM | error loadView general | user | response 400
+05/01/17 05:38:40 PM | error loadView general | view | response 400
+05/01/17 05:38:40 PM | error loadView general | view | response 400
+05/01/17 05:38:41 PM | error loadView general | user | response 400
+05/01/17 05:38:58 PM | error loadView general | view | response 400
+05/01/17 05:38:58 PM | error loadView general | view | response 400
+05/01/17 05:39:00 PM | error loadView general | user | response 400
+05/01/17 05:39:27 PM | error loadView general | view | response 400
+05/01/17 05:39:27 PM | error loadView general | view | response 400
+05/01/17 05:39:29 PM | error loadView general | users | response 400
+05/01/17 05:40:08 PM | error loadView general | view | response 400
+05/01/17 05:40:08 PM | error loadView general | view | response 400
+05/01/17 05:40:26 PM | error loadView general | view | response 400
+05/01/17 05:40:27 PM | error loadView general | view | response 400
+05/01/17 05:40:27 PM | error loadView general | users | response 400
+05/01/17 05:41:28 PM | error loadView general | view | response 400
+05/01/17 05:41:28 PM | error loadView general | view | response 400
+05/01/17 05:41:30 PM | error loadView general | users | response 400
+05/01/17 05:44:24 PM | error loadView general | users | response 400
+05/01/17 05:44:27 PM | error loadView general | view | response 400
+05/01/17 05:44:27 PM | error loadView general | view | response 400
+05/01/17 05:44:28 PM | error loadView general | view | response 400
+05/01/17 05:44:28 PM | error loadView general | view | response 400
+05/01/17 05:44:29 PM | ERROR: [8] Undefined variable: sql
+Notice on line 164 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 05:44:29 PM | ERROR: [8] Undefined variable: fields
+Notice on line 169 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 05:44:29 PM | ERROR: [8] Undefined offset: 0
+Notice on line 409 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 05:44:49 PM | error loadView general | view | response 400
+05/01/17 05:44:49 PM | error loadView general | view | response 400
+05/01/17 05:44:51 PM | error loadView general | users | response 400
+05/01/17 05:45:31 PM | error loadView general | view | response 400
+05/01/17 05:45:31 PM | error loadView general | view | response 400
+05/01/17 05:45:44 PM | error loadView general | users | response 400
+05/01/17 05:48:08 PM | error loadView general | users | response 400
+05/01/17 05:48:46 PM | error loadView general | view | response 400
+05/01/17 05:48:46 PM | error loadView general | view | response 400
+05/01/17 05:48:47 PM | error loadView general | users | response 400
+05/01/17 05:51:30 PM | error loadView general | view | response 400
+05/01/17 05:51:30 PM | error loadView general | view | response 400
+05/01/17 05:51:47 PM | error loadView general | view | response 400
+05/01/17 05:51:48 PM | error loadView general | view | response 400
+05/01/17 05:53:35 PM | error loadView general | view | response 400
+05/01/17 05:53:35 PM | error loadView general | view | response 400
+05/01/17 05:54:12 PM | error loadView general | view | response 400
+05/01/17 05:54:13 PM | error loadView general | view | response 400
+05/01/17 05:54:56 PM | error loadView general | view | response 400
+05/01/17 05:54:56 PM | error loadView general | view | response 400
+05/01/17 05:54:58 PM | ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 632 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 05:55:42 PM | error loadView general | view | response 400
+05/01/17 05:55:42 PM | error loadView general | view | response 400
+05/01/17 05:57:15 PM | error loadView general | view | response 400
+05/01/17 05:57:15 PM | error loadView general | view | response 400
+05/01/17 05:57:47 PM | error loadView general | view | response 400
+05/01/17 05:57:47 PM | error loadView general | view | response 400
+05/01/17 05:57:52 PM | error loadView general | view | response 400
+05/01/17 05:57:52 PM | error loadView general | view | response 400
+05/01/17 05:59:31 PM | error loadView general | view | response 400
+05/01/17 05:59:32 PM | error loadView general | view | response 400
+05/01/17 06:00:10 PM | error loadView general | view | response 400
+05/01/17 06:00:11 PM | error loadView general | view | response 400
+05/01/17 06:03:43 PM | error loadView general | view | response 400
+05/01/17 06:03:43 PM | error loadView general | view | response 400
+05/01/17 06:04:59 PM | error loadView general | view | response 400
+05/01/17 06:05:00 PM | error loadView general | view | response 400
+05/01/17 06:06:43 PM | error loadView general | view | response 400
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: id_document
+Notice on line 19 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: phone
+Notice on line 20 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: password
+Notice on line 22 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: repeat_password
+Notice on line 23 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: interests
+Notice on line 30 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: gender
+Notice on line 31 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: date_birthday
+Notice on line 32 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: pais
+Notice on line 34 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: provincia
+Notice on line 35 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 36 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 43 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:06:44 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 60 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:07:41 PM | error loadView general | view | response 400
+05/01/17 06:07:41 PM | error loadView general | view | response 400
+05/01/17 06:07:44 PM | ERROR: [8] Undefined index: token
+Notice on line 668 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 06:08:15 PM | error loadView general | view | response 400
+05/01/17 06:08:15 PM | error loadView general | view | response 400
+05/01/17 06:08:55 PM | error loadView general | view | response 400
+05/01/17 06:08:55 PM | error loadView general | view | response 400
+05/01/17 06:09:28 PM | error loadView general | view | response 400
+05/01/17 06:09:30 PM | ERROR: [8] Undefined variable: sql
+Notice on line 165 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:09:30 PM | ERROR: [8] Undefined variable: fields
+Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:10:37 PM | error loadView general | view | response 400
+05/01/17 06:10:44 PM | ERROR: [8] Undefined variable: sql
+Notice on line 165 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:10:44 PM | ERROR: [8] Undefined variable: fields
+Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:10:45 PM | error loadView general | view | response 400
+05/01/17 06:10:45 PM | error loadView general | view | response 400
+05/01/17 06:10:45 PM | error loadView general | view | response 400
+05/01/17 06:10:55 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 06:10:55 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 06:10:55 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 06:10:55 PM | ERROR: [8] Undefined variable: sql
+Notice on line 165 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:10:55 PM | ERROR: [8] Undefined variable: fields
+Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:10:56 PM | error loadView general | view | response 400
+05/01/17 06:11:00 PM | ERROR: [8] Use of undefined constant column - assumed 'column'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 06:11:00 PM | ERROR: [8] Use of undefined constant like - assumed 'like'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 06:11:00 PM | ERROR: [8] Use of undefined constant field - assumed 'field'
+Notice on line 288 in file /var/www/html/Strongertogether/modules/users/controller/controller_users.class.php
+ |  | response 200
+05/01/17 06:11:00 PM | ERROR: [8] Undefined variable: sql
+Notice on line 165 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:11:00 PM | ERROR: [8] Undefined variable: fields
+Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:11:01 PM | error loadView general | view | response 400
+05/01/17 06:11:48 PM | error loadView general | view | response 400
+05/01/17 06:11:51 PM | error loadView general | view | response 400
+05/01/17 06:12:01 PM | ERROR: [8] Undefined variable: sql
+Notice on line 165 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:12:01 PM | ERROR: [8] Undefined variable: fields
+Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:12:02 PM | error loadView general | view | response 400
+05/01/17 06:13:03 PM | error loadView general | view | response 400
+05/01/17 06:13:05 PM | error loadView general | view | response 400
+05/01/17 06:13:19 PM | ERROR: [8] Undefined variable: sql
+Notice on line 165 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:13:19 PM | ERROR: [8] Undefined variable: fields
+Notice on line 170 in file /var/www/html/Strongertogether/modules/users/model/dao/users_dao.class.singleton.php
+ |  | response 200
+05/01/17 06:13:20 PM | error loadView general | view | response 400
+05/01/17 06:13:28 PM | error loadView general | view | response 400
