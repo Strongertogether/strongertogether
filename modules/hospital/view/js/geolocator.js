@@ -54,7 +54,7 @@ function refrescarUbicacion() {
 
 function loadhospitals(of) {
     for (var i = 0; i < of.length; i++) {
-        var content = '<div class="of" id="' + of[i].name + '"><div class="desc">' + of[i].description + '</div><div class="fecha"> <div class="precio"> Specialty: ' + of[i].specialty + '</div></div>';
+        var content = '<div class="of" id="' + of[i].name + '"><div class="desc">' + of[i].description + '</div><div class="precio"> Specialty: ' + of[i].specialty + '</div></div>';
         $('.hospitals').append(content);
     }
 }
