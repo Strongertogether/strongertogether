@@ -615,4 +615,70 @@ function profile_filler() {
       }
     }
   }
+
+  function social_signin() { //utilitzada per Facebook i Twitter
+    //1009350095876575
+
+      $user = json_decode($_POST['user'], true);
+
+/*      if ($user['twitter']) {
+          $user['apellidos'] = "";
+          $user['email'] = "";
+          $mail = $user['user_id'] . "@gmail.com";
+      }
+*/
+
+      set_error_handler('ErrorHandler');
+      try {
+          $arrValue = loadModel(MODEL_USERS, "users_model", "count", array('column' => array('token'), 'like' => array($user['id'])));
+      } catch (Exception $e) {
+          $arrValue = false;
+      }
+      restore_error_handler();
+
+      if (!$arrValue[0]["total"]) {
+          if ($user['email'])
+              $avatar = 'https://graph.facebook.com/' . ($user['id']) . '/picture';
+          else
+              $avatar = get_gravatar($mail, $s = 400, $d = 'identicon', $r = 'g', $img = false, $atts = array());
+
+          $arrArgument = array(
+              'token' => $user['id'],
+              'name' => $user['name'],
+              'surname' => $user['surname'],
+              'email' => $user['email'],
+              'tipo' => 'client',
+              'avatar' => $avatar,
+              'activado' => "1"
+          );
+
+          set_error_handler('ErrorHandler');
+          try {
+              $value = loadModel(MODEL_USERS, "users_model", "create_user", $arrArgument);
+          } catch (Exception $e) {
+              $value = false;
+          }
+          restore_error_handler();
+      } else
+          $value = true;
+
+          //echo json_encode($user);
+          //exit;
+
+      if ($value) {
+          set_error_handler('ErrorHandler');
+          $arrArgument = array(
+              'column' => array("token"),
+              'like' => array($user['id']),
+              'field' => array('*')
+          );
+
+          $user = loadModel(MODEL_USERS, "users_model", "select", $arrArgument);          
+          restore_error_handler();
+          echo json_encode($user);
+      } else {
+          echo json_encode(array('error' => true, 'datos' => 503));
+      }
+  }
+
 }

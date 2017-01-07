@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <functions>
   <function>
+      <name>social_signin</name>
+      <uri>social_signin</uri>
+  </function>
+  <function>
       <name>results_users</name>
       <uri>results_users</uri>
   </function>

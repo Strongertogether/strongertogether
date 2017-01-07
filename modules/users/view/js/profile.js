@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     Dropzone.autoDiscover = false;
     $("#dropzone").dropzone({
-        url: amigable("?module=users&function=upload"),
+        url: amigable2("?module=users&function=upload"),
         addRemoveLinks: true,
         maxFileSize: 1000,
         dictResponseError: "Ha ocurrido un error en el server",
@@ -41,7 +41,7 @@ $(document).ready(function () {
             var name = file.name;
             $.ajax({
                 type: "GET",
-                url: amigable("?module=users&function=delete&delete=true"),
+                url: amigable2("?module=users&function=delete&delete=true"),
                 data: {"filename": name},
                 success: function (data) {
                     $("#progress").hide();
@@ -107,7 +107,7 @@ $(document).ready(function () {
     var user = Tools.readCookie("user");
     if (user) {
         user = user.split("|");
-        $.post(amigable('?module=users&function=profile_filler'), {usuario: user[0]},
+        $.post(amigable2('?module=users&function=profile_filler'), {usuario: user[0]},
         function (response) {
             if (response.success) {
                 fill(response.user);
@@ -167,17 +167,17 @@ function load_countries_v2(cad, pais) {
 }
 
 function load_countries_v1(pais) {
-    $.get(amigable("?module=users&function=load_pais&load_pais=true"),
+    $.get(amigable2("?module=users&function=load_pais&load_pais=true"),
             function (response) {
                 //console.log(response);
                 if (response === 'error') {
-                    load_countries_v2("http://localhost/Strongertogether/resources/ListOfCountryNamesByName.json", pais);
+                    load_countries_v2("https://92.222.94.202/Strongertogether/resources/ListOfCountryNamesByName.json", pais);
                 } else {
-                    load_countries_v2(amigable("?module=users&function=load_pais&load_pais=true"), pais); //oorsprong.org
+                    load_countries_v2(amigable2("?module=users&function=load_pais&load_pais=true"), pais); //oorsprong.org
                 }
             })
             .fail(function (response) {
-                load_countries_v2("http://localhost/Strongertogether/resources/ListOfCountryNamesByName.json", pais);
+                load_countries_v2("https://92.222.94.202/Strongertogether/resources/ListOfCountryNamesByName.json", pais);
             });
 }
 
@@ -201,7 +201,7 @@ function load_provincias_v2(prov) {
 }
 
 function load_provincias_v1(prov) { //provinciasypoblaciones.xml - xpath
-    $.get(amigable("?module=users&function=load_provincias&load_provincias=true"),
+    $.get(amigable2("?module=users&function=load_provincias&load_provincias=true"),
             function (response) {
                 $("#provincia").empty();
                 //$("#provincia").append('<option value="" selected="selected">Selecciona una Provincia</option>');
@@ -228,7 +228,7 @@ function load_provincias_v1(prov) { //provinciasypoblaciones.xml - xpath
 }
 
 function load_poblaciones_v2(prov, pobl) {
-    $.get("http://localhost/Strongertogether/resources/provinciasypoblaciones.xml", function (xml) {
+    $.get("https://92.222.94.202/Strongertogether/resources/provinciasypoblaciones.xml", function (xml) {
         $("#poblacion").empty();
         // $("#poblacion").append('<option value="" selected="selected">Selecciona una Poblacion</option>');
 
@@ -251,7 +251,7 @@ function load_poblaciones_v2(prov, pobl) {
 
 function load_poblaciones_v1(prov, pobl) {
     var datos = {idPoblac: prov};
-    $.post(amigable("?module=users&function=load_poblaciones"), datos, function (response) {
+    $.post(amigable2("?module=users&function=load_poblaciones"), datos, function (response) {
         var json = JSON.parse(response);
         var poblaciones = json.poblaciones;
 
@@ -410,7 +410,16 @@ function validate_modify_user() {
             "date_birthday": date_birthday, "pais": pais, "provincia": provincia, "poblacion": poblacion};
 
         var data_users_JSON = JSON.stringify(data);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        alert(data_users_JSON);
+        $.post(amigable2('?module=users&function=modify'), {mod_user_json: data_users_JSON},
+=======
+        //alert(data_users_JSON);
+>>>>>>> 788dd5c6760d2349dee8b387026b9984144a4d13
         $.post(amigable('?module=users&function=modify'), {mod_user_json: data_users_JSON},
+>>>>>>> 2e2aa562085af5e86bb97930189a4f1523466685
         function (response) {
           console.log(response);
             if (response.success) {
