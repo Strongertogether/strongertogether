@@ -54,9 +54,8 @@ function get_gravatar($email, $s = 80, $d = 'wavatar', $r = 'g', $img = false, $
 function validatemail($email) {
     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        if (filter_var($email, FILTER_VALIDATE_REGEXP, array('options' => array('regexp' => '/^.{5,50}$/')))) {
+        if (filter_var($email, FILTER_VALIDATE_REGEXP, array('options' => array('regexp' => '/^.{5,50}$/'))))
             return $email;
-        }
     }
     return false;
 }
@@ -77,112 +76,47 @@ function sendtoken($arrArgument,$type) {
     restore_error_handler();
 }
 
+function validate_user($value){
+    $error = array();
+    $valido = true;
+    $filtro = array(
+      'name' => array(
+        'filter' => FILTER_VALIDATE_REGEXP,
+        'options' => array('regexp' => '/^[A-Za-z]{4,10}$/')
+      ),
 
-function validate_user($value) {
-  $error = array();
-  $valido = true;
-  $filtro = array(
-    'name' => array(
-      'filter' => FILTER_VALIDATE_REGEXP,
-      'options' => array('regexp' => '/^[A-Za-z]{4,10}$/')
-    ),
+      'surname' => array(
+        'filter' => FILTER_VALIDATE_REGEXP,
+        'options' => array('regexp' => '/^[A-Za-z]{4,10}$/')
+      ),
 
-    'surname' => array(
-      'filter' => FILTER_VALIDATE_REGEXP,
-      'options' => array('regexp' => '/^[A-Za-z]{4,10}$/')
-    ),
+      'id_document' => array(
+        'filter' => FILTER_VALIDATE_REGEXP,
+        'options' => array('regexp' => '/^[XYZ]?([0-9]{7,8})([A-Z])$/i')
+      ),
 
-    'id_document' => array(
-      'filter' => FILTER_VALIDATE_REGEXP,
-      'options' => array('regexp' => '/^[XYZ]?([0-9]{7,8})([A-Z])$/i')
-    ),
+      'phone' => array(
+        'filter' => FILTER_VALIDATE_REGEXP,
+        'options' => array('regexp' => '/^[67][0-9]{8}$/')
+      ),
 
-    'phone' => array(
-      'filter' => FILTER_VALIDATE_REGEXP,
-      'options' => array('regexp' => '/^[67][0-9]{8}$/')
-    ),
+      'password' => array(
+        'filter' => FILTER_VALIDATE_REGEXP,
+        'options' => array('regexp' => '/^(?=.*\d)(?=.*[A-Za-z])[0-9A-Za-z!@#$%]{6,12}$/')
+      ),
 
-    'password' => array(
-      'filter' => FILTER_VALIDATE_REGEXP,
-      'options' => array('regexp' => '/^(?=.*\d)(?=.*[A-Za-z])[0-9A-Za-z!@#$%]{6,12}$/')
-    ),
+      'repeat_password' => array(
+        'filter' => FILTER_VALIDATE_REGEXP,
+        'options' => array('regexp' => '/^(?=.*\d)(?=.*[A-Za-z])[0-9A-Za-z!@#$%]{6,12}$/')
+      ),
+    );
 
-    'repeat_password' => array(
-      'filter' => FILTER_VALIDATE_REGEXP,
-      'options' => array('regexp' => '/^(?=.*\d)(?=.*[A-Za-z])[0-9A-Za-z!@#$%]{6,12}$/')
-    )
-  );
+    $resultado = filter_var_array($value, $filtro);
 
+    $valido = true;
 
-  //$resultado = filter_input_array(INPUT_POST, $filtro);
-  $resultado = filter_var_array($value, $filtro);
+    return array('resultado' => $valido, 'error' => $error, 'datos' => $value);
 
+    //json_encode('$valido = ' . $valido);
 
-  //no filter
-  $resultado['interests'] = $value['interests'];
-  $resultado['gender'] = $value['gender'];
-  $resultado['pais'] = $value['pais'];
-  $resultado['provincia'] = $value['provincia'];
-  $resultado['poblacion'] = $value['poblacion'];
-
-
-  if ($resultado != null && $resultado) {
-
-
-    if (!$resultado['name']) {
-      $error['name'] = 'Name must be 4 to 10 letters';
-      $valido = false;
-    }
-
-    if (!$resultado['surname']) {
-      $error['surname'] = 'Surname must be 4 to 10 letters';
-      $valido = false;
-    }
-
-    if (!$resultado['id_document']) {
-      $error['id_document'] = 'Introduce correctly ID Document';
-      $valido = false;
-    }
-
-    if (!$resultado['phone']) {
-      $error['phone'] = 'Must start with 6 or 7, 9 digits';
-      $valido = false;
-    }
-
-    if (!$resultado['password']) {
-      if(value['password']==""){
-        $valido=true;
-      }else{
-      $error['password'] = '8 digits, upper and low case and a number';
-      $valido = false;
-      }
-    }
-
-    if (!$resultado['repeat_password']) {
-      if(value['repeat_password']==""){
-        $valido=true;
-      }else{
-      $error['repeat_password'] = '8 digits, upper and low case and a number';
-      $valido = false;
-      }
-    }
-
-  } else {
-    $valido = false;
-  };
-
-  return $return = array('resultado' => $valido, 'error' => $error, 'datos' => $resultado);
 }
-/*
-// validate birthday
-function validate_datebirthday($birthday, $age = 18, $maxage = 80) {
-  if (is_string($birthday)) {
-    $birthday = strtotime($birthday);
-  }
-
-  // 31536000 is the number of seconds in a 365 days year
-  if (time() - $birthday < $age * 31536000 || time() - $birthday > $maxage * 31536000) {
-    return false;
-  }
-  return true;
-}*/

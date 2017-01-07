@@ -312,74 +312,74 @@ function profile_filler() {
         }
     }
 
-/////////END PROFILE///////////
 
-function modify() {
+  function modify(){
 
-      $jsondata = array();
-      $userJSON = json_decode($_POST['mod_user_json'], true);
-      //$userJSON['repeat_password'] = $userJSON['password'];
+       $jsondata = array();
+       $userJSON = json_decode($_POST['mod_user_json'], true);
+       $result = validate_user($userJSON);
 
-      $result = validate_user($userJSON);
-      if ($result['resultado']) {
-          $arrArgument = array(
-            'name' => ucfirst($result['datos']['name']),
-            'surname' => ucfirst($result['datos']['surname']),
-            'id_document' => $result['datos']['id_document'],
-            'phone' => $result['datos']['phone'],
-            'email' => $result['datos']['email'],
-            'password' => password_hash($result['datos']['password'], PASSWORD_BCRYPT),
-            'repeat_password' => password_hash($result['datos']['repeat_password'], PASSWORD_BCRYPT),
-            'interests' => $result['datos']['interests'],
-            'gender' => $result['datos']['gender'],
-            'date_birthday' => $result['datos']['date_birthday'],
-            'pais' => $result['datos']['pais'],
-            'provincia' => $result['datos']['provincia'],
-            'poblacion' => $result['datos']['poblacion'],
-            'avatar' => $_SESSION['avatar']['datos']
-          );
+       if ($result['resultado']) {
 
-          $arrayDatos = array(
-              column => array(
-                  'email'
+         $arrArgument = array(
+           'name' => ucfirst($result['datos']['name']),
+           'surname' => ucfirst($result['datos']['surname']),
+           'id_document' => $result['datos']['id_document'],
+           'phone' => $result['datos']['phone'],
+           'email' => $result['datos']['email'],
+           'password' => password_hash($result['datos']['password'], PASSWORD_BCRYPT),
+           'repeat_password' => password_hash($result['datos']['repeat_password'], PASSWORD_BCRYPT),
+           //'interests' => $result['datos']['interests'],
+           //'gender' => $result['datos']['gender'],
+           'date_birthday' => $result['datos']['date_birthday'],
+           'pais' => $result['datos']['pais'],
+           'provincia' => $result['datos']['provincia'],
+           'poblacion' => $result['datos']['poblacion'],
+           'avatar' => $result['datos']['avatar'],
+         );
+
+           $arrayDatos = array(
+              "column" => array(
+                'email'
               ),
-              like => array(
-                  $arrArgument['email']
-              )
+              "like" => array($arrArgument['email']),
           );
+
           $j = 0;
           foreach ($arrArgument as $clave => $valor) {
-              if ($valor != "") {
+              if ($valor != '') {
                   $arrayDatos['field'][$j] = $clave;
                   $arrayDatos['new'][$j] = $valor;
-                  $j++;
-              }
-          }
+                   ++$j;
+               }
+           }
 
-          set_error_handler('ErrorHandler');
+           set_error_handler('ErrorHandler');
           try {
-              $arrValue = loadModel(MODEL_USERS, "users_model", "update", $arrayDatos);
+              $arrValue = loadModel(MODEL_USERS, 'users_model', 'update', $arrayDatos);
           } catch (Exception $e) {
               $arrValue = false;
           }
           restore_error_handler();
-          if ($arrValue) {
-              $url = amigable('?module=users&function=profile&param=done', true);
-              $jsondata["success"] = true;
-              $jsondata["redirect"] = $url;
-              echo json_encode($jsondata);
-              exit;
-          } else {
-              $jsondata["success"] = false;
-              $jsondata["redirect"] = $url = amigable('?module=users&function=profile&param=503', true);
-              echo json_encode($jsondata);
-          }
-      } else {
-          $jsondata["success"] = false;
-          $jsondata['datos'] = $result;
-          echo json_encode($jsondata);
-      }
-  }
+
+          if($arrValue){
+          $jsondata["hola"] = $arrayDatos;
+          $jsondata['success'] = true;
+          $jsondata{"redirect"} = amigable('?module=users&function=profile&param=done', true);
+            echo json_encode($jsondata);
+            exit;
+            }else {
+               $jsondata['success'] = false;
+               $jsondata['redirect'] = $url = amigable('?module=users&function=profile&param=503', true);
+               echo json_encode($jsondata);
+           }
+
+            }else{
+          $jsondata['success'] = false;
+             $jsondata['datos'] = $result;
+             echo json_encode($jsondata);
+        }
+     }
 
 /*
  *  LOGIN

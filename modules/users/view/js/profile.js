@@ -286,6 +286,7 @@ function validate_modify_user() {
     var name = $("#name").val();
     var phone = $("#phone").val();
     var surname = $("#surname").val();
+    var avatar = $("#avatar").attr('src');
     var password = $("#password").val();
     var repeat_password = $("#repeat_password").val();
     var date_birthday = $("#date_birthday").val();
@@ -405,15 +406,13 @@ function validate_modify_user() {
 
             var data = {"name": name, "surname": surname, "id_document": id_document,
             "phone": phone, "email": $("#username").text(), "password": password,
-            "repeat_password": repeat_password, "interests": interests, "gender": gender,
+            "repeat_password": repeat_password, "avatar": avatar, "interests": interests, "gender": gender,
             "date_birthday": date_birthday, "pais": pais, "provincia": provincia, "poblacion": poblacion};
 
         var data_users_JSON = JSON.stringify(data);
-        //alert(data_users_JSON);
         $.post(amigable('?module=users&function=modify'), {mod_user_json: data_users_JSON},
         function (response) {
           console.log(response);
-          alert(response);
             if (response.success) {
                 window.location.href = response.redirect;
             } else {
