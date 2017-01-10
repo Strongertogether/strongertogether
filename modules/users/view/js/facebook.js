@@ -45,14 +45,14 @@ function getUserInfo() {
             var data = {"id": response.id, "name": response.first_name, "surname": response.last_name, "email": response.email};
             var datos_social = JSON.stringify(data);
 
-            $.post(amigable2("?module=users&function=social_signin"), {user: datos_social},
+            $.post(amigable("?module=users&function=social_signin"), {user: datos_social},
             function (response) {
                 if (!response.error) {
                     Tools.createCookie("user", response[0]['name'] + " " + response[0]['surname'] + "|" + response[0]['avatar'] + "|" + response[0]['tipo'] + "|" + response[0]['name'], 1);
-                    window.location.href = amigable2("?module=main");
+                    window.location.href = amigable("?module=main");
                 } else {
                     if (response.datos == 503)
-                        window.location.href = amigable2("?module=main&fn=begin&param=503");
+                        window.location.href = amigable("?module=main&fn=begin&param=503");
                 }
             }, "json").fail(function (xhr, textStatus, errorThrown) {
                 console.log(xhr.responseText);
@@ -81,7 +81,7 @@ function Logout() {
     FB.logout(function () {
         document.location.reload();
         Tools.eraseCookie("user");
-        window.location.href = amigable2("?module=main");
+        window.location.href = amigable("?module=main");
     });
 }
 

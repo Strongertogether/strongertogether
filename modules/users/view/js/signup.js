@@ -56,7 +56,7 @@ function validate_user() {
     if (result) {
         var data = {"email": email,"password": password, "repeat_password": repeat_password};
         var data_users_JSON = JSON.stringify(data);
-        $.post(amigable2("?module=users&function=signup_user"), {signup_user_json: data_users_JSON},
+        $.post(amigable("?module=users&function=signup_user"), {signup_user_json: data_users_JSON},
         function (response) {
             console.log(response);
             if (response.success) {

@@ -6,20 +6,20 @@ $(document).ready(function () {
     user = user.split("|");
     console.log(user);
 
-    $("#LogProf").html("<a href=" + amigable2('?module=users&function=profile') + "><img id='menuImg' src='" + user[1] + "'/>" + user[0] + "</a>");
+    $("#LogProf").html("<a href=" + amigable('?module=users&function=profile') + "><img id='menuImg' src='" + user[1] + "'/>" + user[0] + "</a>");
     $("#LogProf").after("<li><a id='logout' href='#' >Log Out</a></li>");
 
     //Envie els usuaris de tipo worker o client a la vista main
 
     if ( (user[2] === "worker") || (user[2] === "client")  ) {
       console.log(user[2] + " going to main module");
-      $("#LogProf").before("<li><a href=" + amigable2('?module=main') + ">Mis Hospitales</a></li>")
+      $("#LogProf").before("<li><a href=" + amigable('?module=main') + ">Mis Hospitales</a></li>")
 
     //Envie els usuaris de tipo admin a la vista main
 
     } else if (user[2] === "admin") {
       console.log(user[2] + " going to main module");
-      $("#LogProf").before("<li><a href=" + amigable2('?module=main') + ">Administrar</a></li>")
+      $("#LogProf").before("<li><a href=" + amigable('?module=main') + ">Administrar</a></li>")
     }
 
     //$("head").append("https://92.222.94.202/var/www/html/Strongertogether/modules/users/view/js/logout.js");
